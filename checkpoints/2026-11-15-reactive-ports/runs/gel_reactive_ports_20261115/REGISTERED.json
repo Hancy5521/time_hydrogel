@@ -1,0 +1,168 @@
+{
+  "scope": "Synthetic irreversible crosslinking, common prefix, equal actual dose per port. No wet data used.",
+  "cells": 20,
+  "step": 0.025,
+  "test_cells": 40,
+  "test_step": 0.0125,
+  "prefix_duration": 0.6,
+  "prefix_feed": 0.3,
+  "feed_duration": 2.4,
+  "final_time": 8.0,
+  "regions": [
+    [
+      0.15,
+      0.35
+    ],
+    [
+      0.65,
+      0.85
+    ]
+  ],
+  "probe_locations": [
+    0.22,
+    0.78
+  ],
+  "early_fractions": [
+    0.25,
+    0.5
+  ],
+  "early_splits": [
+    -0.8,
+    -0.6,
+    -0.4,
+    -0.2,
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "dose_rates": [
+    0.32,
+    0.52,
+    0.78
+  ],
+  "primary_feed": 0.52,
+  "goal": {
+    "threshold": 0.4,
+    "deadline": 4.4,
+    "lead_window": [
+      0.28,
+      0.41
+    ],
+    "terminal_window": [
+      0.7,
+      0.96
+    ],
+    "terminal_norm": 0.25
+  },
+  "pair_tolerance": 0.015,
+  "noise": [
+    0.006,
+    0.006,
+    0.006,
+    0.006
+  ],
+  "log2_noise": 5,
+  "noise_seed": 98721,
+  "ridge": 0.025,
+  "development": {
+    "seed": 1905,
+    "log2_pairs": 7,
+    "ranges": [
+      [
+        0.065,
+        0.145
+      ],
+      [
+        0.86,
+        1.65
+      ],
+      [
+        0.85,
+        1.15
+      ],
+      [
+        0.2,
+        0.96
+      ],
+      [
+        -0.12,
+        0.12
+      ]
+    ]
+  },
+  "holdouts": [
+    {
+      "name": "in_range_new_configurations",
+      "seed": 3415,
+      "log2_pairs": 6,
+      "ranges": [
+        [
+          0.072,
+          0.134
+        ],
+        [
+          0.9,
+          1.6
+        ],
+        [
+          0.88,
+          1.12
+        ],
+        [
+          0.24,
+          0.9
+        ],
+        [
+          -0.12,
+          0.12
+        ]
+      ]
+    },
+    {
+      "name": "shifted_kinetic_curvature",
+      "seed": 5869,
+      "log2_pairs": 6,
+      "ranges": [
+        [
+          0.072,
+          0.134
+        ],
+        [
+          0.9,
+          1.6
+        ],
+        [
+          0.88,
+          1.12
+        ],
+        [
+          0.24,
+          0.9
+        ],
+        [
+          0.37,
+          0.67
+        ]
+      ]
+    }
+  ],
+  "material_parameter_order": [
+    "constant diffusivity",
+    "global reaction factor",
+    "site capacity",
+    "signed linear kinetic gradient",
+    "quadratic kinetic curvature"
+  ],
+  "target_selection": "The 16 point development-only corner screen selected the middle dose and the earlier deadline. Kept the previous study's 0.28–0.41 lead window. Absolute conversion bounds and between-action 0.015 are illustrative, not wet requirements.",
+  "late_companion_analysis": "Repeat structural feasibility using the same numeric target evaluated at 8.0; this is a different checkpoint, not a different control or a sensitivity on selected actual decisions.",
+  "noise_units": "Independent Gaussian per channel. The Sobol points integrate this sensor uncertainty, not material replication.",
+  "comparators": "Fixed development action; development-fit sign of bound difference; local free-only, bound-only, pooled both; all four local reads posterior or direct quadratic. All fit on the same simulator development bank and choose by pass probability, then mean miss.",
+  "terminal_scope": "Terminal metrics are conversion fractions, not measured stiffness. Equal terminal windows and pairwise equivalence are reported separately. Same per-port integrated uptake follows the assumed flux boundary.",
+  "actual_utc": "2026-11-15T09:21:24.9078737+00:00",
+  "asia_shanghai": "2026-11-15T17:21:24.9078737+08:00",
+  "sources": {
+    "gel_reactive_port_study.py": "8bf9e82d7cda93239d7a2c2f4504cb3f8fd9c0acdee109d92a5ac95370a80b52",
+    "gel_reactive_ports.py": "be4a420e7536210dad41c554530fd54216e67001935d34e6235da143123a6d0b"
+  }
+}

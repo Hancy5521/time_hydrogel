@@ -1,0 +1,17 @@
+{
+  "rows": [
+    {
+      "feed": 0.32,
+      "max_conservative_residual": 1.6431300764452317e-14
+    },
+    {
+      "feed": 0.52,
+      "max_conservative_residual": 3.6193270602780103e-14
+    },
+    {
+      "feed": 0.78,
+      "max_conservative_residual": 6.838973831690964e-14
+    }
+  ],
+  "scope": "Original 16 dev corner states, independent read of forward balance field. The exploratory summary overwrote the displayed mass_error with the upper lead grid boundary; holdouts use the correct output."
+}

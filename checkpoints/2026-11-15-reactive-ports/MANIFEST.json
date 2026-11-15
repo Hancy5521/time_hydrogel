@@ -1,0 +1,97 @@
+[
+  {
+    "path": "audit_gel_reactive_ports.py",
+    "sha256": "130a90eae0bbb2047a5898e8079625c1002ff81a739b7c7bf1b85baa555fb439",
+    "bytes": 9109
+  },
+  {
+    "path": "GEL_REACTIVE_PORT_DESIGN_ZH.md",
+    "sha256": "401a0e866f428ae2957f12bba940d515ebb0af315f9e66857f955dcdad9bffd6",
+    "bytes": 7593
+  },
+  {
+    "path": "gel_reactive_port_diagnostics.py",
+    "sha256": "3b4da5979471b09fa07687b2de5a48271b924d656df002c06046c36017f3003f",
+    "bytes": 5446
+  },
+  {
+    "path": "gel_reactive_port_study.py",
+    "sha256": "b97a04671b61b883c338d0784a276129e7235a6e4c4d8e1285e90e8ce4cbcfd5",
+    "bytes": 7998
+  },
+  {
+    "path": "gel_reactive_ports.py",
+    "sha256": "be4a420e7536210dad41c554530fd54216e67001935d34e6235da143123a6d0b",
+    "bytes": 6176
+  },
+  {
+    "path": "plot_reactive_port_design.py",
+    "sha256": "1d2010110bee76f3a14765e01b56c2a25484328f932050c4247f6c69f4c131c3",
+    "bytes": 2917
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "a6e8782f32a17f21577875ae784fc9b454dbf3d0cd07c98db893635960544ce2",
+    "bytes": 46
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/DEVELOPMENT_MASS_VERIFIED.json",
+    "sha256": "f9f14ddaca1c9d3368f5b68f3eb8bd17ada0090b1ddd0b55cbc6f7b22ecb236c",
+    "bytes": 521
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/DEVELOPMENT_REGISTERED.json",
+    "sha256": "62a411bf0fff14c694203d74dde3f3501b7fec28f0684338ebb74c5e438d7ffe",
+    "bytes": 766
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/DEVELOPMENT_RESULTS.json",
+    "sha256": "09dfa0ec55ac4185ba839102ce88ee41fcf0d13fd45f9ab6b0c30332ac3baca7",
+    "bytes": 29638
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/DIAGNOSTICS.json",
+    "sha256": "bfff4cf7938d2269966aba51e714ac9da362913cd4c0a23f4febae1d5aaaf53f",
+    "bytes": 60532
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/EXEC_REGISTERED.json",
+    "sha256": "9263c144c74e97c3abff5715936de4b9e6473a1af87779b4d48d760b28586c2a",
+    "bytes": 4128
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/FAILED_WRITER_SOURCE.py.txt",
+    "sha256": "8bf9e82d7cda93239d7a2c2f4504cb3f8fd9c0acdee109d92a5ac95370a80b52",
+    "bytes": 7913
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/INDEPENDENT_AUDIT.json",
+    "sha256": "cf52bd63eb7c449b0d938e6819847ea5e6abf1891be47484bb5e4c7e9fb64da8",
+    "bytes": 5757
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/PROTOCOL_TEMPLATE.json",
+    "sha256": "f517fd88293668cea150bda2d3db304f3074d76cc9422e4de3cb8822919b4334",
+    "bytes": 2475
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/REACTIVE_DESIGN.png",
+    "sha256": "8c1d9d5c46dd38627817a69b2b3e19c917127bdf7de9f44db111c1df70332b19",
+    "bytes": 143163
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/REGISTERED.json",
+    "sha256": "2734e47f8bddce63b5e92941e6c27fff0315749da457ea9c44d3211ed44c38ac",
+    "bytes": 3875
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/RESULTS.json",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "runs/gel_reactive_ports_20261115/SCORED.json",
+    "sha256": "8ac60d47523181d67a66fbbd1571154dc4582aab3a42e369feea8b3ac6a5a19f",
+    "bytes": 9768
+  }
+]
