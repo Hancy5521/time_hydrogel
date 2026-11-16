@@ -1,0 +1,24 @@
+{
+  "audited_utc": "2026-11-16T12:08:52.414623+00:00",
+  "hashes": {
+    "REGISTERED.json": "00c765217eb66b30739b758f8f1e5921a2ee7c7a19264462691433c5cb0fa288",
+    "FROZEN.json": "2489d0429b4304d9ebc1847e84b5cb9bec6a91af11d2437e31565fbc9bfdb4af",
+    "SCORED.json": "19d0039c6a11ffa91775af7763199a31f115fe63647b6b902b1868c4ccc343ca"
+  },
+  "workbook_sha256": "b208b8dda07a2d6446464977392eba86ebc6f2e443961138076f9fc5dd243885",
+  "code_sha256": "4bab7e95696af738874c2c9172e7b27c9dc24193ed40e8bce2eee28fb6d5e26d",
+  "mean_profile_MAE": {
+    "persistence_12h": 0.2367570461715122,
+    "same_profile_source_pulse": 0.2734276884216187,
+    "quasisteady_pulse": 0.2669643210619861,
+    "vertical_fick_pulse": 0.20667710299060107
+  },
+  "radau_linear_feed_max_error": 9.614957718895312e-10,
+  "radau_continuous_feed_max_error": 2.2572810265408805e-07,
+  "test_locations_mm": [
+    0.7,
+    3.8999999999999995,
+    7.100000000000002
+  ],
+  "limitation": "Same article aggregate profile audit, with no per-specimen identifiers or bath inventory."
+}

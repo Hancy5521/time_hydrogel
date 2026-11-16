@@ -1,0 +1,191 @@
+{
+  "purpose": "Does a prepared ion reservoir give autonomous design freedom and value to an early electrical read?",
+  "unit_and_origin": "dimensionless service time; zero is contact with a constant bath after rinse and drying",
+  "evidence_kind": "synthetic parameter and model-shift challenge; no experimental time or units inferred",
+  "mechanism": {
+    "process_D": 0.035,
+    "process_k": 1.6,
+    "process_time": 1.2,
+    "dose": 1.1,
+    "mobile_D": 0.025,
+    "bond_off": 0.85,
+    "bond_on": 0.32,
+    "dry_conductivity": 0.022,
+    "water_background": 0.026,
+    "ion_conductivity": 1.7
+  },
+  "actions": [
+    {
+      "wet_transfer": 0.22,
+      "near_loading": 0.1
+    },
+    {
+      "wet_transfer": 0.22,
+      "near_loading": 0.5
+    },
+    {
+      "wet_transfer": 0.22,
+      "near_loading": 0.9
+    },
+    {
+      "wet_transfer": 0.5,
+      "near_loading": 0.1
+    },
+    {
+      "wet_transfer": 0.5,
+      "near_loading": 0.5
+    },
+    {
+      "wet_transfer": 0.5,
+      "near_loading": 0.9
+    },
+    {
+      "wet_transfer": 1.0,
+      "near_loading": 0.1
+    },
+    {
+      "wet_transfer": 1.0,
+      "near_loading": 0.5
+    },
+    {
+      "wet_transfer": 1.0,
+      "near_loading": 0.9
+    }
+  ],
+  "requests": [
+    {
+      "install_end": 1.0,
+      "work_start": 3.2,
+      "work_end": 4.800000000000001
+    },
+    {
+      "install_end": 1.0,
+      "work_start": 4.8,
+      "work_end": 6.4
+    },
+    {
+      "install_end": 1.8,
+      "work_start": 3.2,
+      "work_end": 4.800000000000001
+    },
+    {
+      "install_end": 1.8,
+      "work_start": 4.8,
+      "work_end": 6.4
+    }
+  ],
+  "thresholds": {
+    "off": 0.063,
+    "on": 0.18,
+    "soft": 0.79,
+    "support": 0.91,
+    "weak_off": 0.085
+  },
+  "scales": {
+    "off": 0.063,
+    "on": 0.18,
+    "soft": 0.25,
+    "support": 0.25,
+    "weak_off": 0.085
+  },
+  "bath": {
+    "wet": 1.0,
+    "weak": 0.32
+  },
+  "coupon": {
+    "time": 1.2,
+    "thickness_scale": 0.55,
+    "wet_transfer": 0.66,
+    "near_loading": 0.5,
+    "observation_sd": [
+      0.015,
+      0.009
+    ]
+  },
+  "nominal": {
+    "cells": 20,
+    "dt": 0.02,
+    "power": 2.0,
+    "loss": 0.025
+  },
+  "scoring": {
+    "cells": 32,
+    "dt": 0.005,
+    "sample_dt": 0.04,
+    "horizon": 6.4
+  },
+  "cohorts": {
+    "matched_kinetics": {
+      "seed": 113221,
+      "order": 4,
+      "power": 2.0,
+      "loss": [
+        0.012,
+        0.045
+      ]
+    },
+    "faster_wet_release_and_leaching": {
+      "seed": 928769,
+      "order": 4,
+      "power": 1.35,
+      "loss": [
+        0.045,
+        0.085
+      ]
+    }
+  },
+  "known_ranges": {
+    "water_D": [
+      0.078,
+      0.155
+    ],
+    "release": [
+      0.62,
+      1.18
+    ],
+    "thickness": [
+      0.82,
+      1.14
+    ]
+  },
+  "hidden_factors": [
+    0.52,
+    1.52
+  ],
+  "state_shift": 0.1,
+  "risk": "Expected failure plus 0.05 times worst positive normalized threshold margin. Equal prior.",
+  "decisive_gap_for_order": 0.08,
+  "order_mid_action": 4,
+  "claims_before_scoring": [
+    "Same stock for every loading arrangement and a fixed wet boundary.",
+    "A monotone common time warp preserves strict event order. Test both crossing orders at the same fixed action and thresholds.",
+    "Use the extrema on every sampled install/work time. Conductivity can decrease.",
+    "Water-only oracle ceiling conditions on known batch context but no hidden release state.",
+    "No fit, target-dependent selection of requests, or repeat evaluation with modified thresholds."
+  ],
+  "registered_utc": "2026-11-16T09:25:35.017410+00:00",
+  "registered_shanghai": "2026-11-16T17:25:35.017410+08:00",
+  "sources": {
+    "patch_reservoir_service.py": "3bfdaea6db1ef8158f9f5a0e8429e2ddb472e86f1b3956c1fa0479ec4de24163",
+    "patch_reservoir_study.py": "7029b53c22ba4f99da88eedd4e1b00e0f3b47658da4b75b69c29e641b03bf98d",
+    "audit_patch_reservoir_service.py": "6e76785827cd4d12c92cc586f4e496caf154c2fc5e588b62ccf8079c2284f58b",
+    "gel_reactive_port_timing.py": "d65e0acee1c70cf538e9d63c84688bc4e773885f7ee59a45cd5b26bdbbd59363",
+    "gel_reactive_two_read_assay.py": "288e1ae67307f279ba4bcaebceb6aa5912e317822c0c093d5796e1b044b4c088"
+  },
+  "prior_evidence": {
+    "synthetic_parent": "runs/patch_timed_dual_onset_transfer_20261116/AUDIT_SCORE.json",
+    "material_context": [
+      "https://doi.org/10.1039/D3ME00138E",
+      "https://doi.org/10.1126/sciadv.adz0440",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7450609/",
+      "https://doi.org/10.1002/advs.202000684"
+    ],
+    "calibration": "No measured material inputs used; process and property constants represent a dimensionless hypothetical laminate."
+  },
+  "audit": {
+    "same_mesh": "Independent Radau on wet/weak, deterministic 2 parent contexts per cohort, both states and near/far loading; test physical fields, ion budget, held increments, max 3e-5 per trace channel.",
+    "scores": "Reconstruct each of the five extrema and oracle limits independently from stored trace grids and compare all policies.",
+    "refinement": "Use 64 cells and half sampling/integration interval on entire first two contexts per cohort and all label-near catalogues with abs(max normalized margin)<.01. Report any flips; do not replace frozen scoring.",
+    "events": "Report crossings and gaps on preregistered central action after refinement, differences in h/mechanics and G, and missing crossings."
+  }
+}

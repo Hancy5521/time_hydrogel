@@ -1,0 +1,28 @@
+{
+  "registered_utc": "2026-11-16T12:09:37.990026+00:00",
+  "registered_shanghai": "2026-11-16T20:09:37.990026+08:00",
+  "run": "runs/patch_reservoir_joint_20261116T120340314306Z",
+  "inputs": {
+    "audit_patch_reservoir_service.py": "6e76785827cd4d12c92cc586f4e496caf154c2fc5e588b62ccf8079c2284f58b",
+    "audit_patch_reservoir_study.py": "70b6ee00b80d68c402accb7995843ea1c28f9289856b93c39ae49e1bc85155e6",
+    "gel_reactive_port_kinetic_check.py": "fb98c3532915b8f32415fe8d399329b9e08cc4a4595c3373c6612f0849256323",
+    "gel_reactive_port_study.py": "b97a04671b61b883c338d0784a276129e7235a6e4c4d8e1285e90e8ce4cbcfd5",
+    "gel_reactive_port_timing.py": "d65e0acee1c70cf538e9d63c84688bc4e773885f7ee59a45cd5b26bdbbd59363",
+    "gel_reactive_port_twin_limit.py": "8872b423020bc323a7873c3e6e8fee4ab1481960d4e6f90c06d1be7319616c6b",
+    "gel_reactive_port_uncertain_kinetics.py": "f244912b7c2f1f7d7846b6b72f781d5f900f884c4be36bab0e2c8942abcbabbe",
+    "gel_reactive_ports.py": "be4a420e7536210dad41c554530fd54216e67001935d34e6235da143123a6d0b",
+    "gel_reactive_two_read_assay.py": "288e1ae67307f279ba4bcaebceb6aa5912e317822c0c093d5796e1b044b4c088",
+    "patch_reservoir_face_bank.py": "afc48ee0002314bd3e9c758d891f7b746a083f6527ba7c1577c279415aadbaf6",
+    "patch_reservoir_joint_bank.py": "ff755d249e387922ded31493e1e77e7c625dbc35fd97d0bdc416b1118ec758e0",
+    "patch_reservoir_joint_study.py": "e2bfeb22e1cd3bc2a204ac9d670b0adb0370f069b08f5da34730c676b78a782c",
+    "patch_reservoir_service.py": "3bfdaea6db1ef8158f9f5a0e8429e2ddb472e86f1b3956c1fa0479ec4de24163",
+    "reservoir_coupon_likelihood.py": "f23ff0ea32e5c62b1bf7820ac30184c62e367616b91489108cbe9e2bb36e6014",
+    "reservoir_joint_observation.py": "a950658c2528e05987172927ce93457ce872a250c846ddadc75a78b9052c485b",
+    "runs/patch_reservoir_service_20261116T092535017410Z/REGISTERED.json": "4652a571151755abd14c6719953d127cad718d8d0cf37e1135a0ef5f1d2acf04",
+    "runs/patch_reservoir_joint_20261116T120340314306Z/REGISTERED.json": "b5b0955f6197d3543ab686dffe74256b9213615e7197e4a90698c53e93f418e9",
+    "runs/patch_reservoir_joint_20261116T120340314306Z/FROZEN.json": "ec2d0161320252b52b206effab45965c269cd2fc787bd3e8c6a0f1ff8b1a3f0a",
+    "runs/patch_reservoir_joint_20261116T120340314306Z/SCORED.json": "337146377acb90fff6bb4334bd8b4a2dc56b9bde19d2f2710909ab30d3940eb8",
+    "audit_reservoir_joint_support.py": "82ceabd3477f08b1ef61b26804f50deb5a87ab38c35cec1d25d4bfe7d3a9a583"
+  },
+  "purpose": "Partition already-observed 90 percent interval misses into outside finite prior support and inside-support posterior misses. No fit or new claims of independent confirmation."
+}

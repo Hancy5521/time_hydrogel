@@ -1,0 +1,3594 @@
+{
+  "registered_sha256": "b5b0955f6197d3543ab686dffe74256b9213615e7197e4a90698c53e93f418e9",
+  "started_utc": "2026-11-16T12:03:52.914675+00:00",
+  "completed_utc": "2026-11-16T12:03:59.419930+00:00",
+  "cohorts": {
+    "shared_and_lagged_coupons": [
+      {
+        "group": 0,
+        "arms": {
+          "timed_0.32_total": {
+            "count": 12,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.08881759423538187,
+            "mesh_changes": 0
+          },
+          "timed_0.32_half": {
+            "count": 10,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.04621798701047427,
+            "mesh_changes": 0
+          },
+          "timed_0.48_total": {
+            "count": 12,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.10067777899815336,
+            "mesh_changes": 0
+          },
+          "timed_0.48_half": {
+            "count": 10,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.04621798701047427,
+            "mesh_changes": 0
+          },
+          "timed_0.64_total": {
+            "count": 8,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.109512968136524,
+            "mesh_changes": 0
+          },
+          "timed_0.64_half": {
+            "count": 8,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.10478014325534071,
+            "mesh_changes": 0
+          },
+          "timed_0.80_total": {
+            "count": 8,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.109512968136524,
+            "mesh_changes": 0
+          },
+          "timed_0.80_half": {
+            "count": 8,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.11946947863719473,
+            "mesh_changes": 0
+          }
+        }
+      },
+      {
+        "group": 1,
+        "arms": {
+          "timed_0.32_total": {
+            "count": 20,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.027038097212918645,
+            "mesh_changes": 0
+          },
+          "timed_0.32_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.0,
+            "mesh_changes": 0
+          },
+          "timed_0.48_total": {
+            "count": 20,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.027038097212918645,
+            "mesh_changes": 0
+          },
+          "timed_0.48_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.0,
+            "mesh_changes": 0
+          },
+          "timed_0.64_total": {
+            "count": 20,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.027038097212918645,
+            "mesh_changes": 0
+          },
+          "timed_0.64_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.0,
+            "mesh_changes": 0
+          },
+          "timed_0.80_total": {
+            "count": 20,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.027038097212918645,
+            "mesh_changes": 0
+          },
+          "timed_0.80_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.0,
+            "mesh_changes": 0
+          }
+        }
+      },
+      {
+        "group": 2,
+        "arms": {
+          "timed_0.32_total": {
+            "count": 14,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.08572438615859204,
+            "mesh_changes": 0
+          },
+          "timed_0.32_half": {
+            "count": 14,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.03168735526612892,
+            "mesh_changes": 0
+          },
+          "timed_0.48_total": {
+            "count": 14,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.08572438615859204,
+            "mesh_changes": 0
+          },
+          "timed_0.48_half": {
+            "count": 12,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.05123589594915076,
+            "mesh_changes": 0
+          },
+          "timed_0.64_total": {
+            "count": 12,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.1070705793242897,
+            "mesh_changes": 0
+          },
+          "timed_0.64_half": {
+            "count": 12,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.05123589594915076,
+            "mesh_changes": 0
+          },
+          "timed_0.80_total": {
+            "count": 12,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.1070705793242897,
+            "mesh_changes": 0
+          },
+          "timed_0.80_half": {
+            "count": 12,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.08861172744325113,
+            "mesh_changes": 0
+          }
+        }
+      },
+      {
+        "group": 3,
+        "arms": {
+          "timed_0.32_total": {
+            "count": 14,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.009835541443025824,
+            "mesh_changes": 0
+          },
+          "timed_0.32_half": {
+            "count": 14,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.0011951386962489804,
+            "mesh_changes": 0
+          },
+          "timed_0.48_total": {
+            "count": 14,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.009835541443025824,
+            "mesh_changes": 0
+          },
+          "timed_0.48_half": {
+            "count": 14,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.0011951386962489804,
+            "mesh_changes": 0
+          },
+          "timed_0.64_total": {
+            "count": 14,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.009835541443025824,
+            "mesh_changes": 0
+          },
+          "timed_0.64_half": {
+            "count": 14,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.0011951386962489804,
+            "mesh_changes": 0
+          },
+          "timed_0.80_total": {
+            "count": 14,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.009835541443025824,
+            "mesh_changes": 0
+          },
+          "timed_0.80_half": {
+            "count": 14,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.022734071559070097,
+            "mesh_changes": 0
+          }
+        }
+      },
+      {
+        "group": 4,
+        "arms": {
+          "timed_0.32_total": {
+            "count": 24,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.009242526380503546,
+            "mesh_changes": 0
+          },
+          "timed_0.32_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.01500761409471465,
+            "mesh_changes": 0
+          },
+          "timed_0.48_total": {
+            "count": 24,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.009242526380503546,
+            "mesh_changes": 0
+          },
+          "timed_0.48_half": {
+            "count": 24,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.0,
+            "mesh_changes": 0
+          },
+          "timed_0.64_total": {
+            "count": 24,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.009242526380503546,
+            "mesh_changes": 0
+          },
+          "timed_0.64_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.01500761409471465,
+            "mesh_changes": 0
+          },
+          "timed_0.80_total": {
+            "count": 24,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.009242526380503546,
+            "mesh_changes": 0
+          },
+          "timed_0.80_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.01500761409471465,
+            "mesh_changes": 0
+          }
+        }
+      },
+      {
+        "group": 5,
+        "arms": {
+          "timed_0.32_total": {
+            "count": 23,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.019496957903722623,
+            "mesh_changes": 0
+          },
+          "timed_0.32_half": {
+            "count": 30,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.0005002656602321397,
+            "mesh_changes": 0
+          },
+          "timed_0.48_total": {
+            "count": 23,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.019496957903722623,
+            "mesh_changes": 0
+          },
+          "timed_0.48_half": {
+            "count": 30,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.0005002656602321397,
+            "mesh_changes": 0
+          },
+          "timed_0.64_total": {
+            "count": 23,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.019496957903722623,
+            "mesh_changes": 0
+          },
+          "timed_0.64_half": {
+            "count": 30,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.0005002656602321397,
+            "mesh_changes": 0
+          },
+          "timed_0.80_total": {
+            "count": 23,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.019496957903722623,
+            "mesh_changes": 0
+          },
+          "timed_0.80_half": {
+            "count": 30,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.0005002656602321397,
+            "mesh_changes": 0
+          }
+        }
+      },
+      {
+        "group": 6,
+        "arms": {
+          "timed_0.32_total": {
+            "count": 20,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.020514960605930714,
+            "mesh_changes": 0
+          },
+          "timed_0.32_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.0005879695363006866,
+            "mesh_changes": 0
+          },
+          "timed_0.48_total": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.019926991069630026,
+            "mesh_changes": 0
+          },
+          "timed_0.48_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.0005879695363006866,
+            "mesh_changes": 0
+          },
+          "timed_0.64_total": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.019926991069630026,
+            "mesh_changes": 0
+          },
+          "timed_0.64_half": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.0005879695363006866,
+            "mesh_changes": 0
+          },
+          "timed_0.80_total": {
+            "count": 22,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ]
+            ],
+            "regret": 0.019926991069630026,
+            "mesh_changes": 0
+          },
+          "timed_0.80_half": {
+            "count": 24,
+            "success": [
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true,
+                true
+              ]
+            ],
+            "regret": 0.0,
+            "mesh_changes": 0
+          }
+        }
+      },
+      {
+        "group": 7,
+        "arms": {
+          "timed_0.32_total": {
+            "count": 16,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                true,
+                false
+              ],
+              [
+                true,
+                false,
+                true,
+                false
+              ]
+            ],
+            "regret": 0.052436866040018626,
+            "mesh_changes": 0
+          },
+          "timed_0.32_half": {
+            "count": 12,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ]
+            ],
+            "regret": 0.05521981763282058,
+            "mesh_changes": 0
+          },
+          "timed_0.48_total": {
+            "count": 16,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                true,
+                false
+              ],
+              [
+                true,
+                false,
+                true,
+                false
+              ]
+            ],
+            "regret": 0.052436866040018626,
+            "mesh_changes": 0
+          },
+          "timed_0.48_half": {
+            "count": 12,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ],
+              [
+                false,
+                false,
+                true,
+                false
+              ]
+            ],
+            "regret": 0.05521981763282058,
+            "mesh_changes": 0
+          },
+          "timed_0.64_total": {
+            "count": 14,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                true,
+                false
+              ],
+              [
+                true,
+                false,
+                true,
+                false
+              ]
+            ],
+            "regret": 0.05481543075621305,
+            "mesh_changes": 0
+          },
+          "timed_0.64_half": {
+            "count": 10,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.07873576598540556,
+            "mesh_changes": 0
+          },
+          "timed_0.80_total": {
+            "count": 14,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                true,
+                false,
+                true,
+                false
+              ],
+              [
+                true,
+                false,
+                true,
+                false
+              ]
+            ],
+            "regret": 0.05481543075621305,
+            "mesh_changes": 0
+          },
+          "timed_0.80_half": {
+            "count": 10,
+            "success": [
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                true,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                true,
+                false,
+                true
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ],
+              [
+                false,
+                false,
+                false,
+                false
+              ]
+            ],
+            "regret": 0.07873576598540556,
+            "mesh_changes": 0
+          }
+        }
+      }
+    ]
+  },
+  "lock": {
+    "chosen": 0.48,
+    "candidates": [
+      {
+        "early": 0.32,
+        "sum_count": 289,
+        "regret": 0.028970192367313383
+      },
+      {
+        "early": 0.48,
+        "sum_count": 291,
+        "regret": 0.029958513730737005
+      },
+      {
+        "early": 0.64,
+        "sum_count": 277,
+        "regret": 0.0380613678377638
+      },
+      {
+        "early": 0.8,
+        "sum_count": 279,
+        "regret": 0.04262487597541849
+      }
+    ]
+  }
+}

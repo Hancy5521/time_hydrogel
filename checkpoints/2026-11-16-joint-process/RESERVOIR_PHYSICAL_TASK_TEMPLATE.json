@@ -1,0 +1,41 @@
+{
+  "status": "unfilled experimental task template",
+  "mode": "autonomous after first wet exposure, constant service environment",
+  "time_origin": "first contact of prepared patch with the service environment",
+  "physical_time_unit": "hour",
+  "preparation": {
+    "material_system_and_ionic_species": null,
+    "composition_and_true_lot_id": null,
+    "preparation_duration_and_storage_history": null,
+    "geometry_and_near_far_loading": null,
+    "initial_retained_inventory_and_uncertainty": null
+  },
+  "functional_spec": {
+    "install_window": null,
+    "allowed_transition_window": null,
+    "working_window": null,
+    "install_leakage_limit_A": null,
+    "minimum_work_conductance_S_or_impedance_limits_ohm": null,
+    "minimum_install_support_and_method": null,
+    "maximum_working_modulus_and_method": null,
+    "humidity_or_bath_temperature_and_ionic_content": null,
+    "imposed_voltage_frequency_and_electrode_geometry": null,
+    "contact_fixture_and_drift_protocol": null
+  },
+  "assay": {
+    "actual_activities_and_uncertainty": null,
+    "equal_budget_same_activity_different_time_control": null,
+    "wet_up_geometry_and_local_hydration": null,
+    "elapsed_time_released_fraction_assay_and_ion_mass_closure": null,
+    "remaining_bound_mobile_internal_external_ion_inventory": null,
+    "held_activity_or_sampling_time": null,
+    "separate_bath_loss_calibration": null
+  },
+  "registration_notes": [
+    "Define numerical thresholds from intended bench performance before scoring.",
+    "Keep lots, destructive coupons and intact service experiments separate by identity.",
+    "Freeze the recipe selection based on measurements available before the design deadline.",
+    "Record realised maxima and minima over the specified windows, including late conduction loss.",
+    "Values in the computational registration are dimensionless examples and do not supply physical thresholds."
+  ]
+}

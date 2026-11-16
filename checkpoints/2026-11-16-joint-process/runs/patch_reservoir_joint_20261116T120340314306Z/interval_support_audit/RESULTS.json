@@ -1,0 +1,119 @@
+{
+  "registered_sha256": "53cee1fcc2ab74666a64f257185243dae5d5bbc6fce681d1aa320b6ca1b35bf7",
+  "time_utc": "2026-11-16T12:09:39.676948+00:00",
+  "evidence": "Descriptive post-result score diagnosis on the same frozen groups. No procedure updated.",
+  "cohorts": {
+    "joint_uncertainty": {
+      "per_bin": {
+        "tested": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "outside_full_support": [
+          24,
+          24,
+          20,
+          24,
+          24,
+          20,
+          24,
+          24
+        ],
+        "posterior_miss_inside_support": [
+          30,
+          32,
+          32,
+          36,
+          36,
+          32,
+          32,
+          30
+        ],
+        "covered": [
+          74,
+          72,
+          76,
+          68,
+          68,
+          76,
+          72,
+          74
+        ]
+      },
+      "overall": {
+        "tested": 1024,
+        "outside_full_support": 184,
+        "posterior_miss_inside_support": 260,
+        "covered": 580
+      },
+      "unseen_bin": {
+        "tested": 128,
+        "outside_full_support": 20,
+        "posterior_miss_inside_support": 32,
+        "covered": 76
+      }
+    },
+    "interface_and_preparation_shift": {
+      "per_bin": {
+        "tested": [
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128,
+          128
+        ],
+        "outside_full_support": [
+          16,
+          16,
+          16,
+          18,
+          18,
+          16,
+          16,
+          16
+        ],
+        "posterior_miss_inside_support": [
+          42,
+          48,
+          48,
+          40,
+          40,
+          48,
+          48,
+          42
+        ],
+        "covered": [
+          70,
+          64,
+          64,
+          70,
+          70,
+          64,
+          64,
+          70
+        ]
+      },
+      "overall": {
+        "tested": 1024,
+        "outside_full_support": 132,
+        "posterior_miss_inside_support": 356,
+        "covered": 536
+      },
+      "unseen_bin": {
+        "tested": 128,
+        "outside_full_support": 16,
+        "posterior_miss_inside_support": 48,
+        "covered": 64
+      }
+    }
+  }
+}

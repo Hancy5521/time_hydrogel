@@ -1,0 +1,94 @@
+{
+  "registered_utc": "2026-11-16T12:08:38.767596+00:00",
+  "registered_shanghai": "2026-11-16T20:08:38.767596+08:00",
+  "code_sha256": "523f9fdb0b2e4c7d1f4346db7213378534aa176d27e97514fc4fb9d39a0c67e9",
+  "audit_sha256": "4bab7e95696af738874c2c9172e7b27c9dc24193ed40e8bce2eee28fb6d5e26d",
+  "book_sha256": "b208b8dda07a2d6446464977392eba86ebc6f2e443961138076f9fc5dd243885",
+  "receipt_sha256": "1163fd2a9986a555eae8f03f81a422c955dde601a324960e8600bd3a6c766df9",
+  "question": "Can a simple constant vertical diffusivity with a Gaussian horizontal feeding pulse forecast the unseen 24-hour through-depth field more accurately than persistent measured profiles and same-shape source rescaling?",
+  "training_hours": [
+    7,
+    12
+  ],
+  "held_hour": 24,
+  "fit_diffusivity_grid": [
+    0.002,
+    57.0,
+    121
+  ],
+  "length_um": 250.0,
+  "pde_dz_um": 5.0,
+  "solver_step_h": 0.05,
+  "source_diffusivity_um2_s": 57.0,
+  "x_mm": [
+    0.7,
+    1.1,
+    1.5,
+    1.9,
+    2.3,
+    2.6999999999999997,
+    3.0999999999999996,
+    3.4999999999999996,
+    3.8999999999999995,
+    4.3,
+    4.7,
+    5.1000000000000005,
+    5.500000000000001,
+    5.900000000000001,
+    6.300000000000002,
+    6.700000000000002,
+    7.100000000000002
+  ],
+  "z_um": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200,
+    210,
+    220,
+    230,
+    240,
+    250
+  ],
+  "depth_strata_um": [
+    [
+      10,
+      80
+    ],
+    [
+      90,
+      160
+    ],
+    [
+      170,
+      250
+    ]
+  ],
+  "coordinate": "x lateral distance from SOURCE inlet (mm); z down from hydrogel cylinder top DRAIN (micrometer), bottom SOURCE at z=250. Source diffusivity fixed from authors external reference. Exact same two calibration planes available as appropriate for each method. Do not use authors fitted concentration curves, SEM for fitting, or exposure labels changing allocation.",
+  "predictors": [
+    "C(12h) persistence",
+    "C(12h)*g(x,24h)/g(x,12h) with g Gaussian pulse",
+    "steady linear vertical profile multiplied by g(x,t), fit A and offset positive",
+    "finite difference Fick diffusion with time-interpolated pulse bottom and zero concentration top, fit a common D and nonnegative scale and offset on early sheets only"
+  ],
+  "unit": "Published mean concentration workbook units; no extra normalization or conversion of magnitude.",
+  "experimental_group": "One Geltrex tracer configuration, compiled group mean and SE, report MAE per geometric location and mean across all 17 locations descriptively, no inferential statistics or independence claim.",
+  "evaluation": "All 25x17 cells at held 24h; also record every depth stratum, MAE per gel location and direction of change vs 12h. Independently recover from XML; compare against Radau forcing both piecewise linear and continuous on the three representative positions.",
+  "limitations": "An orthogonal timed-penetration check, no paired bath release, patch mechanism, unpublished chip replicates or held new material."
+}

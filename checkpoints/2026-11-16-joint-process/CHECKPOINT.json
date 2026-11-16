@@ -1,0 +1,41 @@
+{
+  "archive_kind": "research checkpoint combining release kinetics, manufacturing stock and interface uncertainty",
+  "packed_utc": "2026-11-16T12:13:07.356761+00:00",
+  "packed_shanghai": "2026-11-16T20:13:07.356761+08:00",
+  "input_context": {
+    "review_sha256": "4674d22359b3b938770f68c89be2fd8cfc3761f024a3a0185b91f8419e9553bb",
+    "review_members_crc_passed": 37,
+    "frozen_parent_scores_verified": {
+      "INVENTORY_RESULTS.json": "runs/patch_reservoir_inventory_20261116T100925479826Z/SCORED.json",
+      "SPATIAL_RESULTS.json": "runs/patch_reservoir_spatial_bias_20261116T1015561044537Z/SCORED.json"
+    },
+    "previous_local_commit": "6e9e88f"
+  },
+  "main_run": "patch_reservoir_joint_20261116T120340314306Z",
+  "main_scores": {
+    "timed_total": [
+      276,
+      263
+    ],
+    "timed_half": [
+      294,
+      279
+    ],
+    "dual_total": [
+      301,
+      287
+    ],
+    "dual_half": [
+      335,
+      299
+    ],
+    "dual_back_slice": [
+      321,
+      302
+    ]
+  },
+  "limitation": "Held synthetic parents and an orthogonal published gel tracer depth/time case. Joint material task lacks independent wet data. Interval calibration is incomplete.",
+  "external_workbook": "Obtain unchanged Xu workbook from the official URL pinned in the receipt and verify SHA-256.",
+  "entry": "RESERVOIR_JOINT_PROCESS_ZH.md",
+  "reproduction": "REPRODUCE_RESERVOIR_JOINT_20261116.md"
+}

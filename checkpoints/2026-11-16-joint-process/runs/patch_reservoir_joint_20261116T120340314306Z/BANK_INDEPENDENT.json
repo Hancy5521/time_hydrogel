@@ -1,0 +1,488 @@
+{
+  "started_utc": "2026-11-16T12:10:05.771914+00:00",
+  "completed_utc": "2026-11-16T12:10:29.468783+00:00",
+  "fixture_rule": "First parent, first rate and bias, both within-half twins, central catalogue action, both baths and 48/96 grids.",
+  "input_sha256": {
+    "runs/patch_reservoir_joint_20261116T120340314306Z/REGISTERED.json": "b5b0955f6197d3543ab686dffe74256b9213615e7197e4a90698c53e93f418e9",
+    "runs/patch_reservoir_joint_20261116T120340314306Z/FROZEN.json": "ec2d0161320252b52b206effab45965c269cd2fc787bd3e8c6a0f1ff8b1a3f0a",
+    "runs/patch_reservoir_joint_20261116T120340314306Z/SCORED.json": "337146377acb90fff6bb4334bd8b4a2dc56b9bde19d2f2710909ab30d3940eb8",
+    "runs/patch_reservoir_service_20261116T092535017410Z/REGISTERED.json": "4652a571151755abd14c6719953d127cad718d8d0cf37e1135a0ef5f1d2acf04"
+  },
+  "source_sha256": {
+    "audit_patch_reservoir_joint_bank.py": "e7f43ef5e31574a0c447c083b48ffedabc3e3d8e7b71ca540397b2f8936bd7cb",
+    "audit_patch_reservoir_bank.py": "3114d3ce561135d942237b3174d5cf3cfc1620624f66c616e67b57625ae739b7",
+    "audit_patch_reservoir_service.py": "6e76785827cd4d12c92cc586f4e496caf154c2fc5e588b62ccf8079c2284f58b",
+    "audit_patch_reservoir_face.py": "30c7cbdc49303938f3892471baa73e9bbd612b2201c4c875197e6369c607aab5",
+    "patch_reservoir_joint_bank.py": "ff755d249e387922ded31493e1e77e7c625dbc35fd97d0bdc416b1118ec758e0",
+    "patch_reservoir_face_bank.py": "afc48ee0002314bd3e9c758d891f7b746a083f6527ba7c1577c279415aadbaf6",
+    "patch_reservoir_service.py": "3bfdaea6db1ef8158f9f5a0e8429e2ddb472e86f1b3956c1fa0479ec4de24163"
+  },
+  "trace_order": [
+    "water",
+    "near_stiffness",
+    "far_stiffness",
+    "conductance"
+  ],
+  "inventory_order": [
+    "bound",
+    "mobile",
+    "escaped"
+  ],
+  "max_errors": {
+    "trace": 8.067565371305818e-08,
+    "inventory": 1.4800031200579156e-09,
+    "dry_field": 2.1316282072803006e-14,
+    "inventory_closure": 6.661338147750939e-16,
+    "half_residual": 7.105427357601002e-15,
+    "scored_dry_bins": 8.604228440844963e-16,
+    "scored_process": 2.7995450402329425e-10
+  },
+  "limits": {
+    "trace": 3e-05,
+    "inventory": 3e-07,
+    "dry_field": 1e-08,
+    "inventory_closure": 1e-10,
+    "half_residual": 1e-10,
+    "scored_dry_bins": 1e-08,
+    "scored_process": 3e-05
+  },
+  "passed": true,
+  "cohorts": {
+    "joint_uncertainty": {
+      "group": 0,
+      "kinetics": [
+        [
+          0.37895655141433965,
+          1.3955135953053832,
+          0.10824997919797898,
+          0.4816133104078472,
+          -0.5717507591843605,
+          -0.5780508221313357
+        ],
+        [
+          0.37895655141433965,
+          1.3955135953053832,
+          0.10824997919797898,
+          0.4816133104078472,
+          -0.5717507591843605,
+          0.5780508221313357
+        ]
+      ],
+      "prepared_diffusivity": 0.035,
+      "fixtures": [
+        {
+          "mesh": "secondary",
+          "cells": 48,
+          "step": 0.0025,
+          "bath": "wet",
+          "action": 4,
+          "sample_count": 161,
+          "shape_twin_conductance_difference": 0.012137496219040256,
+          "states": [
+            {
+              "state": 0,
+              "absolute_trace_error": [
+                2.000621890374532e-12,
+                8.067559553737169e-08,
+                5.344499909298861e-08,
+                9.986583088261725e-11
+              ],
+              "inventory_error": [
+                4.0325232042448533e-10,
+                3.8971170520795025e-10,
+                1.5488982145483998e-10
+              ],
+              "dry_field_max_error": 2.042810365310288e-14,
+              "dry_half_residual": 3.552713678800501e-15,
+              "inventory_closure": 4.440892098500626e-16
+            },
+            {
+              "state": 1,
+              "absolute_trace_error": [
+                1.900479773553343e-12,
+                8.067565371305818e-08,
+                5.344467934875752e-08,
+                3.314653065911166e-10
+              ],
+              "inventory_error": [
+                1.4800031200579156e-09,
+                1.43125606547436e-09,
+                5.674373436403979e-10
+              ],
+              "dry_field_max_error": 1.6209256159527285e-14,
+              "dry_half_residual": 0.0,
+              "inventory_closure": 4.440892098500626e-16
+            }
+          ]
+        },
+        {
+          "mesh": "evaluation",
+          "cells": 96,
+          "step": 0.00125,
+          "bath": "wet",
+          "action": 4,
+          "sample_count": 161,
+          "shape_twin_conductance_difference": 0.012173975652039482,
+          "states": [
+            {
+              "state": 0,
+              "absolute_trace_error": [
+                1.958433415438776e-12,
+                2.0563049263344624e-08,
+                1.3362494222235455e-08,
+                2.0934535355232597e-11
+              ],
+              "inventory_error": [
+                8.51873016571858e-11,
+                8.178872983133985e-11,
+                3.277243320470857e-11
+              ],
+              "dry_field_max_error": 1.509903313490213e-14,
+              "dry_half_residual": 0.0,
+              "inventory_closure": 4.440892098500626e-16,
+              "scored_dry_bin_error": 4.996003610813204e-16,
+              "scored_process_error": [
+                7.637701582297041e-11,
+                4.985123772116573e-11,
+                3.2377945810568853e-11,
+                1.7342904889972033e-11
+              ]
+            },
+            {
+              "state": 1,
+              "absolute_trace_error": [
+                1.829203455372408e-12,
+                2.0562933134016248e-08,
+                1.336271804319722e-08,
+                6.938560836999841e-11
+              ],
+              "inventory_error": [
+                3.122337943750608e-10,
+                2.99893201228087e-10,
+                1.1985680850590263e-10
+              ],
+              "dry_field_max_error": 1.3100631690576847e-14,
+              "dry_half_residual": 0.0,
+              "inventory_closure": 4.440892098500626e-16,
+              "scored_dry_bin_error": 3.608224830031759e-16,
+              "scored_process_error": [
+                2.7995450402329425e-10,
+                1.8287837910690996e-10,
+                1.1876399863552933e-10,
+                6.528966256524882e-11
+              ]
+            }
+          ]
+        },
+        {
+          "mesh": "secondary",
+          "cells": 48,
+          "step": 0.0025,
+          "bath": "weak",
+          "action": 4,
+          "sample_count": 161,
+          "shape_twin_conductance_difference": 0.0009344816735562256,
+          "states": [
+            {
+              "state": 0,
+              "absolute_trace_error": [
+                3.524958103184872e-12,
+                3.371310697275476e-08,
+                1.8187176875628097e-08,
+                1.4478002130502432e-11
+              ],
+              "inventory_error": [
+                8.229850134711114e-11,
+                8.131737132579511e-11,
+                3.089722054594457e-11
+              ],
+              "dry_field_max_error": 2.042810365310288e-14,
+              "dry_half_residual": 3.552713678800501e-15,
+              "inventory_closure": 4.440892098500626e-16
+            },
+            {
+              "state": 1,
+              "absolute_trace_error": [
+                3.4862668307766853e-12,
+                3.371309209576623e-08,
+                1.818737893621858e-08,
+                5.312544848479206e-11
+              ],
+              "inventory_error": [
+                3.0204649892340285e-10,
+                2.985170758757719e-10,
+                1.1292075781377253e-10
+              ],
+              "dry_field_max_error": 1.6209256159527285e-14,
+              "dry_half_residual": 0.0,
+              "inventory_closure": 4.440892098500626e-16
+            }
+          ]
+        },
+        {
+          "mesh": "evaluation",
+          "cells": 96,
+          "step": 0.00125,
+          "bath": "weak",
+          "action": 4,
+          "sample_count": 161,
+          "shape_twin_conductance_difference": 0.0009398493392883678,
+          "states": [
+            {
+              "state": 0,
+              "absolute_trace_error": [
+                4.8246406869623115e-12,
+                8.608419532762923e-09,
+                4.547169973889709e-09,
+                3.4480474031539643e-12
+              ],
+              "inventory_error": [
+                1.7386647677142264e-11,
+                1.712653570564327e-11,
+                6.730272589239306e-12
+              ],
+              "dry_field_max_error": 1.509903313490213e-14,
+              "dry_half_residual": 0.0,
+              "inventory_closure": 6.661338147750939e-16
+            },
+            {
+              "state": 1,
+              "absolute_trace_error": [
+                3.893274591604268e-12,
+                8.608424639788836e-09,
+                4.547165310953005e-09,
+                1.1558129453526078e-11
+              ],
+              "inventory_error": [
+                6.372669059118152e-11,
+                6.278285730078185e-11,
+                2.3896115988741862e-11
+              ],
+              "dry_field_max_error": 1.3100631690576847e-14,
+              "dry_half_residual": 0.0,
+              "inventory_closure": 4.440892098500626e-16
+            }
+          ]
+        }
+      ]
+    },
+    "interface_and_preparation_shift": {
+      "group": 0,
+      "kinetics": [
+        [
+          0.40266083311293127,
+          2.080400434276089,
+          0.05423786855861544,
+          1.1476315912045538,
+          -0.8201267854403704,
+          -0.6302811892703175
+        ],
+        [
+          0.40266083311293127,
+          2.080400434276089,
+          0.05423786855861544,
+          1.1476315912045538,
+          -0.8201267854403704,
+          0.6302811892703175
+        ]
+      ],
+      "prepared_diffusivity": 0.05238957385504619,
+      "fixtures": [
+        {
+          "mesh": "secondary",
+          "cells": 48,
+          "step": 0.0025,
+          "bath": "wet",
+          "action": 4,
+          "sample_count": 161,
+          "shape_twin_conductance_difference": 0.006697381349926423,
+          "states": [
+            {
+              "state": 0,
+              "absolute_trace_error": [
+                1.3798129305797602e-12,
+                4.25316499796935e-08,
+                3.447918883736634e-08,
+                5.009853643045403e-12
+              ],
+              "inventory_error": [
+                8.361089598452054e-12,
+                8.245457623258935e-12,
+                2.3396484402637974e-12
+              ],
+              "dry_field_max_error": 1.7763568394002505e-14,
+              "dry_half_residual": 0.0,
+              "inventory_closure": 4.440892098500626e-16
+            },
+            {
+              "state": 1,
+              "absolute_trace_error": [
+                1.703914787043459e-12,
+                4.253165286627336e-08,
+                3.447916951948571e-08,
+                8.86283060830273e-12
+              ],
+              "inventory_error": [
+                3.498956679948151e-11,
+                3.449652507210902e-11,
+                9.667709341409925e-12
+              ],
+              "dry_field_max_error": 1.509903313490213e-14,
+              "dry_half_residual": 3.552713678800501e-15,
+              "inventory_closure": 4.440892098500626e-16
+            }
+          ]
+        },
+        {
+          "mesh": "evaluation",
+          "cells": 96,
+          "step": 0.00125,
+          "bath": "wet",
+          "action": 4,
+          "sample_count": 161,
+          "shape_twin_conductance_difference": 0.006735960809209629,
+          "states": [
+            {
+              "state": 0,
+              "absolute_trace_error": [
+                1.4169776463290873e-12,
+                1.1029811730622896e-08,
+                8.620764768707545e-09,
+                3.720995733758059e-12
+              ],
+              "inventory_error": [
+                3.277378368693462e-12,
+                2.8896249631408957e-12,
+                8.550304561594224e-13
+              ],
+              "dry_field_max_error": 2.1316282072803006e-14,
+              "dry_half_residual": 7.105427357601002e-15,
+              "inventory_closure": 6.661338147750939e-16,
+              "scored_dry_bin_error": 8.604228440844963e-16,
+              "scored_process_error": [
+                2.737809978725636e-12,
+                2.187390026053837e-12,
+                8.135241612305943e-13,
+                1.2735923426987483e-12
+              ]
+            },
+            {
+              "state": 1,
+              "absolute_trace_error": [
+                1.7323920076250943e-12,
+                1.1029809954266057e-08,
+                8.620861358110687e-09,
+                4.884315174535914e-12
+              ],
+              "inventory_error": [
+                1.2438938767900254e-11,
+                1.2188479968421127e-11,
+                3.444244889294623e-12
+              ],
+              "dry_field_max_error": 1.6431300764452317e-14,
+              "dry_half_residual": 7.105427357601002e-15,
+              "inventory_closure": 6.661338147750939e-16,
+              "scored_dry_bin_error": 6.661338147750939e-16,
+              "scored_process_error": [
+                1.1544099010052378e-11,
+                9.221960001193352e-12,
+                3.418303834434866e-12,
+                1.834792734412005e-12
+              ]
+            }
+          ]
+        },
+        {
+          "mesh": "secondary",
+          "cells": 48,
+          "step": 0.0025,
+          "bath": "weak",
+          "action": 4,
+          "sample_count": 161,
+          "shape_twin_conductance_difference": 8.384126920452095e-05,
+          "states": [
+            {
+              "state": 0,
+              "absolute_trace_error": [
+                1.1206868766322486e-12,
+                1.9199944301107053e-08,
+                1.2026874607329319e-08,
+                4.6956882826521e-13
+              ],
+              "inventory_error": [
+                1.3805623311213822e-12,
+                1.1785225573213154e-12,
+                2.3362713673369395e-13
+              ],
+              "dry_field_max_error": 1.7763568394002505e-14,
+              "dry_half_residual": 0.0,
+              "inventory_closure": 4.440892098500626e-16
+            },
+            {
+              "state": 1,
+              "absolute_trace_error": [
+                9.729717032058716e-13,
+                1.9199944523151657e-08,
+                1.2027015827698051e-08,
+                1.0033224251415618e-12
+              ],
+              "inventory_error": [
+                3.70625752310616e-12,
+                3.2537151283656816e-12,
+                9.011094821709253e-13
+              ],
+              "dry_field_max_error": 1.509903313490213e-14,
+              "dry_half_residual": 3.552713678800501e-15,
+              "inventory_closure": 6.661338147750939e-16
+            }
+          ]
+        },
+        {
+          "mesh": "evaluation",
+          "cells": 96,
+          "step": 0.00125,
+          "bath": "weak",
+          "action": 4,
+          "sample_count": 161,
+          "shape_twin_conductance_difference": 8.378014383870341e-05,
+          "states": [
+            {
+              "state": 0,
+              "absolute_trace_error": [
+                1.029926144369142e-12,
+                4.978461420890312e-09,
+                3.0069062795234913e-09,
+                4.046207813246383e-13
+              ],
+              "inventory_error": [
+                1.0192957589083562e-12,
+                9.319593707868279e-13,
+                1.0533978203608463e-13
+              ],
+              "dry_field_max_error": 2.1316282072803006e-14,
+              "dry_half_residual": 7.105427357601002e-15,
+              "inventory_closure": 6.661338147750939e-16
+            },
+            {
+              "state": 1,
+              "absolute_trace_error": [
+                1.0080825063596421e-12,
+                4.978461420890312e-09,
+                3.0065203660001316e-09,
+                6.056752321903502e-13
+              ],
+              "inventory_error": [
+                1.7579271371914729e-12,
+                1.4443932161434248e-12,
+                3.2210258765763555e-13
+              ],
+              "dry_field_max_error": 1.6431300764452317e-14,
+              "dry_half_residual": 7.105427357601002e-15,
+              "inventory_closure": 6.661338147750939e-16
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
