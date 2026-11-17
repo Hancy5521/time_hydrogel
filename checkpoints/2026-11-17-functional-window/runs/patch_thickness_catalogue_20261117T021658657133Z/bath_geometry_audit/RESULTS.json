@@ -1,0 +1,1191 @@
+{
+  "registered_sha256": "bee863c2fd2d4adf87214b5440e3a4fd91d4182dd1953835d80d6a4e9872884c",
+  "completed_utc": "2026-11-17T02:54:42.783376+00:00",
+  "requests": 256,
+  "rows": [
+    {
+      "parent": "shift_test-000",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-001",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 8,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 6
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 8,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 6
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 8,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 6
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-002",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 5
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 5
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 5
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-003",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 3
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 3
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-004",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 5
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-005",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-006",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-007",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-008",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 2
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 2
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 3
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-009",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 5
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-010",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 0,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 2,
+            "selected_pass": 0
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 0,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 2,
+            "selected_pass": 0
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 0,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 2,
+            "selected_pass": 0
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-011",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 0,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 0,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 0,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 2,
+            "selected_pass": 2
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-012",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 5
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 5
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 4
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-013",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 8
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 8
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 8
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-014",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 8
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 8
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-015",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 6
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 6
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-016",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 5
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 5
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 5
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 7
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-017",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 8,
+            "selected_pass": 7
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 8,
+            "selected_pass": 7
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 8,
+            "selected_pass": 7
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-018",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-019",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 7
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-020",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 6
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-021",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 6
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-022",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-023",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 4,
+            "selected_pass": 4
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-024",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 6
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 6
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 6
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-025",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 0,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 2,
+            "selected_pass": 2
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 0,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 2,
+            "selected_pass": 2
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 0,
+            "selected_pass": 0
+          },
+          "thickness27": {
+            "feasible": 2,
+            "selected_pass": 2
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-026",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 4,
+            "selected_pass": 4
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-027",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 5
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-028",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 4
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 4
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-029",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 6
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 6,
+            "selected_pass": 5
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-030",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 3
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 3
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 2,
+            "selected_pass": 2
+          },
+          "thickness27": {
+            "feasible": 5,
+            "selected_pass": 3
+          }
+        }
+      }
+    },
+    {
+      "parent": "shift_test-031",
+      "requests": 8,
+      "results": {
+        "original_areal_scaled_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 5
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "areal_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 5
+          },
+          "thickness27": {
+            "feasible": 7,
+            "selected_pass": 7
+          }
+        },
+        "volumetric_fixed_bath": {
+          "grid25": {
+            "feasible": 6,
+            "selected_pass": 5
+          },
+          "thickness27": {
+            "feasible": 8,
+            "selected_pass": 7
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "original_areal_scaled_bath": {
+      "grid25": {
+        "feasible": 120,
+        "selected_pass": 108
+      },
+      "thickness27": {
+        "feasible": 187,
+        "selected_pass": 168
+      }
+    },
+    "areal_fixed_bath": {
+      "grid25": {
+        "feasible": 120,
+        "selected_pass": 108
+      },
+      "thickness27": {
+        "feasible": 187,
+        "selected_pass": 168
+      }
+    },
+    "volumetric_fixed_bath": {
+      "grid25": {
+        "feasible": 120,
+        "selected_pass": 108
+      },
+      "thickness27": {
+        "feasible": 186,
+        "selected_pass": 167
+      }
+    }
+  }
+}

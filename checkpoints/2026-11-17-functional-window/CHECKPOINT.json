@@ -1,0 +1,12 @@
+{
+  "checkpoint": "2026-11-17-functional-window",
+  "evidence_scope": "synthetic main replication and tight-window development only",
+  "source_archives_sha256": {
+    "hydrogel_window_gap_closure_20261117.zip": "2d300fff47ecb09c860703a20fabcf214121def57b7c93c84e9bf6bc6750de3c",
+    "hydrogel_tight_window_20261117.zip": "0d39bedbdd48574f5f6d66d56769cae82c613a42af2c832ca32fcfae933dc3f0"
+  },
+  "third_party_source_assets_included": false,
+  "main_run": "patch_window_thickness_delivery_replicate_20261117T025235612415Z",
+  "frozen_calibration_run": "patch_window_thickness_independent_20261117T023031799865Z",
+  "engineering_next": "Matched witness geometry and readout, process transfer, then physical fixture confirmation."
+}

@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-17T03:01:47.122405+00:00",
+  "started_shanghai": "2026-11-17T11:01:47.122405+08:00",
+  "audit_source_sha256": "c470ffa0f80ac23f9b1bbc548f7d34868e9916a0a9ed2b98acfd3d4828a27e7e",
+  "random_addresses": {
+    "potential_address_count": 5991,
+    "duplicate_address_count": 0,
+    "includes_witness_hydraulics_parent_and_mixture_streams": true
+  },
+  "secondary_preflight": {
+    "registered_sha256": "e6e2bf50d39cb9a3127730991ac6487a7eec70fe8c69f61cacf8f0f222d78b49",
+    "fit_sha256": "0794c3543d39a9d6c9798baf7355ecb2e12cc7a8dda560972fc79f5ea2c7d6d9",
+    "lock_time_register_utc": "2026-11-17T02:57:40.037371+00:00",
+    "fit_started": "2026-11-17T02:57:41.940160+00:00",
+    "fit_observed_mtime_utc": "2026-11-17T02:57:43.407062+00:00",
+    "replication_outcome_present_when_audited": false
+  },
+  "completed_utc": "2026-11-17T03:01:47.244355+00:00"
+}

@@ -1,0 +1,88 @@
+{
+  "protocol_sha256": "afc2fefce5b59f38def2dd285d125c49309c038a26dcb705569e3f80162aab8e",
+  "outcomes_sha256": "4aa607bca325e5477174d542a9f129c17e2116c0ef1e49e0703512bca4dc7849",
+  "completed_utc": "2026-11-17T02:40:25.918927+00:00",
+  "model": "outcome_score",
+  "threshold": -1.9987222946020375,
+  "exact_certificate": {
+    "groups": 416,
+    "active_mothers": 341,
+    "unsafe_active_mothers": 32,
+    "accepted_requests": 1182,
+    "requests": 3328,
+    "max_risk": 0.25,
+    "min_activity": 0.1,
+    "delta": 0.025,
+    "risk_p": 1.8279355341630415e-13,
+    "activity_p": 3.3801181668880095e-261,
+    "joint_p": 1.8279355341630415e-13,
+    "individual_risk_upper": 0.12989159673874323,
+    "individual_activity_lower": 0.7793335656634295,
+    "certified": true
+  },
+  "all_prevalences": {
+    "certified": true,
+    "strata": {
+      "irreversible": {
+        "groups": 202,
+        "active_mothers": 181,
+        "unsafe_active_mothers": 24,
+        "accepted_requests": 686,
+        "requests": 1616,
+        "max_risk": 0.25,
+        "min_activity": 0.1,
+        "delta": 0.025,
+        "risk_p": 7.681433621062617e-05,
+        "activity_p": 1.9104464461751072e-154,
+        "joint_p": 7.681433621062617e-05,
+        "individual_risk_upper": 0.1908416039101374,
+        "individual_activity_lower": 0.8454817378216178,
+        "certified": true
+      },
+      "exchange": {
+        "groups": 214,
+        "active_mothers": 160,
+        "unsafe_active_mothers": 8,
+        "accepted_requests": 496,
+        "requests": 1712,
+        "max_risk": 0.25,
+        "min_activity": 0.1,
+        "delta": 0.025,
+        "risk_p": 1.641731243861892e-11,
+        "activity_p": 6.962958047529591e-112,
+        "joint_p": 1.641731243861892e-11,
+        "individual_risk_upper": 0.09614087173771704,
+        "individual_activity_lower": 0.6839351889805757,
+        "certified": true
+      }
+    }
+  },
+  "calibration_descriptive": {
+    "mothers": 416,
+    "requests": 3328,
+    "active_mothers": 341,
+    "unsafe_mothers": 32,
+    "accepted_requests": 1182,
+    "unsafe_accepted_requests": 60,
+    "successful_requests": 1122,
+    "requests_with_feasible_action": 2172,
+    "raw_successes": 1956,
+    "active_fraction": 0.8197115384615384,
+    "unsafe_fraction": 0.07692307692307693,
+    "unsafe_given_active": 0.093841642228739
+  },
+  "confirmation": {
+    "mothers": 128,
+    "requests": 1024,
+    "active_mothers": 107,
+    "unsafe_mothers": 16,
+    "accepted_requests": 390,
+    "unsafe_accepted_requests": 28,
+    "successful_requests": 362,
+    "requests_with_feasible_action": 652,
+    "raw_successes": 585,
+    "active_fraction": 0.8359375,
+    "unsafe_fraction": 0.125,
+    "unsafe_given_active": 0.14953271028037382
+  }
+}

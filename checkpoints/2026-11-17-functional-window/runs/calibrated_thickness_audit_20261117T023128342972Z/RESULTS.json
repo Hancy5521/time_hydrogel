@@ -1,0 +1,965 @@
+{
+  "started_utc": "2026-11-17T02:31:28.342972+00:00",
+  "started_shanghai": "2026-11-17T10:31:28.342972+08:00",
+  "sources": {
+    "audit_calibrated_thickness.py": "fd472b1c0e9bbef1b636bd1e240d74798b37377ca9ce72ce25bd7b3fa5e624e6",
+    "REGISTERED.json": "970e93affd1d05a3514de83a775355b96a05caa1830f75a5784a74a50014ecbf",
+    "calibrate_thickness_catalogue.py": "2e47f4974b3b9a3e482005e5a2c7aa5721656a5b8f8a8cd88dfa1c4211e33734",
+    "patch_thickness_catalogue_benchmark.py": "e0ea7a2017ffc6fab3f0ee87dcd2c10885622c0523957445bedcfe87d6482588"
+  },
+  "seed_addresses": {
+    "registered_groups": 540,
+    "observed_unique_witness_seed_addresses": 463,
+    "observed_duplicate_witness_seed_addresses": 77,
+    "possible_duplicate_addresses": 264,
+    "observed_duplicates_by_role": {
+      "policy_development": 0,
+      "gate_calibration": 70,
+      "confirmation": 7
+    },
+    "observed_collisions": {
+      "43604642": [
+        [
+          "gate_calibration",
+          2,
+          true
+        ],
+        [
+          "gate_calibration",
+          104,
+          false
+        ]
+      ],
+      "43604644": [
+        [
+          "gate_calibration",
+          4,
+          true
+        ],
+        [
+          "gate_calibration",
+          106,
+          false
+        ]
+      ],
+      "43604658": [
+        [
+          "gate_calibration",
+          18,
+          true
+        ],
+        [
+          "gate_calibration",
+          120,
+          false
+        ]
+      ],
+      "43604662": [
+        [
+          "gate_calibration",
+          22,
+          true
+        ],
+        [
+          "gate_calibration",
+          124,
+          false
+        ]
+      ],
+      "43604670": [
+        [
+          "gate_calibration",
+          30,
+          true
+        ],
+        [
+          "gate_calibration",
+          132,
+          false
+        ]
+      ],
+      "43604675": [
+        [
+          "gate_calibration",
+          35,
+          true
+        ],
+        [
+          "gate_calibration",
+          137,
+          false
+        ]
+      ],
+      "43604682": [
+        [
+          "gate_calibration",
+          42,
+          true
+        ],
+        [
+          "gate_calibration",
+          144,
+          false
+        ]
+      ],
+      "43604684": [
+        [
+          "gate_calibration",
+          44,
+          true
+        ],
+        [
+          "gate_calibration",
+          146,
+          false
+        ]
+      ],
+      "43604695": [
+        [
+          "gate_calibration",
+          55,
+          true
+        ],
+        [
+          "gate_calibration",
+          157,
+          false
+        ]
+      ],
+      "43604696": [
+        [
+          "gate_calibration",
+          56,
+          true
+        ],
+        [
+          "gate_calibration",
+          158,
+          false
+        ]
+      ],
+      "43604698": [
+        [
+          "gate_calibration",
+          58,
+          true
+        ],
+        [
+          "gate_calibration",
+          160,
+          false
+        ]
+      ],
+      "43604699": [
+        [
+          "gate_calibration",
+          59,
+          true
+        ],
+        [
+          "gate_calibration",
+          161,
+          false
+        ]
+      ],
+      "43604708": [
+        [
+          "gate_calibration",
+          68,
+          true
+        ],
+        [
+          "gate_calibration",
+          170,
+          false
+        ]
+      ],
+      "43604710": [
+        [
+          "gate_calibration",
+          70,
+          true
+        ],
+        [
+          "gate_calibration",
+          172,
+          false
+        ]
+      ],
+      "43604717": [
+        [
+          "gate_calibration",
+          77,
+          true
+        ],
+        [
+          "gate_calibration",
+          179,
+          false
+        ]
+      ],
+      "43604720": [
+        [
+          "gate_calibration",
+          80,
+          true
+        ],
+        [
+          "gate_calibration",
+          182,
+          false
+        ]
+      ],
+      "43604721": [
+        [
+          "gate_calibration",
+          81,
+          true
+        ],
+        [
+          "gate_calibration",
+          183,
+          false
+        ]
+      ],
+      "43604722": [
+        [
+          "gate_calibration",
+          82,
+          true
+        ],
+        [
+          "gate_calibration",
+          184,
+          false
+        ]
+      ],
+      "43604723": [
+        [
+          "gate_calibration",
+          83,
+          true
+        ],
+        [
+          "gate_calibration",
+          185,
+          false
+        ]
+      ],
+      "43604727": [
+        [
+          "gate_calibration",
+          87,
+          true
+        ],
+        [
+          "gate_calibration",
+          189,
+          false
+        ]
+      ],
+      "43604728": [
+        [
+          "gate_calibration",
+          88,
+          true
+        ],
+        [
+          "gate_calibration",
+          190,
+          false
+        ]
+      ],
+      "43604740": [
+        [
+          "gate_calibration",
+          100,
+          true
+        ],
+        [
+          "gate_calibration",
+          202,
+          false
+        ]
+      ],
+      "43604741": [
+        [
+          "gate_calibration",
+          101,
+          true
+        ],
+        [
+          "gate_calibration",
+          203,
+          false
+        ]
+      ],
+      "43604743": [
+        [
+          "gate_calibration",
+          103,
+          true
+        ],
+        [
+          "gate_calibration",
+          205,
+          false
+        ]
+      ],
+      "43604745": [
+        [
+          "gate_calibration",
+          105,
+          true
+        ],
+        [
+          "gate_calibration",
+          207,
+          false
+        ]
+      ],
+      "43604747": [
+        [
+          "gate_calibration",
+          107,
+          true
+        ],
+        [
+          "gate_calibration",
+          209,
+          false
+        ]
+      ],
+      "43604749": [
+        [
+          "gate_calibration",
+          109,
+          true
+        ],
+        [
+          "gate_calibration",
+          211,
+          false
+        ]
+      ],
+      "43604752": [
+        [
+          "gate_calibration",
+          112,
+          true
+        ],
+        [
+          "gate_calibration",
+          214,
+          false
+        ]
+      ],
+      "43604754": [
+        [
+          "gate_calibration",
+          114,
+          true
+        ],
+        [
+          "gate_calibration",
+          216,
+          false
+        ]
+      ],
+      "43604755": [
+        [
+          "gate_calibration",
+          115,
+          true
+        ],
+        [
+          "gate_calibration",
+          217,
+          false
+        ]
+      ],
+      "43604757": [
+        [
+          "gate_calibration",
+          117,
+          true
+        ],
+        [
+          "gate_calibration",
+          219,
+          false
+        ]
+      ],
+      "43604763": [
+        [
+          "gate_calibration",
+          123,
+          true
+        ],
+        [
+          "gate_calibration",
+          225,
+          false
+        ]
+      ],
+      "43604765": [
+        [
+          "gate_calibration",
+          125,
+          true
+        ],
+        [
+          "gate_calibration",
+          227,
+          false
+        ]
+      ],
+      "43604766": [
+        [
+          "gate_calibration",
+          126,
+          true
+        ],
+        [
+          "gate_calibration",
+          228,
+          false
+        ]
+      ],
+      "43604771": [
+        [
+          "gate_calibration",
+          131,
+          true
+        ],
+        [
+          "gate_calibration",
+          233,
+          false
+        ]
+      ],
+      "43604773": [
+        [
+          "gate_calibration",
+          133,
+          true
+        ],
+        [
+          "gate_calibration",
+          235,
+          false
+        ]
+      ],
+      "43604775": [
+        [
+          "gate_calibration",
+          135,
+          true
+        ],
+        [
+          "gate_calibration",
+          237,
+          false
+        ]
+      ],
+      "43604776": [
+        [
+          "gate_calibration",
+          136,
+          true
+        ],
+        [
+          "gate_calibration",
+          238,
+          false
+        ]
+      ],
+      "43604779": [
+        [
+          "gate_calibration",
+          139,
+          true
+        ],
+        [
+          "gate_calibration",
+          241,
+          false
+        ]
+      ],
+      "43604785": [
+        [
+          "gate_calibration",
+          145,
+          true
+        ],
+        [
+          "gate_calibration",
+          247,
+          false
+        ]
+      ],
+      "43604787": [
+        [
+          "gate_calibration",
+          147,
+          true
+        ],
+        [
+          "gate_calibration",
+          249,
+          false
+        ]
+      ],
+      "43604788": [
+        [
+          "gate_calibration",
+          148,
+          true
+        ],
+        [
+          "gate_calibration",
+          250,
+          false
+        ]
+      ],
+      "43604789": [
+        [
+          "gate_calibration",
+          149,
+          true
+        ],
+        [
+          "gate_calibration",
+          251,
+          false
+        ]
+      ],
+      "43604790": [
+        [
+          "gate_calibration",
+          150,
+          true
+        ],
+        [
+          "gate_calibration",
+          252,
+          false
+        ]
+      ],
+      "43604793": [
+        [
+          "gate_calibration",
+          153,
+          true
+        ],
+        [
+          "gate_calibration",
+          255,
+          false
+        ]
+      ],
+      "43604803": [
+        [
+          "gate_calibration",
+          163,
+          true
+        ],
+        [
+          "gate_calibration",
+          265,
+          false
+        ]
+      ],
+      "43604805": [
+        [
+          "gate_calibration",
+          165,
+          true
+        ],
+        [
+          "gate_calibration",
+          267,
+          false
+        ]
+      ],
+      "43604806": [
+        [
+          "gate_calibration",
+          166,
+          true
+        ],
+        [
+          "gate_calibration",
+          268,
+          false
+        ]
+      ],
+      "43604808": [
+        [
+          "gate_calibration",
+          168,
+          true
+        ],
+        [
+          "gate_calibration",
+          270,
+          false
+        ]
+      ],
+      "43604809": [
+        [
+          "gate_calibration",
+          169,
+          true
+        ],
+        [
+          "gate_calibration",
+          271,
+          false
+        ]
+      ],
+      "43604811": [
+        [
+          "gate_calibration",
+          171,
+          true
+        ],
+        [
+          "gate_calibration",
+          273,
+          false
+        ]
+      ],
+      "43604813": [
+        [
+          "gate_calibration",
+          173,
+          true
+        ],
+        [
+          "gate_calibration",
+          275,
+          false
+        ]
+      ],
+      "43604815": [
+        [
+          "gate_calibration",
+          175,
+          true
+        ],
+        [
+          "gate_calibration",
+          277,
+          false
+        ]
+      ],
+      "43604821": [
+        [
+          "gate_calibration",
+          181,
+          true
+        ],
+        [
+          "gate_calibration",
+          283,
+          false
+        ]
+      ],
+      "43604827": [
+        [
+          "gate_calibration",
+          187,
+          true
+        ],
+        [
+          "gate_calibration",
+          289,
+          false
+        ]
+      ],
+      "43604828": [
+        [
+          "gate_calibration",
+          188,
+          true
+        ],
+        [
+          "gate_calibration",
+          290,
+          false
+        ]
+      ],
+      "43604831": [
+        [
+          "gate_calibration",
+          191,
+          true
+        ],
+        [
+          "gate_calibration",
+          293,
+          false
+        ]
+      ],
+      "43604832": [
+        [
+          "gate_calibration",
+          192,
+          true
+        ],
+        [
+          "gate_calibration",
+          294,
+          false
+        ]
+      ],
+      "43604833": [
+        [
+          "gate_calibration",
+          193,
+          true
+        ],
+        [
+          "gate_calibration",
+          295,
+          false
+        ]
+      ],
+      "43604841": [
+        [
+          "gate_calibration",
+          201,
+          true
+        ],
+        [
+          "gate_calibration",
+          303,
+          false
+        ]
+      ],
+      "43604844": [
+        [
+          "gate_calibration",
+          204,
+          true
+        ],
+        [
+          "gate_calibration",
+          306,
+          false
+        ]
+      ],
+      "43604846": [
+        [
+          "gate_calibration",
+          206,
+          true
+        ],
+        [
+          "gate_calibration",
+          308,
+          false
+        ]
+      ],
+      "43604850": [
+        [
+          "gate_calibration",
+          210,
+          true
+        ],
+        [
+          "gate_calibration",
+          312,
+          false
+        ]
+      ],
+      "43604852": [
+        [
+          "gate_calibration",
+          212,
+          true
+        ],
+        [
+          "gate_calibration",
+          314,
+          false
+        ]
+      ],
+      "43604858": [
+        [
+          "gate_calibration",
+          218,
+          true
+        ],
+        [
+          "gate_calibration",
+          320,
+          false
+        ]
+      ],
+      "43604860": [
+        [
+          "gate_calibration",
+          220,
+          true
+        ],
+        [
+          "gate_calibration",
+          322,
+          false
+        ]
+      ],
+      "43604864": [
+        [
+          "gate_calibration",
+          224,
+          true
+        ],
+        [
+          "gate_calibration",
+          326,
+          false
+        ]
+      ],
+      "43604869": [
+        [
+          "gate_calibration",
+          229,
+          true
+        ],
+        [
+          "gate_calibration",
+          331,
+          false
+        ]
+      ],
+      "43604870": [
+        [
+          "gate_calibration",
+          230,
+          true
+        ],
+        [
+          "gate_calibration",
+          332,
+          false
+        ]
+      ],
+      "43604871": [
+        [
+          "gate_calibration",
+          231,
+          true
+        ],
+        [
+          "gate_calibration",
+          333,
+          false
+        ]
+      ],
+      "43609658": [
+        [
+          "confirmation",
+          1,
+          true
+        ],
+        [
+          "confirmation",
+          103,
+          false
+        ]
+      ],
+      "43609660": [
+        [
+          "confirmation",
+          3,
+          true
+        ],
+        [
+          "confirmation",
+          105,
+          false
+        ]
+      ],
+      "43609661": [
+        [
+          "confirmation",
+          4,
+          true
+        ],
+        [
+          "confirmation",
+          106,
+          false
+        ]
+      ],
+      "43609663": [
+        [
+          "confirmation",
+          6,
+          true
+        ],
+        [
+          "confirmation",
+          108,
+          false
+        ]
+      ],
+      "43609672": [
+        [
+          "confirmation",
+          15,
+          true
+        ],
+        [
+          "confirmation",
+          117,
+          false
+        ]
+      ],
+      "43609675": [
+        [
+          "confirmation",
+          18,
+          true
+        ],
+        [
+          "confirmation",
+          120,
+          false
+        ]
+      ],
+      "43609680": [
+        [
+          "confirmation",
+          23,
+          true
+        ],
+        [
+          "confirmation",
+          125,
+          false
+        ]
+      ]
+    },
+    "iid_assumption_compromised_by_duplicate_witness_noise": true
+  },
+  "fixture": {
+    "independent_fixture": "independent-fixture-2",
+    "same_witness_and_features": true,
+    "arm": {
+      "grid25": {
+        "probability_scalar_checks": 200,
+        "max_probability_disagreement": 0.0,
+        "fixed_area_legacy_action_identity": true
+      },
+      "thickness27": {
+        "probability_scalar_checks": 216,
+        "max_probability_disagreement": 0.0,
+        "fixed_area_legacy_action_identity": true
+      }
+    }
+  },
+  "completed_utc": "2026-11-17T02:32:23.846237+00:00"
+}

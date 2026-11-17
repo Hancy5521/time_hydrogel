@@ -1,0 +1,94 @@
+[
+  {
+    "mother": "held",
+    "cutoff_utc": "2026-01-05T00:00:08+00:00",
+    "release_utc": "2026-01-05T00:00:11+00:00",
+    "witness_exposure_utc": "2026-01-05T00:00:00+00:00",
+    "context": {
+      "thickness_m": 0.002,
+      "metadata_sha256": "4444444444444444444444444444444444444444444444444444444444444444"
+    },
+    "witness_specimen_id": "witness",
+    "common": {
+      "low_hydration": {
+        "value": 0.2,
+        "specimen_id": "short_low_hydration",
+        "unit": "fraction",
+        "acquired_utc": "2026-01-05T00:00:02+00:00",
+        "available_utc": "2026-01-05T00:00:03+00:00"
+      },
+      "high_hydration": {
+        "value": 0.2,
+        "specimen_id": "short_high_hydration",
+        "unit": "fraction",
+        "acquired_utc": "2026-01-05T00:00:02+00:00",
+        "available_utc": "2026-01-05T00:00:03+00:00"
+      },
+      "low_release": {
+        "value": 0.2,
+        "specimen_id": "short_low_release",
+        "unit": "fraction",
+        "acquired_utc": "2026-01-05T00:00:02+00:00",
+        "available_utc": "2026-01-05T00:00:03+00:00"
+      },
+      "high_release": {
+        "value": 0.2,
+        "specimen_id": "short_high_release",
+        "unit": "fraction",
+        "acquired_utc": "2026-01-05T00:00:02+00:00",
+        "available_utc": "2026-01-05T00:00:03+00:00"
+      },
+      "dry_near_inventory": {
+        "value": 0.2,
+        "specimen_id": "short_dry_near_inventory",
+        "unit": "fraction",
+        "acquired_utc": "2026-01-05T00:00:02+00:00",
+        "available_utc": "2026-01-05T00:00:03+00:00"
+      }
+    },
+    "witness": {
+      "bulk": [
+        {
+          "value": 0.1,
+          "specimen_id": "witness",
+          "unit": "fraction",
+          "acquired_utc": "2026-01-05T00:00:02+00:00",
+          "available_utc": "2026-01-05T00:00:03+00:00"
+        },
+        {
+          "value": 0.4,
+          "specimen_id": "witness",
+          "unit": "fraction",
+          "acquired_utc": "2026-01-05T00:00:04+00:00",
+          "available_utc": "2026-01-05T00:00:05+00:00"
+        }
+      ],
+      "depth": [
+        {
+          "value": 0.05,
+          "specimen_id": "witness",
+          "unit": "fraction",
+          "acquired_utc": "2026-01-05T00:00:02+00:00",
+          "available_utc": "2026-01-05T00:00:03+00:00"
+        },
+        {
+          "value": 0.15,
+          "specimen_id": "witness",
+          "unit": "fraction",
+          "acquired_utc": "2026-01-05T00:00:04+00:00",
+          "available_utc": "2026-01-05T00:00:05+00:00"
+        }
+      ]
+    },
+    "requests": [
+      {
+        "id": "request",
+        "install_end_s": 5,
+        "work_s": [
+          10,
+          20
+        ]
+      }
+    ]
+  }
+]

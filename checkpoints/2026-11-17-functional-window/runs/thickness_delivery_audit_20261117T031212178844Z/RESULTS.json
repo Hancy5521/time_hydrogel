@@ -1,0 +1,59 @@
+{
+  "started_utc": "2026-11-17T03:12:12.178844+00:00",
+  "started_shanghai": "2026-11-17T11:12:12.178844+08:00",
+  "audit_source_sha256": "c470ffa0f80ac23f9b1bbc548f7d34868e9916a0a9ed2b98acfd3d4828a27e7e",
+  "random_addresses": {
+    "potential_address_count": 5991,
+    "duplicate_address_count": 0,
+    "includes_witness_hydraulics_parent_and_mixture_streams": true
+  },
+  "replication": {
+    "registered_sha256": "ee6343753ee35b792fce56bc1a0cd8a78b36f5d812a7adeae84ab47dadbf3c0b",
+    "frozen_sha256": "ebc52d9a9c2e55b8309122f011272883bbe056d65e1f20e060877bbb915cd28e",
+    "scored_sha256": "f683e1d44508e07eef777775c1097958a76f328f6d7a0560a75be86f76653666",
+    "exact_numeric_values_compared": 29,
+    "max_numerical_difference": 0,
+    "catalogues": {
+      "grid25": {
+        "mothers": 640,
+        "requests": 5120,
+        "active_mothers": 320,
+        "unsafe_mothers": 22,
+        "accepted_requests": 851,
+        "unsafe_accepted_requests": 43,
+        "successful_requests": 808,
+        "requests_with_feasible_action": 3388,
+        "raw_successes": 2887,
+        "active_fraction": 0.5,
+        "unsafe_fraction": 0.034375,
+        "unsafe_given_active": 0.06875,
+        "unissued_when_frozen_choice_passes": 2079
+      },
+      "thickness27": {
+        "mothers": 640,
+        "requests": 5120,
+        "active_mothers": 377,
+        "unsafe_mothers": 24,
+        "accepted_requests": 1054,
+        "unsafe_accepted_requests": 44,
+        "successful_requests": 1010,
+        "requests_with_feasible_action": 4405,
+        "raw_successes": 3536,
+        "active_fraction": 0.5890625,
+        "unsafe_fraction": 0.0375,
+        "unsafe_given_active": 0.0636604774535809,
+        "unissued_when_frozen_choice_passes": 2526
+      }
+    },
+    "registered_paired_difference": 0.039453125,
+    "registered_paired_ci": [
+      0.02890625,
+      0.0498046875
+    ],
+    "newly_feasible_requests": 1093,
+    "newly_feasible_safe_issuances": 83,
+    "freeze_seconds": 1002.3438092000142,
+    "score_seconds": 135.47242939998978
+  },
+  "completed_utc": "2026-11-17T03:12:13.729817+00:00"
+}

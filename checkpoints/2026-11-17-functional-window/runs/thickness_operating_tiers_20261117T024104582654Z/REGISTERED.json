@@ -1,0 +1,29 @@
+{
+  "registered_utc": "2026-11-17T02:41:04.582654+00:00",
+  "registered_shanghai": "2026-11-17T10:41:04.582654+08:00",
+  "input_run": "runs/patch_window_thickness_independent_20261117T023031799865Z",
+  "input_registered_sha256": "e23551c381a4c963aa0d8631c11028fd4382a2dcdd0eb81d2ce24269584a4a74",
+  "dependencies": {
+    "audit_thickness_operating_tiers.py": "dfdb4e7a56f1961ec3780311e478bcc8bd2aa2af084c7c419c3cb57b8c513a44",
+    "audit_calibrated_thickness.py": "fd472b1c0e9bbef1b636bd1e240d74798b37377ca9ce72ce25bd7b3fa5e624e6",
+    "audit_window_factorized_sampling.py": "8a3215a348367479ecdcdedfa9b06bf8f46820f5bde3594a8e5e2e999d088bb5"
+  },
+  "scope": "Prespecified secondary 25% conditional risk description of the exact two geometry catalogue policies locked from separate development mothers. No retuning, new acceptance thresholds, alternative policy selection or reuse of test labels. This does not replace the 10% primary analysis.",
+  "primary": {
+    "risk_target": 0.1,
+    "activity_target": 0.1,
+    "per_catalogue_delta": 0.025,
+    "families": 2
+  },
+  "comparison": {
+    "risk_targets": [
+      0.1,
+      0.25
+    ],
+    "activity_target": 0.1,
+    "per_claim_delta": 0.0125,
+    "families": 4,
+    "decision": "For joint claims across either risk tier, compare all four intersection-union p-values to .0125. Require both catalogues to pass at the indicated risk tier to compare paired observed safe issuance as a jointly certified operating-point result. Data-average safe issuance comes from confirmation, not the calibration counts. When comparison is only at the original primary tier, retain its stated two-gate .025 threshold."
+  },
+  "state_at_registration": "No development lock, calibration certificate or score file present."
+}

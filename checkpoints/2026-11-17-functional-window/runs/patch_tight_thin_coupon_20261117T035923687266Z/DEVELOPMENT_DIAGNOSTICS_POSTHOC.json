@@ -1,0 +1,67 @@
+{
+  "protocol_sha256": "3ade37b0e35257c9957c7b6e7167099b6b44a31f366aa866ff179022183c6400",
+  "frozen_sha256": "43d5fcadbe7ad7f3cfcfa6218ca276f4324439cc2242fe166737410ada6ccef4",
+  "scored_sha256": "edeece2e0f5c6959cce8797c226eb39048dd84bf35b3bc1cf5dda9c777b0799a",
+  "feasible_requests": 214,
+  "minima": {
+    "standard_depth": {
+      "upper_margin": {
+        "minimum_observed_risk": 0.5416666666666666,
+        "active_mothers": 24,
+        "failed_mothers": 13,
+        "passed_requests": 11
+      },
+      "posterior_violation": {
+        "minimum_observed_risk": 0.5116279069767442,
+        "active_mothers": 43,
+        "failed_mothers": 22,
+        "passed_requests": 21
+      }
+    },
+    "thin_depth": {
+      "upper_margin": {
+        "minimum_observed_risk": 0.5102040816326531,
+        "active_mothers": 49,
+        "failed_mothers": 25,
+        "passed_requests": 24
+      },
+      "posterior_violation": {
+        "minimum_observed_risk": 0.56,
+        "active_mothers": 25,
+        "failed_mothers": 14,
+        "passed_requests": 11
+      }
+    },
+    "thin_electric": {
+      "upper_margin": {
+        "minimum_observed_risk": 0.375,
+        "active_mothers": 16,
+        "failed_mothers": 6,
+        "passed_requests": 10
+      },
+      "posterior_violation": {
+        "minimum_observed_risk": 0.2777777777777778,
+        "active_mothers": 18,
+        "failed_mothers": 5,
+        "passed_requests": 13
+      }
+    }
+  },
+  "ungated_rank_paired": {
+    "thin_depth": {
+      "fraction": 0.05625,
+      "ci95": [
+        0.0125,
+        0.103125
+      ]
+    },
+    "standard_depth": {
+      "fraction": 0.034375,
+      "ci95": [
+        -0.015625,
+        0.08125
+      ]
+    }
+  },
+  "scope": "Exploratory on the development mothers. No policy or risk claim."
+}

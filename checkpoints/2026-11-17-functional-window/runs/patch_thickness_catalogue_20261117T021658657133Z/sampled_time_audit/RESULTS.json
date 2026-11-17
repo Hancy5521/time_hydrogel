@@ -1,0 +1,2634 @@
+{
+  "registered_sha256": "73f51481098984611bf7b75fbaecc02f1cfb58cec69182a0eec89f20cd223141",
+  "completed_utc": "2026-11-17T02:34:43.307275+00:00",
+  "role_results": {
+    "test": [
+      {
+        "mother": "test-000",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-001",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-002",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-003",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-004",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-005",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-006",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-007",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-008",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-009",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-010",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-011",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-012",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-013",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-014",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-015",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-016",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-017",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-018",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-019",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-020",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-021",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-022",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-023",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-024",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-025",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-026",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-027",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-028",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-029",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-030",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "test-031",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      }
+    ],
+    "shift_test": [
+      {
+        "mother": "shift_test-000",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-001",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-002",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-003",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-004",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-005",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-006",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-007",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-008",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-009",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-010",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-011",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-012",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-013",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-014",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-015",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-016",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-017",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-018",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-019",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-020",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-021",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-022",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-023",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-024",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-025",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-026",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-027",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-028",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-029",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-030",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "mother": "shift_test-031",
+        "comparisons": {
+          "effective_conductivity": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          },
+          "fixed_area_conductance": {
+            "catalogue_flips": 0,
+            "largest_worsening": 0.0,
+            "arms": {
+              "original9": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "grid25": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              },
+              "thickness27": {
+                "choice_flips": 0,
+                "oracle_feasibility_flips": 0
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

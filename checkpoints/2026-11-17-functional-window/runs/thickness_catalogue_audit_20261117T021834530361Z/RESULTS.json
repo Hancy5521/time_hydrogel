@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-17T02:18:34.530361+00:00",
+  "started_shanghai": "2026-11-17T10:18:34.530361+08:00",
+  "audit_source_sha256": "6491049cb9ea787224205e084bf15b050ae99bc315d526543f752dff7b5be87a",
+  "physical_fixture": {
+    "nominal_probabilities_max_error": 0.0,
+    "original_nominal_decisions_identical": true,
+    "areal_mass_checks": 81,
+    "areal_mass_max_error": 5.551115123125783e-16,
+    "fixed_area_readout_algebra_checks": 4
+  },
+  "completed_utc": "2026-11-17T02:19:07.285787+00:00"
+}

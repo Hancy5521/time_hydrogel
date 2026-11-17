@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-17T02:13:20.788406+00:00",
+  "source_sha256": "fcbb35201d7a539f59545cbc911fa0728ae003428c3b0226ebee44c7364c222b",
+  "audit_plan_sha256": "6250e8e72821101a9db8a14beb05e4bba1fa5afd407c3f80f4072841dff22b09",
+  "receipt_presence": {
+    "FROZEN.json": true,
+    "POLICY_LOCK.json": false,
+    "CERTIFICATE.json": false,
+    "SCORED.json": false
+  }
+}

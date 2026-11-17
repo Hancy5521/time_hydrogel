@@ -1,0 +1,43 @@
+{
+  "actual_utc": "2026-11-17T03:03:00.807723+00:00",
+  "asia_shanghai": "2026-11-17T11:03:00.807723+08:00",
+  "checked_parent_counts": 256,
+  "role": "Arithmetic of existing saved comparisons and invariant nominal action controls. Altered baths' scores cannot be reconstructed from their archived per-parent counts alone.",
+  "unchanged_grid_25_under_both_sensitivities": true,
+  "sensitivity_sha256": "7dc11d3dfb6bf6c37fb8f1d28271654cc2c546d78d9b7b390d372234a3c79664",
+  "audit_script_sha256": "d471d8f3c989ea59c2c63a6d151afb5a138f8a9df4844b0a180bb61cb9c10601",
+  "registered_sha256": "bee863c2fd2d4adf87214b5440e3a4fd91d4182dd1953835d80d6a4e9872884c",
+  "requests": 256,
+  "summary": {
+    "original_areal_scaled_bath": {
+      "grid25": {
+        "feasible": 120,
+        "selected_pass": 108
+      },
+      "thickness27": {
+        "feasible": 187,
+        "selected_pass": 168
+      }
+    },
+    "areal_fixed_bath": {
+      "grid25": {
+        "feasible": 120,
+        "selected_pass": 108
+      },
+      "thickness27": {
+        "feasible": 187,
+        "selected_pass": 168
+      }
+    },
+    "volumetric_fixed_bath": {
+      "grid25": {
+        "feasible": 120,
+        "selected_pass": 108
+      },
+      "thickness27": {
+        "feasible": 186,
+        "selected_pass": 167
+      }
+    }
+  }
+}

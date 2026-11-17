@@ -1,0 +1,456 @@
+{
+  "generated_at_utc": "2026-11-17T04:03:43.162696+00:00",
+  "protocol_sha256": "3ade37b0e35257c9957c7b6e7167099b6b44a31f366aa866ff179022183c6400",
+  "score_sha256": "edeece2e0f5c6959cce8797c226eb39048dd84bf35b3bc1cf5dda9c777b0799a",
+  "source_sha256": "99428e3546b127bfc8b9dd2e027eeca7fc7327041b3ab6d5899dd2132625185b",
+  "result": {
+    "standard_hydration": {
+      "curves": [
+        {
+          "posterior_cutoff": 0.55,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.5750000000000001,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.6000000000000001,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.625,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.65,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.675,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.7,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.725,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.75,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.775,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.8,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.825,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.85,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.875,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.8999999999999999,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.9249999999999999,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.95,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.975,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.99,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        },
+        {
+          "posterior_cutoff": 0.999,
+          "expected_activity": 0.0,
+          "expected_unsafe_active": 0.0,
+          "expected_conditional_unsafe": null,
+          "expected_correct_requests": 0.0
+        }
+      ],
+      "best_demonstration_at_10_percent": null
+    },
+    "standard_electrical": {
+      "curves": [
+        {
+          "posterior_cutoff": 0.55,
+          "expected_activity": 0.7190638899999571,
+          "expected_unsafe_active": 0.2545997086566172,
+          "expected_conditional_unsafe": 0.3540710529305433,
+          "expected_correct_requests": 0.41337396647364083
+        },
+        {
+          "posterior_cutoff": 0.5750000000000001,
+          "expected_activity": 0.6794606315233108,
+          "expected_unsafe_active": 0.21813444593475997,
+          "expected_conditional_unsafe": 0.32104059575271543,
+          "expected_correct_requests": 0.38618148754465154
+        },
+        {
+          "posterior_cutoff": 0.6000000000000001,
+          "expected_activity": 0.6394110618391916,
+          "expected_unsafe_active": 0.1862359608217396,
+          "expected_conditional_unsafe": 0.2912617124358992,
+          "expected_correct_requests": 0.3604907488395504
+        },
+        {
+          "posterior_cutoff": 0.625,
+          "expected_activity": 0.5998896387160674,
+          "expected_unsafe_active": 0.15839019598017973,
+          "expected_conditional_unsafe": 0.2640322248591913,
+          "expected_correct_requests": 0.3360732613106844
+        },
+        {
+          "posterior_cutoff": 0.65,
+          "expected_activity": 0.5608965993653382,
+          "expected_unsafe_active": 0.1339764449186097,
+          "expected_conditional_unsafe": 0.23886121803948496,
+          "expected_correct_requests": 0.31263053603390223
+        },
+        {
+          "posterior_cutoff": 0.675,
+          "expected_activity": 0.5222742695358422,
+          "expected_unsafe_active": 0.11249363017330774,
+          "expected_conditional_unsafe": 0.2153918673291785,
+          "expected_correct_requests": 0.28991874078848034
+        },
+        {
+          "posterior_cutoff": 0.7,
+          "expected_activity": 0.4839624621970341,
+          "expected_unsafe_active": 0.09358173154834423,
+          "expected_conditional_unsafe": 0.19336568196531861,
+          "expected_correct_requests": 0.2677735373985141
+        },
+        {
+          "posterior_cutoff": 0.725,
+          "expected_activity": 0.4459575762065565,
+          "expected_unsafe_active": 0.07696899274239466,
+          "expected_conditional_unsafe": 0.17259263402836444,
+          "expected_correct_requests": 0.24608140207859108
+        },
+        {
+          "posterior_cutoff": 0.75,
+          "expected_activity": 0.40824512353783754,
+          "expected_unsafe_active": 0.062431670477658185,
+          "expected_conditional_unsafe": 0.15292692276793798,
+          "expected_correct_requests": 0.22475013283394124
+        },
+        {
+          "posterior_cutoff": 0.775,
+          "expected_activity": 0.37077478832100474,
+          "expected_unsafe_active": 0.04977688002175531,
+          "expected_conditional_unsafe": 0.13425098358807533,
+          "expected_correct_requests": 0.20369287646490303
+        },
+        {
+          "posterior_cutoff": 0.8,
+          "expected_activity": 0.3334649365047714,
+          "expected_unsafe_active": 0.03883768786125408,
+          "expected_conditional_unsafe": 0.11646708127197165,
+          "expected_correct_requests": 0.18282253850868516
+        },
+        {
+          "posterior_cutoff": 0.825,
+          "expected_activity": 0.29621269771254066,
+          "expected_unsafe_active": 0.02947148155037511,
+          "expected_conditional_unsafe": 0.09949432207992542,
+          "expected_correct_requests": 0.1620502629152886
+        },
+        {
+          "posterior_cutoff": 0.85,
+          "expected_activity": 0.2588932024767808,
+          "expected_unsafe_active": 0.02155761919924511,
+          "expected_conditional_unsafe": 0.0832683863191755,
+          "expected_correct_requests": 0.14128224612853849
+        },
+        {
+          "posterior_cutoff": 0.875,
+          "expected_activity": 0.2213387424906939,
+          "expected_unsafe_active": 0.01499381393932268,
+          "expected_conditional_unsafe": 0.06774147973644103,
+          "expected_correct_requests": 0.12040991452202801
+        },
+        {
+          "posterior_cutoff": 0.8999999999999999,
+          "expected_activity": 0.18329038999066416,
+          "expected_unsafe_active": 0.009692598999629523,
+          "expected_conditional_unsafe": 0.052881108497413384,
+          "expected_correct_requests": 0.09928815400987877
+        },
+        {
+          "posterior_cutoff": 0.9249999999999999,
+          "expected_activity": 0.14430294175861094,
+          "expected_unsafe_active": 0.0055799267643767,
+          "expected_conditional_unsafe": 0.03866814284154211,
+          "expected_correct_requests": 0.07769122752358223
+        },
+        {
+          "posterior_cutoff": 0.95,
+          "expected_activity": 0.10352521166354878,
+          "expected_unsafe_active": 0.002598209138111634,
+          "expected_conditional_unsafe": 0.025097356444492673,
+          "expected_correct_requests": 0.05521118996299943
+        },
+        {
+          "posterior_cutoff": 0.975,
+          "expected_activity": 0.05894467917522127,
+          "expected_unsafe_active": 0.0007183509972808449,
+          "expected_conditional_unsafe": 0.012186867539739193,
+          "expected_correct_requests": 0.030919020111104988
+        },
+        {
+          "posterior_cutoff": 0.99,
+          "expected_activity": 0.027758498622575224,
+          "expected_unsafe_active": 0.00013263918194877862,
+          "expected_conditional_unsafe": 0.004778326946000848,
+          "expected_correct_requests": 0.014295727032979178
+        },
+        {
+          "posterior_cutoff": 0.999,
+          "expected_activity": 0.003928934732590315,
+          "expected_unsafe_active": 1.8337465075075887e-06,
+          "expected_conditional_unsafe": 0.0004667286764263998,
+          "expected_correct_requests": 0.0019776581585611527
+        }
+      ],
+      "best_demonstration_at_10_percent": {
+        "posterior_cutoff": 0.825,
+        "expected_activity": 0.29621269771254066,
+        "expected_unsafe_active": 0.02947148155037511,
+        "expected_conditional_unsafe": 0.09949432207992542,
+        "expected_correct_requests": 0.1620502629152886
+      }
+    },
+    "thin_electrical": {
+      "curves": [
+        {
+          "posterior_cutoff": 0.55,
+          "expected_activity": 0.8169570204792869,
+          "expected_unsafe_active": 0.1258791151484117,
+          "expected_conditional_unsafe": 0.15408291010775793,
+          "expected_correct_requests": 0.5731156242742224
+        },
+        {
+          "posterior_cutoff": 0.5750000000000001,
+          "expected_activity": 0.8080468505210409,
+          "expected_unsafe_active": 0.11429801130173953,
+          "expected_conditional_unsafe": 0.14144973305451095,
+          "expected_correct_requests": 0.5648981282328827
+        },
+        {
+          "posterior_cutoff": 0.6000000000000001,
+          "expected_activity": 0.7982399303832652,
+          "expected_unsafe_active": 0.10335413737150616,
+          "expected_conditional_unsafe": 0.1294775335554586,
+          "expected_correct_requests": 0.5563821511061324
+        },
+        {
+          "posterior_cutoff": 0.625,
+          "expected_activity": 0.7876380924719151,
+          "expected_unsafe_active": 0.09304410798671417,
+          "expected_conditional_unsafe": 0.11813053339599856,
+          "expected_correct_requests": 0.5475617890583161
+        },
+        {
+          "posterior_cutoff": 0.65,
+          "expected_activity": 0.7762798641900337,
+          "expected_unsafe_active": 0.08334530450746594,
+          "expected_conditional_unsafe": 0.10736502175594621,
+          "expected_correct_requests": 0.5384117237175184
+        },
+        {
+          "posterior_cutoff": 0.675,
+          "expected_activity": 0.7641524481304456,
+          "expected_unsafe_active": 0.07422667799237215,
+          "expected_conditional_unsafe": 0.09713595523245801,
+          "expected_correct_requests": 0.5288895378203866
+        },
+        {
+          "posterior_cutoff": 0.7,
+          "expected_activity": 0.7512113621707041,
+          "expected_unsafe_active": 0.06565724300135667,
+          "expected_conditional_unsafe": 0.08740182365137979,
+          "expected_correct_requests": 0.5189385425547224
+        },
+        {
+          "posterior_cutoff": 0.725,
+          "expected_activity": 0.737392789222191,
+          "expected_unsafe_active": 0.05761037309420856,
+          "expected_conditional_unsafe": 0.07812711750948437,
+          "expected_correct_requests": 0.5084884401147427
+        },
+        {
+          "posterior_cutoff": 0.75,
+          "expected_activity": 0.7226129722649036,
+          "expected_unsafe_active": 0.050064348998134355,
+          "expected_conditional_unsafe": 0.0692823834053469,
+          "expected_correct_requests": 0.4974520222214293
+        },
+        {
+          "posterior_cutoff": 0.775,
+          "expected_activity": 0.706756017959538,
+          "expected_unsafe_active": 0.04300095631677237,
+          "expected_conditional_unsafe": 0.06084271689814488,
+          "expected_correct_requests": 0.48571709842893773
+        },
+        {
+          "posterior_cutoff": 0.8,
+          "expected_activity": 0.6896526437654125,
+          "expected_unsafe_active": 0.03640394257031399,
+          "expected_conditional_unsafe": 0.05278591026861475,
+          "expected_correct_requests": 0.4731329315696454
+        },
+        {
+          "posterior_cutoff": 0.825,
+          "expected_activity": 0.6710486484243564,
+          "expected_unsafe_active": 0.030258329756260992,
+          "expected_conditional_unsafe": 0.04509111198913598,
+          "expected_correct_requests": 0.45948884429419945
+        },
+        {
+          "posterior_cutoff": 0.85,
+          "expected_activity": 0.6505542634101044,
+          "expected_unsafe_active": 0.02455074884480438,
+          "expected_conditional_unsafe": 0.03773820298419561,
+          "expected_correct_requests": 0.4444785090199879
+        },
+        {
+          "posterior_cutoff": 0.875,
+          "expected_activity": 0.6275512979380544,
+          "expected_unsafe_active": 0.019270646263174162,
+          "expected_conditional_unsafe": 0.03070768290415737,
+          "expected_correct_requests": 0.42763418305698747
+        },
+        {
+          "posterior_cutoff": 0.8999999999999999,
+          "expected_activity": 0.6010001211248287,
+          "expected_unsafe_active": 0.014412500952435528,
+          "expected_conditional_unsafe": 0.02398086197630238,
+          "expected_correct_requests": 0.4081912426091499
+        },
+        {
+          "posterior_cutoff": 0.9249999999999999,
+          "expected_activity": 0.5689770933982115,
+          "expected_unsafe_active": 0.009980134110988633,
+          "expected_conditional_unsafe": 0.017540484892603243,
+          "expected_correct_requests": 0.38476687903834056
+        },
+        {
+          "posterior_cutoff": 0.95,
+          "expected_activity": 0.5273063658158288,
+          "expected_unsafe_active": 0.005996958016805695,
+          "expected_conditional_unsafe": 0.01137281551214999,
+          "expected_correct_requests": 0.3544177803325093
+        },
+        {
+          "posterior_cutoff": 0.975,
+          "expected_activity": 0.46359961529042987,
+          "expected_unsafe_active": 0.002539262372257172,
+          "expected_conditional_unsafe": 0.00547727454576598,
+          "expected_correct_requests": 0.3085582572636659
+        },
+        {
+          "posterior_cutoff": 0.99,
+          "expected_activity": 0.3917014807284442,
+          "expected_unsafe_active": 0.0008215518892554736,
+          "expected_conditional_unsafe": 0.0020973928608276895,
+          "expected_correct_requests": 0.25773790494700455
+        },
+        {
+          "posterior_cutoff": 0.999,
+          "expected_activity": 0.26171551840163654,
+          "expected_unsafe_active": 4.9626370680932315e-05,
+          "expected_conditional_unsafe": 0.00018961951887306195,
+          "expected_correct_requests": 0.1678444426711843
+        }
+      ],
+      "best_demonstration_at_10_percent": {
+        "posterior_cutoff": 0.675,
+        "expected_activity": 0.7641524481304456,
+        "expected_unsafe_active": 0.07422667799237215,
+        "expected_conditional_unsafe": 0.09713595523245801,
+        "expected_correct_requests": 0.5288895378203866
+      }
+    }
+  },
+  "scope": "Descriptive two-hypothesis policy assumes the true pair of means and the true feasible sets are known for each mother. Only the label within that pair is hidden. Uses one sensor alone and analytic expected error over known synthetic groups. Not an estimated or calibrated operating policy."
+}

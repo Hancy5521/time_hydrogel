@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "1750caea8b757a892c74e415dd3390dbeed7f0da55ef00b86adbc5e19ae311d6",
+  "new_distinct_scalar_addresses": 1785,
+  "disjoint_from_scalar_training_addresses": 1785,
+  "distinct_new_witness_tuples": 592,
+  "checked_utc": "2026-11-17T03:55:01.542239+00:00"
+}

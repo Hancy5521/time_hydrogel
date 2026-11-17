@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-17T02:22:10.420412+00:00",
+  "hashes": {
+    "audit_strict_window_gate.py": "19380b0d28895863c234927a0190eca5bb08bdc708f1ef5df90b7fdeedbc53b3",
+    "audit_window_event_policy.py": "fcbb35201d7a539f59545cbc911fa0728ae003428c3b0226ebee44c7364c222b",
+    "STRICT_AUDIT_REGISTERED.json": "00beda95d0fe81354b89a7637b4d6a284e4504e7d00a2fe2bdeecfd4e0018cc9"
+  },
+  "receipt_presence": {
+    "FROZEN.json": false,
+    "CERTIFICATE.json": false,
+    "SCORED.json": false
+  }
+}

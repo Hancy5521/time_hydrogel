@@ -1,0 +1,62 @@
+{
+  "registered_sha256": "6f4a552bd49b42ff2e88e63302d98cdfaf71b8b9d72b36fb3261c29ae329cf31",
+  "audit_scope": "development",
+  "preflight": {
+    "signed_clauses": [
+      "off",
+      "on",
+      "soft",
+      "support",
+      "weak_off"
+    ],
+    "requested_times": [
+      1.8,
+      3.2,
+      4.800000000000001
+    ],
+    "sensor_times": [
+      0.4,
+      0.8
+    ],
+    "registered_hashes_verified": 53,
+    "random_streams": {
+      "fresh_and_previous_generator_initial_states": {
+        "replication_640": 1923,
+        "tight_window": 1193
+      },
+      "duplicates": 0,
+      "continues_exact_pcg64_initial_state_check": true
+    }
+  },
+  "checks": {
+    "development": {
+      "outcomes": {
+        "baseline": null,
+        "alternative": null
+      },
+      "diagnostics": {
+        "feasible_requests": 146,
+        "old_predicted_best_pass_median_given_feasible": 0.5883013954048435,
+        "old_predicted_any_minus_best_median_given_feasible": 0.10568741287307024,
+        "old_predicted_best_below_half_given_actual_feasible": 61,
+        "limiting_true_clause_of_old_wrong_choices": {
+          "off": 103,
+          "on": 53,
+          "soft": 0,
+          "support": 0,
+          "weak_off": 5
+        }
+      },
+      "typed_fields_recomputed": 235,
+      "forecast_method_states_replayed": 1568,
+      "shifted_mothers": 48,
+      "forecast_sha256": "0327440c4444abd26dcf9bf5a4029de8c2f8f02c900c2d8e72dfef8798fea4ca",
+      "score_sha256": "1bdc34e678e730321bb79c438d35829fb077f4fce48cb17fb05c0c419d6b7037"
+    }
+  },
+  "scope_limit": "The archived full-action array for positive-margin expectation is absent. Its posterior_violation choice and score are supplied by the freeze, and their threshold selection, ordinal lower bound, and realized outcomes are independently checked. Raw PVOI quadrature and simulator equations are outside this replay.",
+  "status": "PASS",
+  "started_utc": "2026-11-17T03:52:35.898320+00:00",
+  "completed_utc": "2026-11-17T03:52:36.593780+00:00",
+  "source_sha256": "041df2714409d9828c317e2b76ea57e498a8c34ba9671f3662efd4c7bd1b0703"
+}

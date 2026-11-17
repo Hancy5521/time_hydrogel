@@ -1,0 +1,81 @@
+{
+  "mode": "thin_coupon",
+  "through": "all",
+  "protocol_sha256": "3ade37b0e35257c9957c7b6e7167099b6b44a31f366aa866ff179022183c6400",
+  "eligibility": {
+    "training_mothers": 224,
+    "checked_source_patterns": {
+      "training_source_role": "development",
+      "forecast_generator_excludes_reveal": true,
+      "simulated_outcome_fields_absent_from_witness_output": true,
+      "two_early_witness_times_before_install_end": true,
+      "scope": "Source tree pattern check and receipt replay. Model fitting and witness PDE are not rerun."
+    },
+    "rng": {
+      "full_prospective_addresses_with_realized_roles_subset": {
+        "patch_window_thickness_delivery_replicate_20261117T025235612415Z": 1923,
+        "patch_tight_window_20261117T034850305493Z": 1193,
+        "patch_tight_phase_20261117T035501438587Z": 1193,
+        "patch_tight_thin_coupon_20261117T035923687266Z": 1433
+      },
+      "distinct_initial_states": 5742
+    },
+    "hashed_dependencies": 62
+  },
+  "roles": {
+    "development": {
+      "overview": {
+        "locked_methods": {},
+        "methods": {
+          "standard_depth": {
+            "upper_margin": {
+              "ungated_successes": 57,
+              "considered_cutoffs": 306,
+              "admissible_cutoffs": 0
+            },
+            "posterior_violation": {
+              "ungated_successes": 89,
+              "considered_cutoffs": 306,
+              "admissible_cutoffs": 0
+            }
+          },
+          "thin_depth": {
+            "upper_margin": {
+              "ungated_successes": 55,
+              "considered_cutoffs": 306,
+              "admissible_cutoffs": 0
+            },
+            "posterior_violation": {
+              "ungated_successes": 82,
+              "considered_cutoffs": 306,
+              "admissible_cutoffs": 0
+            }
+          },
+          "thin_electric": {
+            "upper_margin": {
+              "ungated_successes": 74,
+              "considered_cutoffs": 306,
+              "admissible_cutoffs": 0
+            },
+            "posterior_violation": {
+              "ungated_successes": 100,
+              "considered_cutoffs": 306,
+              "admissible_cutoffs": 0
+            }
+          }
+        }
+      },
+      "verified_fields": 96,
+      "mothers": 160,
+      "shifted": 65,
+      "available_requests": 214,
+      "forecast_sha256": "43d5fcadbe7ad7f3cfcfa6218ca276f4324439cc2242fe166737410ada6ccef4",
+      "score_sha256": "edeece2e0f5c6959cce8797c226eb39048dd84bf35b3bc1cf5dda9c777b0799a"
+    }
+  },
+  "status": "PASS",
+  "scope_limit": "Frozen predictions and clauses are audited. Positive-margin risk arrays and full coupon action rankings are not saved, so this replay validates the chosen ranks and threshold selection against frozen inputs without refitting.",
+  "started_utc": "2026-11-17T04:01:57.416411+00:00",
+  "completed_utc": "2026-11-17T04:01:57.879369+00:00",
+  "source_sha256": "d5ef3ca0a41b733ccf52a02fd529027154f28a4ce85bc70120ca47aec987440d"
+}

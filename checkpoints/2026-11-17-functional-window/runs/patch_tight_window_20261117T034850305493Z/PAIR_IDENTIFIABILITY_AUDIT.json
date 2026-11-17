@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-17T03:56:58.255784+00:00",
+  "source_sha256": "f3942684e43732def16c941315dc29ebe9890ccb3d773c30901e2e8f1e68cfd0",
+  "registration_sha256": "6f4a552bd49b42ff2e88e63302d98cdfaf71b8b9d72b36fb3261c29ae329cf31",
+  "scored_sha256": "1bdc34e678e730321bb79c438d35829fb077f4fce48cb17fb05c0c419d6b7037",
+  "counts": {
+    "mothers": 112,
+    "neither_state_has_feasible_candidate": 14,
+    "only_one_state_has_feasible_candidate": 50,
+    "both_feasible_but_requires_different_action": 48,
+    "one_action_can_serve_both": 0
+  },
+  "kinetics_only_water_measurement": "exactly same water field in both paired states, so balanced error .5",
+  "gaussian_assay": {
+    "sigma_log_conductance": 0.08,
+    "signals": {
+      "1.0": {
+        "early_late_dimensionless_times": [
+          0.4,
+          0.8
+        ],
+        "mean_bayes_identification_error_given_relevant_pair": [
+          0.3960740695962073,
+          0.2943488001719753
+        ],
+        "median_expected_separation_sigma_given_relevant_pair": [
+          0.4774056861060194,
+          1.1082787473604083
+        ]
+      },
+      "0.65": {
+        "early_late_dimensionless_times": [
+          0.4,
+          0.8
+        ],
+        "mean_bayes_identification_error_given_relevant_pair": [
+          0.3017046355645605,
+          0.11971703481841459
+        ],
+        "median_expected_separation_sigma_given_relevant_pair": [
+          0.9782479720034987,
+          2.593135767819499
+        ]
+      }
+    }
+  },
+  "scope": "Retrospective optimal binary discrimination with known true simulated means; not a deployed error rate. A .65-thickness witness is a previously untested sensor geometry sensitivity, without material validation."
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-17T02:24:52.783302+00:00",
+  "hashes": {
+    "audit_hidden_bath_feasibility.py": "d52c107e157f683779f03d8c8157a76033197920398bff4e9094bee951dd19be",
+    "audit_window_event_policy.py": "fcbb35201d7a539f59545cbc911fa0728ae003428c3b0226ebee44c7364c222b",
+    "PRESSURE_FEASIBILITY_REGISTERED.json": "16ffd66f4986e829c7cf0e4a6890e7d10c3c5fd0855a5d0ee48892acc7335028"
+  },
+  "receipt_presence": {
+    "FROZEN.json": true,
+    "CERTIFICATE.json": true,
+    "SCORED.json": true
+  }
+}

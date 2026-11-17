@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "afc2fefce5b59f38def2dd285d125c49309c038a26dcb705569e3f80162aab8e",
+  "source_sha256": "bb9c9b4d8ee7a978866d5e8b8db98ee06a18100b100f8d9caf2697d1e481e364",
+  "checked_utc": "2026-11-17T02:30:32.040574+00:00",
+  "distinct_addresses": 2025,
+  "scope": "All possible Bernoulli branch witness addresses, plus parent, mechanism, hydraulic and pressure streams."
+}

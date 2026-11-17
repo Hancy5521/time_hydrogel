@@ -1,0 +1,370 @@
+{
+  "scientific_question": "Can conditional risk be tightened to 10% with an independently certified nonzero activity, and will the same fixed policy survive a service ion law absent from the observation simulator?",
+  "sizes": {
+    "risk_calibration": 48,
+    "test": 36,
+    "shift_calibration": 48,
+    "shift_test": 36
+  },
+  "seeds": {
+    "test": 72000000,
+    "shift_test": 92000000
+  },
+  "number_of_states": 2,
+  "probes": {
+    "low": 0.55,
+    "high": 1.0,
+    "last": 0.9,
+    "first": 0.48,
+    "hydration_times": [
+      0.11,
+      0.24
+    ],
+    "sigma_hydration": 0.016,
+    "sigma_release": 0.016,
+    "sigma_half": 0.025
+  },
+  "truth_mesh": [
+    48,
+    0.0025
+  ],
+  "prediction_mesh": [
+    24,
+    0.01
+  ],
+  "sampling_dt": 0.04,
+  "times_diagnostic": [
+    0.0,
+    0.8,
+    1.6,
+    2.4,
+    3.2,
+    4.8,
+    6.4
+  ],
+  "fixed_action": 4,
+  "held_bin": 5,
+  "risk_weight": 0.05,
+  "continuum_count": 256,
+  "dependence_count": 64,
+  "prior_spans": {
+    "rate_slow": [
+      0.4,
+      0.65
+    ],
+    "rate_fast": [
+      1.2,
+      1.8
+    ],
+    "power": [
+      1.0,
+      2.6
+    ],
+    "loss": [
+      0.01,
+      0.205
+    ],
+    "interface": [
+      0.0,
+      1.75
+    ],
+    "bias": [
+      -1.28,
+      1.28
+    ],
+    "shape": [
+      -0.88,
+      0.88
+    ]
+  },
+  "tau_grid": [
+    0.09,
+    0.125,
+    0.17,
+    0.225,
+    0.29,
+    0.37,
+    0.47,
+    0.59
+  ],
+  "calibration": {
+    "alpha": 0.1,
+    "confidence": 0.95,
+    "selective_families": [
+      0.035,
+      0.08,
+      0.15,
+      0.24
+    ],
+    "selective_target": 0.25,
+    "scale_floor": 0.025,
+    "protocol": "Strict family-wise split-conformal over true synthetic mothers; mechanism-transfer scores descriptive. Selective bounds apply to mother level with at least one accepted choice."
+  },
+  "rules": {
+    "budget": "Both exposure designs have two total-release assays, two hydration reads per coupon and one protected half-inventory assay. No bath read. Properties at action choices remain hidden.",
+    "split": "Different mother and noise seeds for supervised training, development, probability calibration, risk calibration, final tests, and separately identified mechanism calibration.",
+    "controls": "Discrete physical model, continuous physical model, trained direct distribution forest and same-physics-feature distribution forest; same features and held labels for algorithm groups. Shared- and shuffled-trajectory predictions preserve per-time empirical marginals.",
+    "shift": "Held generator uses reversible and inhibited release, state-dependent diffusion and a finite bath. Fitting and native calibration use an irreversible generator. Predictions never get the shift flag or its parameters; optional fresh target risk calibration is labeled separately."
+  },
+  "exchange": {
+    "water_dry_ratio": 0.47,
+    "water_wet_ratio": 1.0,
+    "water_power": 1.45,
+    "ion_dry_ratio": 0.13,
+    "ion_water_power": 1.32,
+    "mobility_half": 1.4,
+    "release_half": 1.1,
+    "rebind": 0.23,
+    "rebind_water_power": 1.25,
+    "extra_capacity": 0.3,
+    "bath_volume_ratio": 0.62,
+    "bath_partition": 0.8
+  },
+  "forest": {
+    "min_leaf": [
+      3,
+      8,
+      14
+    ],
+    "seed": 17201,
+    "development_rule": "minimum held outcome failure, then positive regret, then all-action Brier, then smaller leaf"
+  },
+  "task_path": "runs/patch_reservoir_service_20261116T092535017410Z/REGISTERED.json",
+  "registered_utc": "2026-11-17T02:30:31.718082+00:00",
+  "registered_shanghai": "2026-11-17T10:30:31.718082+08:00",
+  "sources": {
+    "audit_patch_reservoir_service.py": "6e76785827cd4d12c92cc586f4e496caf154c2fc5e588b62ccf8079c2284f58b",
+    "audit_patch_reservoir_study.py": "70b6ee00b80d68c402accb7995843ea1c28f9289856b93c39ae49e1bc85155e6",
+    "gel_reactive_port_kinetic_check.py": "fb98c3532915b8f32415fe8d399329b9e08cc4a4595c3373c6612f0849256323",
+    "gel_reactive_port_study.py": "b97a04671b61b883c338d0784a276129e7235a6e4c4d8e1285e90e8ce4cbcfd5",
+    "gel_reactive_port_timing.py": "d65e0acee1c70cf538e9d63c84688bc4e773885f7ee59a45cd5b26bdbbd59363",
+    "gel_reactive_port_twin_limit.py": "8872b423020bc323a7873c3e6e8fee4ab1481960d4e6f90c06d1be7319616c6b",
+    "gel_reactive_port_uncertain_kinetics.py": "f244912b7c2f1f7d7846b6b72f781d5f900f884c4be36bab0e2c8942abcbabbe",
+    "gel_reactive_ports.py": "be4a420e7536210dad41c554530fd54216e67001935d34e6235da143123a6d0b",
+    "gel_reactive_two_read_assay.py": "288e1ae67307f279ba4bcaebceb6aa5912e317822c0c093d5796e1b044b4c088",
+    "patch_exchange_forward.py": "7327ca7586e4cf0b9ffbec7b59cfffeae9b311bc51cd64e4a2d459144f94eb81",
+    "patch_reservoir_face_bank.py": "afc48ee0002314bd3e9c758d891f7b746a083f6527ba7c1577c279415aadbaf6",
+    "patch_reservoir_joint_bank.py": "ff755d249e387922ded31493e1e77e7c625dbc35fd97d0bdc416b1118ec758e0",
+    "patch_reservoir_service.py": "3bfdaea6db1ef8158f9f5a0e8429e2ddb472e86f1b3956c1fa0479ec4de24163",
+    "patch_window_risk_benchmark.py": "bd488409a63d9400ea9a84c8b1ba69aadc8e7667c962c4dfa98a0711b21a8702",
+    "reservoir_coupon_likelihood.py": "f23ff0ea32e5c62b1bf7820ac30184c62e367616b91489108cbe9e2bb36e6014",
+    "reservoir_joint_observation.py": "a950658c2528e05987172927ce93457ce872a250c846ddadc75a78b9052c485b",
+    "test_window_group_calibration.py": "1ab06929b4a38bec1de41379137de5155a27305344b69c7e49a88b883db6099e",
+    "window_group_calibration.py": "f6e398508ecc4db1c078030713e8d5d6a995df572d444e326cce4b0d7a176d63",
+    "window_risk_baselines.py": "dae99969f0f003942abbf97f50172f265f86645aabf99a8b4cdf1108427757b5",
+    "window_risk_cases.py": "2eb5d13fca706c54497da14d3168682c7152c3acb20b41cfbfa930f89dda17b6",
+    "window_risk_forecasts.py": "94f9061a8a3849402769927d9ea10dda09ec953257104c96af76742c77af0077"
+  },
+  "inputs": {
+    "runs/patch_reservoir_service_20261116T092535017410Z/REGISTERED.json": "4652a571151755abd14c6719953d127cad718d8d0cf37e1135a0ef5f1d2acf04"
+  },
+  "previous": {
+    "checkpoint_local": "0666be6",
+    "checkpoint_public": "a82bbf2971184e2ec216dcd2dd4b95610216b0cc",
+    "review_sha256": "b8794364ae1d9140d56e56a43e1499bcaa592cac2af5c717d45f0e6470a292e1",
+    "distinction": "All earlier held and calibration splits excluded. Existing four abstract requests and nine candidates preserved."
+  },
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "numba": "0.61.0"
+  },
+  "conditions": {
+    "labels": "Complete accepted-by-model truth is simulated, with independent method-of-lines checks. Real uptake/degradation is independently sourced and separately reported.",
+    "calibration_population": "IID parent contexts and independent split seeds within each declared mechanism; outcomes within parent are dependent.",
+    "authenticated_external_documents": "Only source metadata, no response-target reuse in the present synthetic protocol.",
+    "completion_boundary": "Behavior under independent mechanism shift is empirical. All families and confidence bands are model-relative. No clinical or actual material-time deployment conclusion."
+  },
+  "locked_training": "runs/patch_window_reliability_20261116T140429926149Z",
+  "factorization": {
+    "rate_nodes": 24,
+    "power_nodes": 32,
+    "loading_nodes": 128,
+    "qmc_seed": 631771,
+    "bootstrap_seed": 73411,
+    "primary": "All-action Brier and positive regret against the same prior with unconditioned Sobol candidates, 256 process solves per case.",
+    "controls": "Prior-weight 256; discrete 96; same-info frozen direct forest and physics-assisted forest. New mothers, same test mechanisms as development (no new mechanism confirmation).",
+    "decision": "Practical predictive improvement if nominal all-action Brier falls at least .005 with a paired mother-bootstrap interval below zero and mean positive regret does not increase. Shift results descriptive."
+  },
+  "hashes": {
+    "audit_patch_reservoir_service.py": "6e76785827cd4d12c92cc586f4e496caf154c2fc5e588b62ccf8079c2284f58b",
+    "audit_patch_reservoir_study.py": "70b6ee00b80d68c402accb7995843ea1c28f9289856b93c39ae49e1bc85155e6",
+    "calibrate_window_spatial_probe.py": "59eb8c0f140af278c2a36ddf81ecd37c2d008ef6371b964efbfb8c889392b6fc",
+    "check_window_random_streams.py": "bb9c9b4d8ee7a978866d5e8b8db98ee06a18100b100f8d9caf2697d1e481e364",
+    "confirm_loose_window_gate.py": "f407c109f8b8e18537ecc1161273e8636d2b29bbd5c8debe983ac809694cf47b",
+    "confirm_window_event_gate.py": "a884b7c0474ad8a36cb0e1c477707842fd4fcee3afb37d774cfaa139181cafe0",
+    "gel_reactive_port_kinetic_check.py": "fb98c3532915b8f32415fe8d399329b9e08cc4a4595c3373c6612f0849256323",
+    "gel_reactive_port_study.py": "b97a04671b61b883c338d0784a276129e7235a6e4c4d8e1285e90e8ce4cbcfd5",
+    "gel_reactive_port_timing.py": "d65e0acee1c70cf538e9d63c84688bc4e773885f7ee59a45cd5b26bdbbd59363",
+    "gel_reactive_port_twin_limit.py": "8872b423020bc323a7873c3e6e8fee4ab1481960d4e6f90c06d1be7319616c6b",
+    "gel_reactive_port_uncertain_kinetics.py": "f244912b7c2f1f7d7846b6b72f781d5f900f884c4be36bab0e2c8942abcbabbe",
+    "gel_reactive_ports.py": "be4a420e7536210dad41c554530fd54216e67001935d34e6235da143123a6d0b",
+    "gel_reactive_two_read_assay.py": "288e1ae67307f279ba4bcaebceb6aa5912e317822c0c093d5796e1b044b4c088",
+    "patch_exchange_forward.py": "7327ca7586e4cf0b9ffbec7b59cfffeae9b311bc51cd64e4a2d459144f94eb81",
+    "patch_reservoir_face_bank.py": "afc48ee0002314bd3e9c758d891f7b746a083f6527ba7c1577c279415aadbaf6",
+    "patch_reservoir_joint_bank.py": "ff755d249e387922ded31493e1e77e7c625dbc35fd97d0bdc416b1118ec758e0",
+    "patch_reservoir_service.py": "3bfdaea6db1ef8158f9f5a0e8429e2ddb472e86f1b3956c1fa0479ec4de24163",
+    "patch_window_event_study.py": "832c79d5d154770f85dbac2fca5345b6c170a465e2ecc88b16b50f290654e1bf",
+    "patch_window_probe_benchmark.py": "9eb227419f88c0b7af72755a1760e517c8f88d2a18c3eeac5399d74c86d9c65e",
+    "patch_window_risk_benchmark.py": "bd488409a63d9400ea9a84c8b1ba69aadc8e7667c962c4dfa98a0711b21a8702",
+    "patch_window_sampling_benchmark.py": "e4c5e6f1a5ebf5fdc04e7a484df53d24f84c8fbd4814192c53e576f2f30a654e",
+    "reservoir_coupon_likelihood.py": "f23ff0ea32e5c62b1bf7820ac30184c62e367616b91489108cbe9e2bb36e6014",
+    "reservoir_joint_observation.py": "a950658c2528e05987172927ce93457ce872a250c846ddadc75a78b9052c485b",
+    "runs/patch_reservoir_service_20261116T092535017410Z/REGISTERED.json": "4652a571151755abd14c6719953d127cad718d8d0cf37e1135a0ef5f1d2acf04",
+    "runs/patch_window_event_policy_20261117T020807259000Z/FROZEN.json": "2e10c1e45351bdb3c4dd46949f87ef2bd64f484d9742d8732c23425d671b85fb",
+    "runs/patch_window_event_policy_20261117T020807259000Z/POLICY_LOCK.json": "de1338657edbb229ce292d0c4264204cea0cf55039d9ad5c991069eb8bf4e96a",
+    "runs/patch_window_event_policy_20261117T020807259000Z/REGISTERED.json": "6d75230af2741c7c76864d8a30918e226937f45794ac7c6de507dc861d61aff0",
+    "runs/patch_window_factorized_20261116T141618879530Z/REGISTERED.json": "15741d7fbbade64736c14a077edd243d4f71f0ec4889ca49aa6d4d6b1d31114c",
+    "runs/patch_window_factorized_20261116T141618879530Z/SCORED.json": "be756eb9b603f1b86f93fc83e649cb45ab548ae78fb73da43624eb45cce77e99",
+    "runs/patch_window_reliability_20261116T140429926149Z/DEVELOPMENT.json": "5d8dff5e0e4c53d098d13a159072815585cd3871a9c93ef047eaa28050351632",
+    "runs/patch_window_reliability_20261116T140429926149Z/EVALUATED.json": "e0781e9f0c958a711450678b603d7395cf2b25c3113302d45f3aa09f27f7dfbf",
+    "runs/patch_window_reliability_20261116T140429926149Z/REGISTERED.json": "a6862570ecb708a4644863831500c97cffb1d9ea3e6946077e093c0f07d8c057",
+    "runs/patch_window_reliability_20261116T140429926149Z/TRAIN.json": "c61ef86cfbf30fd337d732efe7e12200f81192b5a5a85072857bf729f5a0c379",
+    "runs/patch_window_spatial_calibration_20261116T142630930437Z/REGISTERED.json": "1109ad01ddcabd48fd7f2243b8d4e0936e40fed0f1a98ecabd2116548be38736",
+    "runs/patch_window_spatial_probe_20261116T142236751931Z/REGISTERED.json": "d89b0d57eca7d590c8848b18df55058e9f228bb5a8ccfedd6e7a329e9fa64a5d",
+    "runs/patch_window_spatial_probe_20261116T142236751931Z/SCORED.json": "650f9fb16cb9f16fc15139856f925568d6ccc01a4a96261d7136fd7f5716efc6",
+    "runs/patch_window_strict_risk_20261117T021740642268Z/REGISTERED.json": "05bffc5523cd91ea91f11b89b544880b02bb26dab168e7867bec2a387ad790b9",
+    "test_window_group_calibration.py": "1ab06929b4a38bec1de41379137de5155a27305344b69c7e49a88b883db6099e",
+    "window_event_calibration.py": "68cc99f81e8da06df25fbd7f2185973c1391055cdb551a483f2c38385b40c4b7",
+    "window_event_policy.py": "dc82a1248415e3e0174594f5cf8b9396eafe13d26bc8969c2546cd5f52a2ae0e",
+    "window_factorized_sampling.py": "0136082fa5712bf1e0cfac97225b5a95e81a54a8793c906aa4e63d8ef1f21875",
+    "window_group_calibration.py": "f6e398508ecc4db1c078030713e8d5d6a995df572d444e326cce4b0d7a176d63",
+    "window_risk_baselines.py": "dae99969f0f003942abbf97f50172f265f86645aabf99a8b4cdf1108427757b5",
+    "window_risk_cases.py": "2eb5d13fca706c54497da14d3168682c7152c3acb20b41cfbfa930f89dda17b6",
+    "window_risk_forecasts.py": "94f9061a8a3849402769927d9ea10dda09ec953257104c96af76742c77af0077",
+    "window_spatial_probe.py": "f364c3296eac014786dda1e71e681981aa3c4ce23e43259a6e1cf168e305b6f8"
+  },
+  "spatial_probe": {
+    "times": [
+      0.4,
+      0.8
+    ],
+    "bands": [
+      [
+        0.25,
+        0.5
+      ],
+      [
+        0.25,
+        0.5
+      ]
+    ],
+    "sigma": 0.016,
+    "water_grid": [
+      0.38,
+      0.58,
+      0.8,
+      1.0
+    ],
+    "atoms_per_water": 64,
+    "path_per_observation": 128,
+    "unseen_hydraulics": [
+      [
+        0.35,
+        0.64
+      ],
+      [
+        0.85,
+        2.1
+      ]
+    ],
+    "shift_variation_seed": 17303,
+    "snapshot_noise_seed": 536173,
+    "controls": "All three library arms share 256 paths, inference laws and candidate actions. Bulk and depth each replace the second hydration read on each legacy probe with one nondestructive reading on one nominal same-geometry witness (two witness readings; same times and noise SD). They both see two original thin-coupon hydration readings, two mobilized values and one dry stock value. Original forest and continuum use legacy reads as separate references. Equal-total count: 128 per distinct query \u00d7 2 compared with a reused 256 joint prior. Equal sensor counts do not establish equal wet-lab time or cost.",
+    "primary": "Paired change in shift full-catalogue Brier and frozen-choice success for bulk versus unchanged assay and depth versus bulk. Worth pursuing depth if Brier decreases at least .005 with mother interval below 0 and realized success does not decline. Unscaled, no target calibration or fit. Positive regret and actual catalogue oracle also included. Budget-matched draw comparison in nominal parents has the same criterio as preceding sampling protocol; new seeds are disjoint.",
+    "scope": "Fresh same-law native and new varied non-linear water parameters under independent exchange family. The prediction library contains only irreversible ions and linear effective water diffusivities. No observation of the mechanism label or hydrodynamic parameters. No hidden release or conductivity or traced outcome reused."
+  },
+  "fresh_calibration": {
+    "roles": {
+      "test": "risk_calibration",
+      "shift_test": "shift_calibration"
+    },
+    "bootstrap": 1200,
+    "bootstrap_seed": 76481,
+    "noise_salts": {
+      "risk_calibration": 127103,
+      "test": 163309,
+      "shift_calibration": 179651,
+      "shift_test": 223177
+    },
+    "criteria": "No model fitting or sensor retuning. For each fixed sensor algorithm, report mother-simultaneous upper coverage, width, false sign, accepted requests and unsafe mothers. Use unscaled +90% conformal for prechosen action and catalogue separately. 5% nominal active rate is a descriptive minimum for utility, no conditional rare failure guarantee.",
+    "contexts": "Independent within-mechanism native and exchange-family calibration and test. Shift known to evaluator only. New observation noise and mechanism nuisance seeds in every role.",
+    "reselect": "Among catalogue options with all-window calibrated upper margin <=0 prefer minimum raw P(fail), then median margin, then index. Report this separately from preselected action gating."
+  },
+  "event_roles": {
+    "gate_calibration": {
+      "groups": 416,
+      "shift_fraction": 0.5,
+      "nominal_seed": 413248731,
+      "shift_seed": 413249068,
+      "mechanism_seed": 413249408,
+      "spatial_noise_salt": 2350583,
+      "hydraulic_salt": 9402332
+    },
+    "confirmation": {
+      "groups": 128,
+      "shift_fraction": 0.5,
+      "nominal_seed": 413366020,
+      "shift_seed": 413366357,
+      "mechanism_seed": 413366697,
+      "spatial_noise_salt": 2355382,
+      "hydraulic_salt": 9410251
+    },
+    "hidden_bath_stress": {
+      "groups": 96,
+      "shift_fraction": 1.0,
+      "nominal_seed": 413483309,
+      "shift_seed": 413483646,
+      "mechanism_seed": 413483986,
+      "spatial_noise_salt": 2360181,
+      "hydraulic_salt": 9418170
+    }
+  },
+  "event_settings": {
+    "logistic_c": 0.5,
+    "min_development_mothers": 12,
+    "design_risk": 0.035,
+    "risk_target": 0.1,
+    "activity_target": 0.1,
+    "marginal_target": 0.1,
+    "delta": 0.025,
+    "primary": "No recalibration or refitting of learned ranking coefficients. Select exactly one locked ranking and cutoff by the original independent development choices, now with .035 development target. Then certify a 10% conditional maternal risk and >=10% active mothers on 416 fresh random 50:50 independent mothers.",
+    "other_policies": "Per-method exact calibration outputs are retained descriptively; do not select an alternative among those based on its calibration test. Marginal unsafe control is distinct from conditional risk and has no activity guarantee.",
+    "mechanism": "Mix is IID Bernoulli per mother. The pure exchange stress test repeats all input and candidate choices under one hidden bath modification with no new measurements or calibration. Compare same 96 synthetic mothers under original vs changed dynamics; validation holds only for original registered laws.",
+    "estimates": "Holdout totals and independent mother proportions, zero in accepted failure count does not mean zero physical risk. All risk and utility targets refer only to dimensionless synthetic setup.",
+    "subgroup": "Predeclared as separate intersection-union check for any prevalence of the same two verified mechanism laws. Both offline source strata must pass both conditions for transport claim. No group flag at inference."
+  },
+  "prior_study": "runs/patch_window_event_policy_20261117T020807259000Z",
+  "hidden_bath_stress": {
+    "seed": 921346997,
+    "ranges": {
+      "bath_volume_ratio": [
+        0.24,
+        0.43
+      ],
+      "bath_partition": [
+        1.05,
+        1.27
+      ],
+      "rebind": [
+        0.3,
+        0.39
+      ],
+      "mobility_half": [
+        0.77,
+        1.04
+      ]
+    },
+    "description": "Within the same mass-conserving solver, narrower bath and greater return and binding, alongside stronger mobility suppression. The early short-coupon protocol does not observe these changes in service. No manufacturing dimensions, risk thresholds, or model scores change. This is a model-parameter-family stress, not a new physical validation."
+  },
+  "supersedes_dependent_noise": "runs/patch_window_strict_risk_20261117T021740642268Z/REGISTERED.json",
+  "address_fix": "Choose disjoint witness RNG blocks 20 million addresses apart, census all possible role and branch addresses, new disjoint mother seeds. The 64/72 original training/development roles had no repeated witness addresses and only those outcomes are reused. The replaced calibration/test certificates have no standing.",
+  "replay_loose_policy": {
+    "target": 0.25,
+    "activity": 0.1,
+    "delta": 0.025,
+    "mode": "Same original development-locked 25% rule, independently tested on the same repaired mothers at .025 per risk policy."
+  }
+}

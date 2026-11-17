@@ -1,0 +1,12 @@
+{
+  "protocol_sha256": "6f4a552bd49b42ff2e88e63302d98cdfaf71b8b9d72b36fb3261c29ae329cf31",
+  "checked_utc": "2026-11-17T03:48:50.388519+00:00",
+  "scalar_addresses_with_unused_original_depth_names": 1785,
+  "distinct_witness_tuples": 592,
+  "witness_entropy": 4439796182,
+  "witness_key": [
+    "fixed_entropy",
+    "positive_role_index",
+    "zero_based_mother_index"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-17T03:09:14.010612+00:00",
+  "protocol_sha256": "4072da60f1aae387d1b8c804d56833db629cddc957ac4cb9c6ba302915a702de",
+  "scored_sha256": "482548b23851ceb20966ee66da4bdbd8cf6b120f3d8468bf939ebfb9f42b616f",
+  "source_sha256": "b947f7a77aaeefca20be866af0046116e6a557b63c80f759d531490d76af65cd",
+  "scope": "After-the-fact capacity sensitivity only. No policies changed or assessed.",
+  "results": {
+    "test": {
+      "mothers": 32,
+      "requests": 256,
+      "same_size_choices": 25,
+      "pairs_removed": 351,
+      "grid_capacity": 180,
+      "full_geometry_capacity": 217,
+      "min_equal_size_capacity": 209,
+      "max_equal_size_capacity": 217,
+      "worst_removed_ids": [
+        34,
+        35
+      ],
+      "best_removed_ids": [
+        0,
+        2
+      ]
+    },
+    "shift_test": {
+      "mothers": 32,
+      "requests": 256,
+      "same_size_choices": 25,
+      "pairs_removed": 351,
+      "grid_capacity": 120,
+      "full_geometry_capacity": 187,
+      "min_equal_size_capacity": 160,
+      "max_equal_size_capacity": 187,
+      "worst_removed_ids": [
+        31,
+        32
+      ],
+      "best_removed_ids": [
+        0,
+        2
+      ]
+    }
+  }
+}

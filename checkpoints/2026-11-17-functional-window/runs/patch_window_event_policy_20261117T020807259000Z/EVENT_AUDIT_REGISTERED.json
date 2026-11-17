@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-17T02:10:59.183205+00:00",
+  "shanghai": "2026-11-17T10:10:59.183205+08:00",
+  "upstream_protocol_sha256": "6d75230af2741c7c76864d8a30918e226937f45794ac7c6de507dc861d61aff0",
+  "receipt_presence": {
+    "FROZEN.json": false,
+    "POLICY_LOCK.json": false,
+    "CERTIFICATE.json": false,
+    "SCORED.json": false
+  },
+  "primary_audit": "Reconstruct each frozen action from forecasts and locked coefficients, proposed cutoff and strict rank, and the joint binomial tests. Recompute counts and grouped point utility on confirmation and prevalence shift.",
+  "subgroup_audit": "For the development-locked champion only, test the identical gate on nominal and exchange strata of gate_calibration using known simulator regime only as an evaluator stratum. Primary all-prevalence supplementary claim uses max p for both conditional risk and activity tests across both strata. No optional per-stratum cutoff or alternative selection.",
+  "margin_comparisons": "Same library_depth q90 field on the same calibration and held mothers. Unscaled group max residual rank at alpha=.10, max(0, radius). Baseline 1 preselected Bayes actions; baseline 2 all catalogue with eligible minimum frozen risk, then median signed margin, then action index. Margin bands control unconditional event only under the calibration mixture. No same-calibration selective certification of these fitted baselines.",
+  "utility": "Request counts, successful accepts divided by all requests, unsafe active mothers, feasibility ceiling, positive regret across frozen actions, and observed outcomes per mechanism and prevalence role.",
+  "chronology": "Audit plan fixed before any calibration outcomes read by auditor. Implementation frozen by a separate source hash before any outcome access by auditor. Do not call this a new material confirmation."
+}

@@ -1,0 +1,1098 @@
+{
+  "started_utc": "2026-11-17T02:25:02.017945+00:00",
+  "finished_utc": "2026-11-17T02:25:03.933804+00:00",
+  "study_hashes": {
+    "REGISTERED.json": "05bffc5523cd91ea91f11b89b544880b02bb26dab168e7867bec2a387ad790b9",
+    "FROZEN.json": "290b32f7933a38ea22994c0841dcc0e4cdcb7c0b9c0154f69f530c49a9358bb4",
+    "CERTIFICATE.json": "36c2f8f1168320aa77b60b3a91806f1d7c3cd571d1dfbffdc0b99c3cfd7d0d41",
+    "SCORED.json": "59b24bf33d15c2b57737db7a319d0b3224ed5d985967a7333a8ed556fbd20a8c",
+    "runs/patch_window_event_policy_20261117T020807259000Z/FROZEN.json": "2e10c1e45351bdb3c4dd46949f87ef2bd64f484d9742d8732c23425d671b85fb",
+    "runs/patch_window_event_policy_20261117T020807259000Z/POLICY_LOCK.json": "de1338657edbb229ce292d0c4264204cea0cf55039d9ad5c991069eb8bf4e96a"
+  },
+  "audit_hashes": {
+    "audit_strict_window_gate.py": "19380b0d28895863c234927a0190eca5bb08bdc708f1ef5df90b7fdeedbc53b3",
+    "audit_window_event_policy.py": "fcbb35201d7a539f59545cbc911fa0728ae003428c3b0226ebee44c7364c222b",
+    "STRICT_AUDIT_REGISTERED.json": "00beda95d0fe81354b89a7637b4d6a284e4504e7d00a2fe2bdeecfd4e0018cc9"
+  },
+  "passed": true,
+  "results": {
+    "primary": "outcome_score",
+    "same_response_coefficients_as_original": true,
+    "variants": {
+      "posterior_probability": {
+        "locked_cutoff": null,
+        "calibration": {
+          "mothers": 416,
+          "requests": 3328,
+          "active_mothers": 0,
+          "unsafe_mothers": 0,
+          "accepted_requests": 0,
+          "unsafe_accepted_requests": 0,
+          "successful_requests": 0,
+          "requests_with_feasible_action": 2026,
+          "raw_successes": 1773,
+          "active_fraction": 0.0,
+          "unsafe_fraction": 0.0,
+          "unsafe_given_active": null,
+          "risk_p": 1.0,
+          "activity_p": 1.0000000000000115,
+          "joint_p": 1.0000000000000115,
+          "certified": false,
+          "individual_risk_upper": 1.0,
+          "individual_activity_lower": 0.0
+        },
+        "marginal": {
+          "alpha": 0.1,
+          "delta": null,
+          "guarantee": "exchangeable_marginal",
+          "rank": 41,
+          "groups": 416,
+          "finite_critical_scores": 403,
+          "decision": "strict_lt",
+          "threshold": 0.09393500376150907
+        },
+        "observed_test": {
+          "confirmation": {
+            "locked": {
+              "mothers": 128,
+              "requests": 1024,
+              "active_mothers": 0,
+              "unsafe_mothers": 0,
+              "accepted_requests": 0,
+              "unsafe_accepted_requests": 0,
+              "successful_requests": 0,
+              "requests_with_feasible_action": 636,
+              "raw_successes": 555,
+              "active_fraction": 0.0,
+              "unsafe_fraction": 0.0,
+              "unsafe_given_active": null,
+              "positive_regret_all_frozen_actions": 0.013554865007230544,
+              "successful_issued_per_request": 0.0,
+              "strata": {
+                "irreversible": {
+                  "mothers": 62,
+                  "requests": 496,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 338,
+                  "raw_successes": 286,
+                  "active_fraction": 0.0,
+                  "unsafe_fraction": 0.0,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 66,
+                  "requests": 528,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 298,
+                  "raw_successes": 269,
+                  "active_fraction": 0.0,
+                  "unsafe_fraction": 0.0,
+                  "unsafe_given_active": null
+                }
+              }
+            },
+            "marginal": {
+              "mothers": 128,
+              "requests": 1024,
+              "active_mothers": 105,
+              "unsafe_mothers": 15,
+              "accepted_requests": 371,
+              "unsafe_accepted_requests": 33,
+              "successful_requests": 338,
+              "requests_with_feasible_action": 636,
+              "raw_successes": 555,
+              "active_fraction": 0.8203125,
+              "unsafe_fraction": 0.1171875,
+              "unsafe_given_active": 0.14285714285714285,
+              "positive_regret_all_frozen_actions": 0.013554865007230544,
+              "successful_issued_per_request": 0.330078125,
+              "strata": {
+                "irreversible": {
+                  "mothers": 62,
+                  "requests": 496,
+                  "active_mothers": 53,
+                  "unsafe_mothers": 10,
+                  "accepted_requests": 196,
+                  "unsafe_accepted_requests": 26,
+                  "successful_requests": 170,
+                  "requests_with_feasible_action": 338,
+                  "raw_successes": 286,
+                  "active_fraction": 0.8548387096774194,
+                  "unsafe_fraction": 0.16129032258064516,
+                  "unsafe_given_active": 0.18867924528301888
+                },
+                "exchange": {
+                  "mothers": 66,
+                  "requests": 528,
+                  "active_mothers": 52,
+                  "unsafe_mothers": 5,
+                  "accepted_requests": 175,
+                  "unsafe_accepted_requests": 7,
+                  "successful_requests": 168,
+                  "requests_with_feasible_action": 298,
+                  "raw_successes": 269,
+                  "active_fraction": 0.7878787878787878,
+                  "unsafe_fraction": 0.07575757575757576,
+                  "unsafe_given_active": 0.09615384615384616
+                }
+              }
+            }
+          },
+          "hidden_bath_stress": {
+            "locked": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 0,
+              "unsafe_mothers": 0,
+              "accepted_requests": 0,
+              "unsafe_accepted_requests": 0,
+              "successful_requests": 0,
+              "requests_with_feasible_action": 413,
+              "raw_successes": 373,
+              "active_fraction": 0.0,
+              "unsafe_fraction": 0.0,
+              "unsafe_given_active": null,
+              "positive_regret_all_frozen_actions": 0.00957881227178411,
+              "successful_issued_per_request": 0.0,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 413,
+                  "raw_successes": 373,
+                  "active_fraction": 0.0,
+                  "unsafe_fraction": 0.0,
+                  "unsafe_given_active": null
+                }
+              }
+            },
+            "marginal": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 65,
+              "unsafe_mothers": 8,
+              "accepted_requests": 194,
+              "unsafe_accepted_requests": 16,
+              "successful_requests": 178,
+              "requests_with_feasible_action": 413,
+              "raw_successes": 373,
+              "active_fraction": 0.6770833333333334,
+              "unsafe_fraction": 0.08333333333333333,
+              "unsafe_given_active": 0.12307692307692308,
+              "positive_regret_all_frozen_actions": 0.00957881227178411,
+              "successful_issued_per_request": 0.23177083333333334,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 65,
+                  "unsafe_mothers": 8,
+                  "accepted_requests": 194,
+                  "unsafe_accepted_requests": 16,
+                  "successful_requests": 178,
+                  "requests_with_feasible_action": 413,
+                  "raw_successes": 373,
+                  "active_fraction": 0.6770833333333334,
+                  "unsafe_fraction": 0.08333333333333333,
+                  "unsafe_given_active": 0.12307692307692308
+                }
+              }
+            }
+          },
+          "changed_bath": {
+            "locked": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 0,
+              "unsafe_mothers": 0,
+              "accepted_requests": 0,
+              "unsafe_accepted_requests": 0,
+              "successful_requests": 0,
+              "requests_with_feasible_action": 414,
+              "raw_successes": 379,
+              "active_fraction": 0.0,
+              "unsafe_fraction": 0.0,
+              "unsafe_given_active": null,
+              "positive_regret_all_frozen_actions": 0.009423749958268317,
+              "successful_issued_per_request": 0.0,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 414,
+                  "raw_successes": 379,
+                  "active_fraction": 0.0,
+                  "unsafe_fraction": 0.0,
+                  "unsafe_given_active": null
+                }
+              }
+            },
+            "marginal": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 65,
+              "unsafe_mothers": 7,
+              "accepted_requests": 194,
+              "unsafe_accepted_requests": 12,
+              "successful_requests": 182,
+              "requests_with_feasible_action": 414,
+              "raw_successes": 379,
+              "active_fraction": 0.6770833333333334,
+              "unsafe_fraction": 0.07291666666666667,
+              "unsafe_given_active": 0.1076923076923077,
+              "positive_regret_all_frozen_actions": 0.009423749958268317,
+              "successful_issued_per_request": 0.23697916666666666,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 65,
+                  "unsafe_mothers": 7,
+                  "accepted_requests": 194,
+                  "unsafe_accepted_requests": 12,
+                  "successful_requests": 182,
+                  "requests_with_feasible_action": 414,
+                  "raw_successes": 379,
+                  "active_fraction": 0.6770833333333334,
+                  "unsafe_fraction": 0.07291666666666667,
+                  "unsafe_given_active": 0.1076923076923077
+                }
+              }
+            }
+          }
+        },
+        "counterfactual_flips": {
+          "locked": {
+            "accepted_request_flips": {
+              "became_unsafe": 0,
+              "became_safe": 0
+            },
+            "active_mother_flips": {
+              "became_unsafe": 0,
+              "became_safe": 0
+            }
+          },
+          "marginal": {
+            "accepted_request_flips": {
+              "became_unsafe": 0,
+              "became_safe": 4
+            },
+            "active_mother_flips": {
+              "became_unsafe": 0,
+              "became_safe": 1
+            }
+          }
+        }
+      },
+      "upper_margin": {
+        "locked_cutoff": -0.2693944506378441,
+        "calibration": {
+          "mothers": 416,
+          "requests": 3328,
+          "active_mothers": 62,
+          "unsafe_mothers": 2,
+          "accepted_requests": 115,
+          "unsafe_accepted_requests": 2,
+          "successful_requests": 113,
+          "requests_with_feasible_action": 2026,
+          "raw_successes": 1802,
+          "active_fraction": 0.14903846153846154,
+          "unsafe_fraction": 0.004807692307692308,
+          "unsafe_given_active": 0.03225806451612903,
+          "risk_p": 0.045464360587835186,
+          "activity_p": 0.0010358597574543246,
+          "joint_p": 0.045464360587835186,
+          "certified": true,
+          "individual_risk_upper": 0.09808368159210062,
+          "individual_activity_lower": 0.12104379936748311
+        },
+        "marginal": {
+          "alpha": 0.1,
+          "delta": null,
+          "guarantee": "exchangeable_marginal",
+          "rank": 41,
+          "groups": 416,
+          "finite_critical_scores": 405,
+          "decision": "strict_lt",
+          "threshold": -0.0030606773037880454
+        },
+        "observed_test": {
+          "confirmation": {
+            "locked": {
+              "mothers": 128,
+              "requests": 1024,
+              "active_mothers": 25,
+              "unsafe_mothers": 0,
+              "accepted_requests": 54,
+              "unsafe_accepted_requests": 0,
+              "successful_requests": 54,
+              "requests_with_feasible_action": 636,
+              "raw_successes": 573,
+              "active_fraction": 0.1953125,
+              "unsafe_fraction": 0.0,
+              "unsafe_given_active": 0.0,
+              "positive_regret_all_frozen_actions": 0.016689250654656738,
+              "successful_issued_per_request": 0.052734375,
+              "strata": {
+                "irreversible": {
+                  "mothers": 62,
+                  "requests": 496,
+                  "active_mothers": 10,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 22,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 22,
+                  "requests_with_feasible_action": 338,
+                  "raw_successes": 299,
+                  "active_fraction": 0.16129032258064516,
+                  "unsafe_fraction": 0.0,
+                  "unsafe_given_active": 0.0
+                },
+                "exchange": {
+                  "mothers": 66,
+                  "requests": 528,
+                  "active_mothers": 15,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 32,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 32,
+                  "requests_with_feasible_action": 298,
+                  "raw_successes": 274,
+                  "active_fraction": 0.22727272727272727,
+                  "unsafe_fraction": 0.0,
+                  "unsafe_given_active": 0.0
+                }
+              }
+            },
+            "marginal": {
+              "mothers": 128,
+              "requests": 1024,
+              "active_mothers": 105,
+              "unsafe_mothers": 14,
+              "accepted_requests": 371,
+              "unsafe_accepted_requests": 26,
+              "successful_requests": 345,
+              "requests_with_feasible_action": 636,
+              "raw_successes": 573,
+              "active_fraction": 0.8203125,
+              "unsafe_fraction": 0.109375,
+              "unsafe_given_active": 0.13333333333333333,
+              "positive_regret_all_frozen_actions": 0.016689250654656738,
+              "successful_issued_per_request": 0.3369140625,
+              "strata": {
+                "irreversible": {
+                  "mothers": 62,
+                  "requests": 496,
+                  "active_mothers": 53,
+                  "unsafe_mothers": 10,
+                  "accepted_requests": 197,
+                  "unsafe_accepted_requests": 21,
+                  "successful_requests": 176,
+                  "requests_with_feasible_action": 338,
+                  "raw_successes": 299,
+                  "active_fraction": 0.8548387096774194,
+                  "unsafe_fraction": 0.16129032258064516,
+                  "unsafe_given_active": 0.18867924528301888
+                },
+                "exchange": {
+                  "mothers": 66,
+                  "requests": 528,
+                  "active_mothers": 52,
+                  "unsafe_mothers": 4,
+                  "accepted_requests": 174,
+                  "unsafe_accepted_requests": 5,
+                  "successful_requests": 169,
+                  "requests_with_feasible_action": 298,
+                  "raw_successes": 274,
+                  "active_fraction": 0.7878787878787878,
+                  "unsafe_fraction": 0.06060606060606061,
+                  "unsafe_given_active": 0.07692307692307693
+                }
+              }
+            }
+          },
+          "hidden_bath_stress": {
+            "locked": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 13,
+              "unsafe_mothers": 1,
+              "accepted_requests": 22,
+              "unsafe_accepted_requests": 2,
+              "successful_requests": 20,
+              "requests_with_feasible_action": 413,
+              "raw_successes": 372,
+              "active_fraction": 0.13541666666666666,
+              "unsafe_fraction": 0.010416666666666666,
+              "unsafe_given_active": 0.07692307692307693,
+              "positive_regret_all_frozen_actions": 0.017030397567437263,
+              "successful_issued_per_request": 0.026041666666666668,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 13,
+                  "unsafe_mothers": 1,
+                  "accepted_requests": 22,
+                  "unsafe_accepted_requests": 2,
+                  "successful_requests": 20,
+                  "requests_with_feasible_action": 413,
+                  "raw_successes": 372,
+                  "active_fraction": 0.13541666666666666,
+                  "unsafe_fraction": 0.010416666666666666,
+                  "unsafe_given_active": 0.07692307692307693
+                }
+              }
+            },
+            "marginal": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 65,
+              "unsafe_mothers": 8,
+              "accepted_requests": 195,
+              "unsafe_accepted_requests": 14,
+              "successful_requests": 181,
+              "requests_with_feasible_action": 413,
+              "raw_successes": 372,
+              "active_fraction": 0.6770833333333334,
+              "unsafe_fraction": 0.08333333333333333,
+              "unsafe_given_active": 0.12307692307692308,
+              "positive_regret_all_frozen_actions": 0.017030397567437263,
+              "successful_issued_per_request": 0.23567708333333334,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 65,
+                  "unsafe_mothers": 8,
+                  "accepted_requests": 195,
+                  "unsafe_accepted_requests": 14,
+                  "successful_requests": 181,
+                  "requests_with_feasible_action": 413,
+                  "raw_successes": 372,
+                  "active_fraction": 0.6770833333333334,
+                  "unsafe_fraction": 0.08333333333333333,
+                  "unsafe_given_active": 0.12307692307692308
+                }
+              }
+            }
+          },
+          "changed_bath": {
+            "locked": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 13,
+              "unsafe_mothers": 1,
+              "accepted_requests": 22,
+              "unsafe_accepted_requests": 2,
+              "successful_requests": 20,
+              "requests_with_feasible_action": 414,
+              "raw_successes": 377,
+              "active_fraction": 0.13541666666666666,
+              "unsafe_fraction": 0.010416666666666666,
+              "unsafe_given_active": 0.07692307692307693,
+              "positive_regret_all_frozen_actions": 0.01696998659815128,
+              "successful_issued_per_request": 0.026041666666666668,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 13,
+                  "unsafe_mothers": 1,
+                  "accepted_requests": 22,
+                  "unsafe_accepted_requests": 2,
+                  "successful_requests": 20,
+                  "requests_with_feasible_action": 414,
+                  "raw_successes": 377,
+                  "active_fraction": 0.13541666666666666,
+                  "unsafe_fraction": 0.010416666666666666,
+                  "unsafe_given_active": 0.07692307692307693
+                }
+              }
+            },
+            "marginal": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 65,
+              "unsafe_mothers": 8,
+              "accepted_requests": 195,
+              "unsafe_accepted_requests": 11,
+              "successful_requests": 184,
+              "requests_with_feasible_action": 414,
+              "raw_successes": 377,
+              "active_fraction": 0.6770833333333334,
+              "unsafe_fraction": 0.08333333333333333,
+              "unsafe_given_active": 0.12307692307692308,
+              "positive_regret_all_frozen_actions": 0.01696998659815128,
+              "successful_issued_per_request": 0.23958333333333334,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 65,
+                  "unsafe_mothers": 8,
+                  "accepted_requests": 195,
+                  "unsafe_accepted_requests": 11,
+                  "successful_requests": 184,
+                  "requests_with_feasible_action": 414,
+                  "raw_successes": 377,
+                  "active_fraction": 0.6770833333333334,
+                  "unsafe_fraction": 0.08333333333333333,
+                  "unsafe_given_active": 0.12307692307692308
+                }
+              }
+            }
+          }
+        },
+        "counterfactual_flips": {
+          "locked": {
+            "accepted_request_flips": {
+              "became_unsafe": 0,
+              "became_safe": 0
+            },
+            "active_mother_flips": {
+              "became_unsafe": 0,
+              "became_safe": 0
+            }
+          },
+          "marginal": {
+            "accepted_request_flips": {
+              "became_unsafe": 1,
+              "became_safe": 4
+            },
+            "active_mother_flips": {
+              "became_unsafe": 1,
+              "became_safe": 1
+            }
+          }
+        }
+      },
+      "outcome_score": {
+        "locked_cutoff": -3.330986722373687,
+        "calibration": {
+          "mothers": 416,
+          "requests": 3328,
+          "active_mothers": 174,
+          "unsafe_mothers": 7,
+          "accepted_requests": 415,
+          "unsafe_accepted_requests": 9,
+          "successful_requests": 406,
+          "requests_with_feasible_action": 2026,
+          "raw_successes": 1803,
+          "active_fraction": 0.4182692307692308,
+          "unsafe_fraction": 0.016826923076923076,
+          "unsafe_given_active": 0.040229885057471264,
+          "risk_p": 0.0029700682668199847,
+          "activity_p": 2.5173296272400816e-64,
+          "joint_p": 0.0029700682668199847,
+          "certified": true,
+          "individual_risk_upper": 0.07423252179403478,
+          "individual_activity_lower": 0.3778147489298809
+        },
+        "marginal": {
+          "alpha": 0.1,
+          "delta": null,
+          "guarantee": "exchangeable_marginal",
+          "rank": 41,
+          "groups": 416,
+          "finite_critical_scores": 404,
+          "decision": "strict_lt",
+          "threshold": -1.813325120282654
+        },
+        "observed_test": {
+          "confirmation": {
+            "locked": {
+              "mothers": 128,
+              "requests": 1024,
+              "active_mothers": 49,
+              "unsafe_mothers": 1,
+              "accepted_requests": 129,
+              "unsafe_accepted_requests": 2,
+              "successful_requests": 127,
+              "requests_with_feasible_action": 636,
+              "raw_successes": 575,
+              "active_fraction": 0.3828125,
+              "unsafe_fraction": 0.0078125,
+              "unsafe_given_active": 0.02040816326530612,
+              "positive_regret_all_frozen_actions": 0.009957463286583021,
+              "successful_issued_per_request": 0.1240234375,
+              "strata": {
+                "irreversible": {
+                  "mothers": 62,
+                  "requests": 496,
+                  "active_mothers": 25,
+                  "unsafe_mothers": 1,
+                  "accepted_requests": 63,
+                  "unsafe_accepted_requests": 2,
+                  "successful_requests": 61,
+                  "requests_with_feasible_action": 338,
+                  "raw_successes": 299,
+                  "active_fraction": 0.4032258064516129,
+                  "unsafe_fraction": 0.016129032258064516,
+                  "unsafe_given_active": 0.04
+                },
+                "exchange": {
+                  "mothers": 66,
+                  "requests": 528,
+                  "active_mothers": 24,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 66,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 66,
+                  "requests_with_feasible_action": 298,
+                  "raw_successes": 276,
+                  "active_fraction": 0.36363636363636365,
+                  "unsafe_fraction": 0.0,
+                  "unsafe_given_active": 0.0
+                }
+              }
+            },
+            "marginal": {
+              "mothers": 128,
+              "requests": 1024,
+              "active_mothers": 103,
+              "unsafe_mothers": 13,
+              "accepted_requests": 378,
+              "unsafe_accepted_requests": 25,
+              "successful_requests": 353,
+              "requests_with_feasible_action": 636,
+              "raw_successes": 575,
+              "active_fraction": 0.8046875,
+              "unsafe_fraction": 0.1015625,
+              "unsafe_given_active": 0.1262135922330097,
+              "positive_regret_all_frozen_actions": 0.009957463286583021,
+              "successful_issued_per_request": 0.3447265625,
+              "strata": {
+                "irreversible": {
+                  "mothers": 62,
+                  "requests": 496,
+                  "active_mothers": 52,
+                  "unsafe_mothers": 9,
+                  "accepted_requests": 198,
+                  "unsafe_accepted_requests": 20,
+                  "successful_requests": 178,
+                  "requests_with_feasible_action": 338,
+                  "raw_successes": 299,
+                  "active_fraction": 0.8387096774193549,
+                  "unsafe_fraction": 0.14516129032258066,
+                  "unsafe_given_active": 0.17307692307692307
+                },
+                "exchange": {
+                  "mothers": 66,
+                  "requests": 528,
+                  "active_mothers": 51,
+                  "unsafe_mothers": 4,
+                  "accepted_requests": 180,
+                  "unsafe_accepted_requests": 5,
+                  "successful_requests": 175,
+                  "requests_with_feasible_action": 298,
+                  "raw_successes": 276,
+                  "active_fraction": 0.7727272727272727,
+                  "unsafe_fraction": 0.06060606060606061,
+                  "unsafe_given_active": 0.0784313725490196
+                }
+              }
+            }
+          },
+          "hidden_bath_stress": {
+            "locked": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 32,
+              "unsafe_mothers": 1,
+              "accepted_requests": 76,
+              "unsafe_accepted_requests": 2,
+              "successful_requests": 74,
+              "requests_with_feasible_action": 413,
+              "raw_successes": 372,
+              "active_fraction": 0.3333333333333333,
+              "unsafe_fraction": 0.010416666666666666,
+              "unsafe_given_active": 0.03125,
+              "positive_regret_all_frozen_actions": 0.00856792986948284,
+              "successful_issued_per_request": 0.09635416666666667,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 32,
+                  "unsafe_mothers": 1,
+                  "accepted_requests": 76,
+                  "unsafe_accepted_requests": 2,
+                  "successful_requests": 74,
+                  "requests_with_feasible_action": 413,
+                  "raw_successes": 372,
+                  "active_fraction": 0.3333333333333333,
+                  "unsafe_fraction": 0.010416666666666666,
+                  "unsafe_given_active": 0.03125
+                }
+              }
+            },
+            "marginal": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 71,
+              "unsafe_mothers": 8,
+              "accepted_requests": 211,
+              "unsafe_accepted_requests": 14,
+              "successful_requests": 197,
+              "requests_with_feasible_action": 413,
+              "raw_successes": 372,
+              "active_fraction": 0.7395833333333334,
+              "unsafe_fraction": 0.08333333333333333,
+              "unsafe_given_active": 0.11267605633802817,
+              "positive_regret_all_frozen_actions": 0.00856792986948284,
+              "successful_issued_per_request": 0.2565104166666667,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 71,
+                  "unsafe_mothers": 8,
+                  "accepted_requests": 211,
+                  "unsafe_accepted_requests": 14,
+                  "successful_requests": 197,
+                  "requests_with_feasible_action": 413,
+                  "raw_successes": 372,
+                  "active_fraction": 0.7395833333333334,
+                  "unsafe_fraction": 0.08333333333333333,
+                  "unsafe_given_active": 0.11267605633802817
+                }
+              }
+            }
+          },
+          "changed_bath": {
+            "locked": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 32,
+              "unsafe_mothers": 1,
+              "accepted_requests": 76,
+              "unsafe_accepted_requests": 2,
+              "successful_requests": 74,
+              "requests_with_feasible_action": 414,
+              "raw_successes": 380,
+              "active_fraction": 0.3333333333333333,
+              "unsafe_fraction": 0.010416666666666666,
+              "unsafe_given_active": 0.03125,
+              "positive_regret_all_frozen_actions": 0.008546628880293809,
+              "successful_issued_per_request": 0.09635416666666667,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 32,
+                  "unsafe_mothers": 1,
+                  "accepted_requests": 76,
+                  "unsafe_accepted_requests": 2,
+                  "successful_requests": 74,
+                  "requests_with_feasible_action": 414,
+                  "raw_successes": 380,
+                  "active_fraction": 0.3333333333333333,
+                  "unsafe_fraction": 0.010416666666666666,
+                  "unsafe_given_active": 0.03125
+                }
+              }
+            },
+            "marginal": {
+              "mothers": 96,
+              "requests": 768,
+              "active_mothers": 71,
+              "unsafe_mothers": 6,
+              "accepted_requests": 211,
+              "unsafe_accepted_requests": 10,
+              "successful_requests": 201,
+              "requests_with_feasible_action": 414,
+              "raw_successes": 380,
+              "active_fraction": 0.7395833333333334,
+              "unsafe_fraction": 0.0625,
+              "unsafe_given_active": 0.08450704225352113,
+              "positive_regret_all_frozen_actions": 0.008546628880293809,
+              "successful_issued_per_request": 0.26171875,
+              "strata": {
+                "irreversible": {
+                  "mothers": 0,
+                  "requests": 0,
+                  "active_mothers": 0,
+                  "unsafe_mothers": 0,
+                  "accepted_requests": 0,
+                  "unsafe_accepted_requests": 0,
+                  "successful_requests": 0,
+                  "requests_with_feasible_action": 0,
+                  "raw_successes": 0,
+                  "active_fraction": null,
+                  "unsafe_fraction": null,
+                  "unsafe_given_active": null
+                },
+                "exchange": {
+                  "mothers": 96,
+                  "requests": 768,
+                  "active_mothers": 71,
+                  "unsafe_mothers": 6,
+                  "accepted_requests": 211,
+                  "unsafe_accepted_requests": 10,
+                  "successful_requests": 201,
+                  "requests_with_feasible_action": 414,
+                  "raw_successes": 380,
+                  "active_fraction": 0.7395833333333334,
+                  "unsafe_fraction": 0.0625,
+                  "unsafe_given_active": 0.08450704225352113
+                }
+              }
+            }
+          }
+        },
+        "counterfactual_flips": {
+          "locked": {
+            "accepted_request_flips": {
+              "became_unsafe": 0,
+              "became_safe": 0
+            },
+            "active_mother_flips": {
+              "became_unsafe": 0,
+              "became_safe": 0
+            }
+          },
+          "marginal": {
+            "accepted_request_flips": {
+              "became_unsafe": 0,
+              "became_safe": 4
+            },
+            "active_mother_flips": {
+              "became_unsafe": 0,
+              "became_safe": 2
+            }
+          }
+        }
+      }
+    },
+    "all_prevalences": {
+      "laws": {
+        "irreversible": {
+          "mothers": 193,
+          "requests": 1544,
+          "active_mothers": 89,
+          "unsafe_mothers": 7,
+          "accepted_requests": 226,
+          "unsafe_accepted_requests": 9,
+          "successful_requests": 217,
+          "requests_with_feasible_action": 1102,
+          "raw_successes": 937,
+          "active_fraction": 0.46113989637305697,
+          "unsafe_fraction": 0.03626943005181347,
+          "unsafe_given_active": 0.07865168539325842,
+          "risk_p": 0.32368028723963327,
+          "activity_p": 8.053835630867323e-38,
+          "joint_p": 0.32368028723963327,
+          "certified": false,
+          "individual_risk_upper": 0.1426552743134712,
+          "individual_activity_lower": 0.40029015838566373
+        },
+        "exchange": {
+          "mothers": 223,
+          "requests": 1784,
+          "active_mothers": 85,
+          "unsafe_mothers": 0,
+          "accepted_requests": 189,
+          "unsafe_accepted_requests": 0,
+          "successful_requests": 189,
+          "requests_with_feasible_action": 924,
+          "raw_successes": 866,
+          "active_fraction": 0.3811659192825112,
+          "unsafe_fraction": 0.0,
+          "unsafe_given_active": 0.0,
+          "risk_p": 0.00012900700781701054,
+          "activity_p": 7.55655562752011e-29,
+          "joint_p": 0.00012900700781701054,
+          "certified": true,
+          "individual_risk_upper": 0.0346300749706871,
+          "individual_activity_lower": 0.3268561571039623
+        }
+      },
+      "joint_p": 0.32368028723963327,
+      "certified": false
+    },
+    "stable_prediction_digest_by_policy": {
+      "posterior_probability": "6627e62b6e7de1262a47ec50d8086aceb5df859b5169f9b5f360695ff8092879",
+      "upper_margin": "e1122409cc21658cb29ffba4396d056ffb272dd6bbf0399bd34e0706df4f144a",
+      "outcome_score": "09babced15665585a9114b6524e2a3f10ef5c013af427a43134c3ccbf9eea675"
+    },
+    "maximum_inventory_closure_residual": {
+      "gate_calibration": 2.6645352591003757e-15,
+      "confirmation": 2.7755575615628914e-15,
+      "hidden_bath_stress": 2.9976021664879227e-15,
+      "changed_bath": 2.6645352591003757e-15
+    }
+  }
+}

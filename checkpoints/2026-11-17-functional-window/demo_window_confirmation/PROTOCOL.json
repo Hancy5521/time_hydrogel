@@ -1,0 +1,40 @@
+{
+  "study_kind": "synthetic_fixture",
+  "methods": {
+    "global": {
+      "view": "bulk",
+      "artifact_sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    "local": {
+      "view": "depth",
+      "artifact_sha256": "2222222222222222222222222222222222222222222222222222222222222222"
+    }
+  },
+  "calibration_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+  "calibration_mothers": [
+    "development"
+  ],
+  "candidate_ids": [
+    "A",
+    "B"
+  ],
+  "times_s": [
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "time_tolerance_s": 0.5,
+  "witness_times_s": [
+    2,
+    4
+  ],
+  "limits": {
+    "off_siemens": 0.05,
+    "on_siemens": 0.2,
+    "soft_pa": 140.0,
+    "support_pa": 250.0,
+    "weak_siemens": 0.06
+  }
+}

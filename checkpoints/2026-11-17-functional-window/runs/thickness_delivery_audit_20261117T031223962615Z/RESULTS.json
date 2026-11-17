@@ -1,0 +1,123 @@
+{
+  "started_utc": "2026-11-17T03:12:23.962615+00:00",
+  "started_shanghai": "2026-11-17T11:12:23.962615+08:00",
+  "audit_source_sha256": "c470ffa0f80ac23f9b1bbc548f7d34868e9916a0a9ed2b98acfd3d4828a27e7e",
+  "random_addresses": {
+    "potential_address_count": 5991,
+    "duplicate_address_count": 0,
+    "includes_witness_hydraulics_parent_and_mixture_streams": true
+  },
+  "secondary": {
+    "registered_sha256": "e6e2bf50d39cb9a3127730991ac6487a7eec70fe8c69f61cacf8f0f222d78b49",
+    "fit_sha256": "0794c3543d39a9d6c9798baf7355ecb2e12cc7a8dda560972fc79f5ea2c7d6d9",
+    "lock_time_register_utc": "2026-11-17T02:57:40.037371+00:00",
+    "fit_started": "2026-11-17T02:57:41.940160+00:00",
+    "fit_observed_mtime_utc": "2026-11-17T02:57:43.407062+00:00",
+    "replication_outcome_present_when_audited": true,
+    "exact_numeric_values_checked": 72,
+    "max_numeric_difference": 5.88418203051333e-15,
+    "evaluated_sha256": "2bf1c25abdefa32cc09da75701e912804d9655ee155465fd677e481d61cccb84",
+    "results": {
+      "grid25": {
+        "development_cutoff": -2.2194226801813364,
+        "calibration_sums_and_p_values": {
+          "groups": 320,
+          "active_mothers": 231,
+          "unsafe_active_mothers": 16,
+          "accepted_requests": 747,
+          "requests": 2560,
+          "risk_p": 0.06859874140237521,
+          "activity_p": 6.323196830858974e-155,
+          "joint_p": 0.06859874140237521,
+          "certified": false
+        },
+        "held_learned": {
+          "mothers": 320,
+          "requests": 2560,
+          "active_mothers": 235,
+          "unsafe_mothers": 20,
+          "accepted_requests": 770,
+          "unsafe_accepted_requests": 34,
+          "successful_requests": 736,
+          "requests_with_feasible_action": 1703,
+          "raw_successes": 1461,
+          "active_fraction": 0.734375,
+          "unsafe_fraction": 0.0625,
+          "unsafe_given_active": 0.0851063829787234,
+          "unissued_when_frozen_choice_passes": 725
+        },
+        "held_upper_margin": {
+          "mothers": 320,
+          "requests": 2560,
+          "active_mothers": 168,
+          "unsafe_mothers": 14,
+          "accepted_requests": 446,
+          "unsafe_accepted_requests": 28,
+          "successful_requests": 418,
+          "requests_with_feasible_action": 1703,
+          "raw_successes": 1462,
+          "active_fraction": 0.525,
+          "unsafe_fraction": 0.04375,
+          "unsafe_given_active": 0.08333333333333333,
+          "unissued_when_frozen_choice_passes": 1044
+        },
+        "paired_change": 0.12421875,
+        "paired_interval": [
+          0.106640625,
+          0.14180664062499984
+        ]
+      },
+      "thickness27": {
+        "development_cutoff": -2.3748539088441825,
+        "calibration_sums_and_p_values": {
+          "groups": 320,
+          "active_mothers": 263,
+          "unsafe_active_mothers": 26,
+          "accepted_requests": 977,
+          "requests": 2560,
+          "risk_p": 0.5273287198002182,
+          "activity_p": 1.9144230180717333e-202,
+          "joint_p": 0.5273287198002182,
+          "certified": false
+        },
+        "held_learned": {
+          "mothers": 320,
+          "requests": 2560,
+          "active_mothers": 267,
+          "unsafe_mothers": 26,
+          "accepted_requests": 1025,
+          "unsafe_accepted_requests": 41,
+          "successful_requests": 984,
+          "requests_with_feasible_action": 2229,
+          "raw_successes": 1863,
+          "active_fraction": 0.834375,
+          "unsafe_fraction": 0.08125,
+          "unsafe_given_active": 0.09737827715355805,
+          "unissued_when_frozen_choice_passes": 879
+        },
+        "held_upper_margin": {
+          "mothers": 320,
+          "requests": 2560,
+          "active_mothers": 194,
+          "unsafe_mothers": 16,
+          "accepted_requests": 549,
+          "unsafe_accepted_requests": 32,
+          "successful_requests": 517,
+          "requests_with_feasible_action": 2229,
+          "raw_successes": 1785,
+          "active_fraction": 0.60625,
+          "unsafe_fraction": 0.05,
+          "unsafe_given_active": 0.08247422680412371,
+          "unissued_when_frozen_choice_passes": 1268
+        },
+        "paired_change": 0.182421875,
+        "paired_interval": [
+          0.162890625,
+          0.201953125
+        ]
+      }
+    },
+    "calibration_and_confirmation_are_disjoint_by_ordered_mother": true
+  },
+  "completed_utc": "2026-11-17T03:12:26.695121+00:00"
+}

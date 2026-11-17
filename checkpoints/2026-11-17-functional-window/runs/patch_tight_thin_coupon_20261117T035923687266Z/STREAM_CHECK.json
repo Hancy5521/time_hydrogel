@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "3ade37b0e35257c9957c7b6e7167099b6b44a31f366aa866ff179022183c6400",
+  "independent_scalar_addresses": 2145,
+  "witness_addresses_by_role": {
+    "development": 160,
+    "calibration": 360,
+    "confirmation": 192
+  },
+  "fresh_witness_entropy": 5414401081
+}

@@ -1,0 +1,439 @@
+{
+  "started_utc": "2026-11-17T02:25:02.096726+00:00",
+  "finished_utc": "2026-11-17T02:25:02.672959+00:00",
+  "policy": "outcome_score",
+  "hashes": {
+    "REGISTERED.json": "05bffc5523cd91ea91f11b89b544880b02bb26dab168e7867bec2a387ad790b9",
+    "FROZEN.json": "290b32f7933a38ea22994c0841dcc0e4cdcb7c0b9c0154f69f530c49a9358bb4",
+    "SCORED.json": "59b24bf33d15c2b57737db7a319d0b3224ed5d985967a7333a8ed556fbd20a8c",
+    "task_protocol": "4652a571151755abd14c6719953d127cad718d8d0cf37e1135a0ef5f1d2acf04"
+  },
+  "audit_hashes": {
+    "audit_hidden_bath_feasibility.py": "d52c107e157f683779f03d8c8157a76033197920398bff4e9094bee951dd19be",
+    "audit_window_event_policy.py": "fcbb35201d7a539f59545cbc911fa0728ae003428c3b0226ebee44c7364c222b",
+    "PRESSURE_FEASIBILITY_REGISTERED.json": "16ffd66f4986e829c7cf0e4a6890e7d10c3c5fd0855a5d0ee48892acc7335028"
+  },
+  "results": {
+    "mothers": 96,
+    "flat": {
+      "requests": 768,
+      "feasibility": {
+        "common_feasible": 408,
+        "both_feasible_disjoint": 0,
+        "original_only_feasible": 5,
+        "changed_only_feasible": 6,
+        "neither_feasible": 349
+      },
+      "median_robust_best_margin": -0.031611732489194966,
+      "mean_robust_best_positive_margin": 0.17406918466388902,
+      "equal_hidden_world_request_failure_floor": 0.4615885416666667,
+      "issued": 76,
+      "unsafe_original": 2,
+      "unsafe_changed": 2,
+      "became_unsafe": 0,
+      "became_safe": 0,
+      "newly_unsafe_by_feasibility": {
+        "common_feasible": 0,
+        "both_feasible_disjoint": 0,
+        "original_only_feasible": 0,
+        "changed_only_feasible": 0,
+        "neither_feasible": 0
+      }
+    },
+    "by_window": [
+      {
+        "window": 0,
+        "window_definition": {
+          "install_end": 1.0,
+          "work_start": 3.2,
+          "work_end": 4.800000000000001
+        },
+        "requests": 192,
+        "feasibility": {
+          "common_feasible": 54,
+          "both_feasible_disjoint": 0,
+          "original_only_feasible": 0,
+          "changed_only_feasible": 0,
+          "neither_feasible": 138
+        },
+        "median_robust_best_margin": 0.3837366567482123,
+        "mean_robust_best_positive_margin": 0.3144055464716045,
+        "equal_hidden_world_request_failure_floor": 0.71875,
+        "issued": 2,
+        "unsafe_original": 0,
+        "unsafe_changed": 0,
+        "became_unsafe": 0,
+        "became_safe": 0,
+        "newly_unsafe_by_feasibility": {
+          "common_feasible": 0,
+          "both_feasible_disjoint": 0,
+          "original_only_feasible": 0,
+          "changed_only_feasible": 0,
+          "neither_feasible": 0
+        }
+      },
+      {
+        "window": 1,
+        "window_definition": {
+          "install_end": 1.0,
+          "work_start": 4.8,
+          "work_end": 6.4
+        },
+        "requests": 192,
+        "feasibility": {
+          "common_feasible": 156,
+          "both_feasible_disjoint": 0,
+          "original_only_feasible": 2,
+          "changed_only_feasible": 3,
+          "neither_feasible": 31
+        },
+        "median_robust_best_margin": -0.2997304939878487,
+        "mean_robust_best_positive_margin": 0.03262143852220715,
+        "equal_hidden_world_request_failure_floor": 0.17447916666666666,
+        "issued": 40,
+        "unsafe_original": 1,
+        "unsafe_changed": 1,
+        "became_unsafe": 0,
+        "became_safe": 0,
+        "newly_unsafe_by_feasibility": {
+          "common_feasible": 0,
+          "both_feasible_disjoint": 0,
+          "original_only_feasible": 0,
+          "changed_only_feasible": 0,
+          "neither_feasible": 0
+        }
+      },
+      {
+        "window": 2,
+        "window_definition": {
+          "install_end": 1.8,
+          "work_start": 3.2,
+          "work_end": 4.800000000000001
+        },
+        "requests": 192,
+        "feasibility": {
+          "common_feasible": 42,
+          "both_feasible_disjoint": 0,
+          "original_only_feasible": 1,
+          "changed_only_feasible": 0,
+          "neither_feasible": 149
+        },
+        "median_robust_best_margin": 0.3837366567482123,
+        "mean_robust_best_positive_margin": 0.3166283151395372,
+        "equal_hidden_world_request_failure_floor": 0.7786458333333334,
+        "issued": 0,
+        "unsafe_original": 0,
+        "unsafe_changed": 0,
+        "became_unsafe": 0,
+        "became_safe": 0,
+        "newly_unsafe_by_feasibility": {
+          "common_feasible": 0,
+          "both_feasible_disjoint": 0,
+          "original_only_feasible": 0,
+          "changed_only_feasible": 0,
+          "neither_feasible": 0
+        }
+      },
+      {
+        "window": 3,
+        "window_definition": {
+          "install_end": 1.8,
+          "work_start": 4.8,
+          "work_end": 6.4
+        },
+        "requests": 192,
+        "feasibility": {
+          "common_feasible": 156,
+          "both_feasible_disjoint": 0,
+          "original_only_feasible": 2,
+          "changed_only_feasible": 3,
+          "neither_feasible": 31
+        },
+        "median_robust_best_margin": -0.2839112852556216,
+        "mean_robust_best_positive_margin": 0.03262143852220715,
+        "equal_hidden_world_request_failure_floor": 0.17447916666666666,
+        "issued": 34,
+        "unsafe_original": 1,
+        "unsafe_changed": 1,
+        "became_unsafe": 0,
+        "became_safe": 0,
+        "newly_unsafe_by_feasibility": {
+          "common_feasible": 0,
+          "both_feasible_disjoint": 0,
+          "original_only_feasible": 0,
+          "changed_only_feasible": 0,
+          "neither_feasible": 0
+        }
+      }
+    ],
+    "by_state": [
+      {
+        "state": 0,
+        "windows": [
+          {
+            "window": 0,
+            "window_definition": {
+              "install_end": 1.0,
+              "work_start": 3.2,
+              "work_end": 4.800000000000001
+            },
+            "requests": 96,
+            "feasibility": {
+              "common_feasible": 14,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 82
+            },
+            "median_robust_best_margin": 0.5002158028317436,
+            "mean_robust_best_positive_margin": 0.4171958308800417,
+            "equal_hidden_world_request_failure_floor": 0.8541666666666666,
+            "issued": 0,
+            "unsafe_original": 0,
+            "unsafe_changed": 0,
+            "became_unsafe": 0,
+            "became_safe": 0,
+            "newly_unsafe_by_feasibility": {
+              "common_feasible": 0,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 0
+            }
+          },
+          {
+            "window": 1,
+            "window_definition": {
+              "install_end": 1.0,
+              "work_start": 4.8,
+              "work_end": 6.4
+            },
+            "requests": 96,
+            "feasibility": {
+              "common_feasible": 66,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 2,
+              "changed_only_feasible": 0,
+              "neither_feasible": 28
+            },
+            "median_robust_best_margin": -0.23357633770249075,
+            "mean_robust_best_positive_margin": 0.05634092327044654,
+            "equal_hidden_world_request_failure_floor": 0.3020833333333333,
+            "issued": 11,
+            "unsafe_original": 0,
+            "unsafe_changed": 0,
+            "became_unsafe": 0,
+            "became_safe": 0,
+            "newly_unsafe_by_feasibility": {
+              "common_feasible": 0,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 0
+            }
+          },
+          {
+            "window": 2,
+            "window_definition": {
+              "install_end": 1.8,
+              "work_start": 3.2,
+              "work_end": 4.800000000000001
+            },
+            "requests": 96,
+            "feasibility": {
+              "common_feasible": 9,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 1,
+              "changed_only_feasible": 0,
+              "neither_feasible": 86
+            },
+            "median_robust_best_margin": 0.5002158028317436,
+            "mean_robust_best_positive_margin": 0.41883112607836787,
+            "equal_hidden_world_request_failure_floor": 0.9010416666666666,
+            "issued": 0,
+            "unsafe_original": 0,
+            "unsafe_changed": 0,
+            "became_unsafe": 0,
+            "became_safe": 0,
+            "newly_unsafe_by_feasibility": {
+              "common_feasible": 0,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 0
+            }
+          },
+          {
+            "window": 3,
+            "window_definition": {
+              "install_end": 1.8,
+              "work_start": 4.8,
+              "work_end": 6.4
+            },
+            "requests": 96,
+            "feasibility": {
+              "common_feasible": 66,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 2,
+              "changed_only_feasible": 0,
+              "neither_feasible": 28
+            },
+            "median_robust_best_margin": -0.23355155812756181,
+            "mean_robust_best_positive_margin": 0.05634092327044654,
+            "equal_hidden_world_request_failure_floor": 0.3020833333333333,
+            "issued": 5,
+            "unsafe_original": 0,
+            "unsafe_changed": 0,
+            "became_unsafe": 0,
+            "became_safe": 0,
+            "newly_unsafe_by_feasibility": {
+              "common_feasible": 0,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 0
+            }
+          }
+        ]
+      },
+      {
+        "state": 1,
+        "windows": [
+          {
+            "window": 0,
+            "window_definition": {
+              "install_end": 1.0,
+              "work_start": 3.2,
+              "work_end": 4.800000000000001
+            },
+            "requests": 96,
+            "feasibility": {
+              "common_feasible": 40,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 56
+            },
+            "median_robust_best_margin": 0.09436980645353121,
+            "mean_robust_best_positive_margin": 0.2116152620631674,
+            "equal_hidden_world_request_failure_floor": 0.5833333333333334,
+            "issued": 2,
+            "unsafe_original": 0,
+            "unsafe_changed": 0,
+            "became_unsafe": 0,
+            "became_safe": 0,
+            "newly_unsafe_by_feasibility": {
+              "common_feasible": 0,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 0
+            }
+          },
+          {
+            "window": 1,
+            "window_definition": {
+              "install_end": 1.0,
+              "work_start": 4.8,
+              "work_end": 6.4
+            },
+            "requests": 96,
+            "feasibility": {
+              "common_feasible": 90,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 3,
+              "neither_feasible": 3
+            },
+            "median_robust_best_margin": -0.3351840786551695,
+            "mean_robust_best_positive_margin": 0.008901953773967752,
+            "equal_hidden_world_request_failure_floor": 0.046875,
+            "issued": 29,
+            "unsafe_original": 1,
+            "unsafe_changed": 1,
+            "became_unsafe": 0,
+            "became_safe": 0,
+            "newly_unsafe_by_feasibility": {
+              "common_feasible": 0,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 0
+            }
+          },
+          {
+            "window": 2,
+            "window_definition": {
+              "install_end": 1.8,
+              "work_start": 3.2,
+              "work_end": 4.800000000000001
+            },
+            "requests": 96,
+            "feasibility": {
+              "common_feasible": 33,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 63
+            },
+            "median_robust_best_margin": 0.09436980645353121,
+            "mean_robust_best_positive_margin": 0.21442550420070658,
+            "equal_hidden_world_request_failure_floor": 0.65625,
+            "issued": 0,
+            "unsafe_original": 0,
+            "unsafe_changed": 0,
+            "became_unsafe": 0,
+            "became_safe": 0,
+            "newly_unsafe_by_feasibility": {
+              "common_feasible": 0,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 0
+            }
+          },
+          {
+            "window": 3,
+            "window_definition": {
+              "install_end": 1.8,
+              "work_start": 4.8,
+              "work_end": 6.4
+            },
+            "requests": 96,
+            "feasibility": {
+              "common_feasible": 90,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 3,
+              "neither_feasible": 3
+            },
+            "median_robust_best_margin": -0.3156232759001776,
+            "mean_robust_best_positive_margin": 0.008901953773967752,
+            "equal_hidden_world_request_failure_floor": 0.046875,
+            "issued": 29,
+            "unsafe_original": 1,
+            "unsafe_changed": 1,
+            "became_unsafe": 0,
+            "became_safe": 0,
+            "newly_unsafe_by_feasibility": {
+              "common_feasible": 0,
+              "both_feasible_disjoint": 0,
+              "original_only_feasible": 0,
+              "changed_only_feasible": 0,
+              "neither_feasible": 0
+            }
+          }
+        ]
+      }
+    ],
+    "force_all_requests_mother_failure_floor": 0.9479166666666666,
+    "mother_floor_counts": {
+      "0.0": 4,
+      "0.5": 2,
+      "1.0": 90
+    },
+    "locked_mothers_newly_unsafe": 0,
+    "locked_mothers_recovered": 0
+  },
+  "scope": "Two counterfactual laws, identical early inputs and policy; oracle bound within nine registered actions and the 96 mother contexts."
+}

@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-17T02:23:32.435667+00:00",
+  "shanghai": "2026-11-17T10:23:32.435667+08:00",
+  "upstream_protocol_sha256": "05bffc5523cd91ea91f11b89b544880b02bb26dab168e7867bec2a387ad790b9",
+  "receipt_presence": {
+    "FROZEN.json": true,
+    "CERTIFICATE.json": false,
+    "SCORED.json": false
+  },
+  "unit": "Same frozen 96 synthetic exchange mothers in original and hidden-bath worlds. Report each request cross both member states and each window separately, plus combined descriptive counts.",
+  "robust_margin": "For paired known margins on a request, compute max(original,changed) for each action and its minimum over the recorded nine-action catalogue.",
+  "categories": [
+    "common_feasible",
+    "both_feasible_disjoint",
+    "original_only_feasible",
+    "changed_only_feasible",
+    "neither_feasible"
+  ],
+  "transitions": "On the development-locked primary policy, compare shared accepted actions. Count safe-to-unsafe and unsafe-to-safe and tabulate oracle feasibility category among newly unsafe requests.",
+  "lower_bound": "In a hypothetical equal-probability regime for each mother, independent of the same early inputs, any forced-issue policy has expected request failure at least the per-request min over actions of the two failure indicators averaged. Also compute the mother-level failure floor for policies issuing all requests. The oracle sees both counterfactual banks, giving a stronger information set than the policy.",
+  "scope": "Observational ambiguity and finite recorded catalogue, no performance or risk certificate for arbitrary mechanism shift. Do not inspect labels or alter predictions before sealing the arithmetic source."
+}

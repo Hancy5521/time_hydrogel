@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-17T02:19:30.291688+00:00",
+  "shanghai": "2026-11-17T10:19:30.291688+08:00",
+  "upstream_protocol_sha256": "05bffc5523cd91ea91f11b89b544880b02bb26dab168e7867bec2a387ad790b9",
+  "receipt_presence": {
+    "FROZEN.json": false,
+    "CERTIFICATE.json": false,
+    "SCORED.json": false
+  },
+  "methods": [
+    "Independent recomputation of frozen selected actions, scores, ranked marginal threshold and exact binomial tail inversion.",
+    "Reconstruct original-development cutoff using indexed per-request additions to count whole-mother activity and unsafe events. Do not refit the original supervised score.",
+    "Recompute the predeclared intersection-union joint evidence for activation and conditional failure in each calibration mechanism.",
+    "Verify paired hidden-bath counterfactual at identical frozen rows, choices, scores and acceptance masks. Count newly unsafe and recovered mothers and requests, successful issue throughput and positive regret. No policy selection, uncertainty refit or certification on bath stress."
+  ],
+  "scope": "Independent verification and prespecified summary, not additional confirmation or changes to primary results."
+}

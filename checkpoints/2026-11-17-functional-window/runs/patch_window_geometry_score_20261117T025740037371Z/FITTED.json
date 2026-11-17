@@ -1,0 +1,114 @@
+{
+  "registered_sha256": "e6e2bf50d39cb9a3127730991ac6487a7eec70fe8c69f61cacf8f0f222d78b49",
+  "utc": "2026-11-17T02:57:41.940160+00:00",
+  "models": {
+    "grid25": {
+      "coefficient": {
+        "location": [
+          3.3322123688892478,
+          0.31426758142909644,
+          0.4383040556424071,
+          0.12403647421330427,
+          1.0,
+          0.5660000000001949,
+          0.4999999999999999
+        ],
+        "scale": [
+          4.151091609314286,
+          0.3871143913867474,
+          0.3940781448081338,
+          0.1270373354319335,
+          1.0,
+          0.278826110685489,
+          0.2828427124745416
+        ],
+        "weights": [
+          0.5892666359726747,
+          1.4943568844557866,
+          1.3068261961050518,
+          -0.49981694497173057,
+          0.0,
+          -0.11659655262724453,
+          0.07802317840751641
+        ],
+        "intercept": 2.3447265670152877
+      },
+      "primary_cutoff": -2.2194226801813364,
+      "development": {
+        "trained_score": {
+          "thresholds_with_required_groups": 518,
+          "thresholds_below_design_risk": 86,
+          "selected": {
+            "mothers": 72,
+            "requests": 576,
+            "active_mothers": 59,
+            "unsafe_mothers": 2,
+            "accepted_requests": 196,
+            "unsafe_accepted_requests": 3,
+            "successful_requests": 193,
+            "requests_with_feasible_action": 422,
+            "raw_successes": 364,
+            "active_fraction": 0.8194444444444444,
+            "unsafe_fraction": 0.027777777777777776,
+            "unsafe_given_active": 0.03389830508474576,
+            "cutoff": -2.2194226801813364
+          }
+        }
+      }
+    },
+    "thickness27": {
+      "coefficient": {
+        "location": [
+          3.993510532356495,
+          0.4311418032384099,
+          0.5613368624336945,
+          0.13019505919529098,
+          1.0,
+          0.5733333333335332,
+          0.5
+        ],
+        "scale": [
+          3.95764690319454,
+          0.5493075751120848,
+          0.5972632779704661,
+          0.16021400082414358,
+          0.12247448713920059,
+          0.32262809686838445,
+          0.32659863237099024
+        ],
+        "weights": [
+          0.6455676611608292,
+          2.187902000143041,
+          1.8658908935094602,
+          -0.5455392814559922,
+          -0.0005373005587973423,
+          -0.13483565093856628,
+          0.07376417170268448
+        ],
+        "intercept": 3.3457448795128926
+      },
+      "primary_cutoff": -2.3748539088441825,
+      "development": {
+        "trained_score": {
+          "thresholds_with_required_groups": 533,
+          "thresholds_below_design_risk": 213,
+          "selected": {
+            "mothers": 72,
+            "requests": 576,
+            "active_mothers": 63,
+            "unsafe_mothers": 2,
+            "accepted_requests": 238,
+            "unsafe_accepted_requests": 2,
+            "successful_requests": 236,
+            "requests_with_feasible_action": 520,
+            "raw_successes": 450,
+            "active_fraction": 0.875,
+            "unsafe_fraction": 0.027777777777777776,
+            "unsafe_given_active": 0.031746031746031744,
+            "cutoff": -2.3748539088441825
+          }
+        }
+      }
+    }
+  }
+}
