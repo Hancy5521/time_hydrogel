@@ -1,0 +1,90 @@
+{
+  "registered_utc": "2026-11-17T04:37:46.009391+00:00",
+  "registered_shanghai": "2026-11-17T12:37:46.009391+08:00",
+  "roles": {
+    "training": [
+      48,
+      6384452005
+    ],
+    "test_geometry": [
+      36,
+      6384599141
+    ],
+    "test_mechanism": [
+      48,
+      6384692903
+    ]
+  },
+  "source": {
+    "hydraulic_process_transfer_study.py": "a14bfdb99387926451de00e3395ebd1f80ac12aaee90415ecda24a54669b0eea",
+    "learned_hydraulic_closure.py": "e45e101d69bc2380e4bababc2597efa77b682436d8880d0e6b926a71b9bd722a",
+    "patch_exchange_forward.py": "7327ca7586e4cf0b9ffbec7b59cfffeae9b311bc51cd64e4a2d459144f94eb81",
+    "patch_reservoir_joint_bank.py": "ff755d249e387922ded31493e1e77e7c625dbc35fd97d0bdc416b1118ec758e0",
+    "patch_reservoir_face_bank.py": "afc48ee0002314bd3e9c758d891f7b746a083f6527ba7c1577c279415aadbaf6",
+    "patch_reservoir_service.py": "3bfdaea6db1ef8158f9f5a0e8429e2ddb472e86f1b3956c1fa0479ec4de24163",
+    "gel_reactive_port_timing.py": "d65e0acee1c70cf538e9d63c84688bc4e773885f7ee59a45cd5b26bdbbd59363",
+    "gel_reactive_two_read_assay.py": "288e1ae67307f279ba4bcaebceb6aa5912e317822c0c093d5796e1b044b4c088"
+  },
+  "kind": "Synthetic process component benchmark without experimental samples or joint electrical endpoints.",
+  "question": "Can a learned positive hydration-dependent transport law turn sparse witness data into useful space, interpolation and forecasting predictions in a separate geometry?",
+  "train": "High-resolution synthetic fields allowed to all models for the same 48 mothers. Fit the nonconstant law from cumulative face mass balance. For forest use the matching noisy early packets and solution fields.",
+  "held": "Grouped fresh trajectories from SSPRK3 72-cell variable-diffusion solver. Geometry transfer uses thickness scales .78 and 1.22 outside train. Extra regime holds more severe dry transport and contact delay outside fitting law. All arms receive thickness, nominal material diffusivity, commanded film and two noisy water averages from the same thin witness. No actual held hydraulic coefficients or full fields.",
+  "budget": "Witness scale .65. First read .4. A separate .8 packet for spatial and future tests, and a separate 3.2 packet for temporal interpolation. Gaussian error .016; same raw packet across methods.",
+  "predicted_times": [
+    0.0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0,
+    1.2,
+    1.4,
+    1.6,
+    1.8,
+    2.0,
+    2.2,
+    2.4,
+    2.6,
+    2.8,
+    3.0,
+    3.2,
+    3.4,
+    3.6,
+    3.8,
+    4.0,
+    4.2,
+    4.4,
+    4.6,
+    4.8
+  ],
+  "predicted_fields": "Twelve depth-cell means, then near/far layer mean modulus. Continue to 4.8.",
+  "test_geometry": [
+    0.78,
+    0.98,
+    1.22
+  ],
+  "train_geometry": [
+    0.86,
+    1.0,
+    1.14
+  ],
+  "films": [
+    0.42,
+    0.78
+  ],
+  "law_reference_scales": [
+    0.6,
+    0.76,
+    0.92,
+    1.08,
+    1.24
+  ],
+  "film_reference_scales": [
+    0.82,
+    1.0,
+    1.18
+  ],
+  "mechanical_only": "Six candidates, require install late back stiffness >= .91 and work front stiffness <= .79 throughout. Candidate lab choice and mass-closure setup remain separate from the joint electrical time-window problem.",
+  "score": "Mean field absolute error for witness-off-band at .8, between-read main fields, future main fields, and installed/wet layer traces. Also six-action mechanical-only ungated choice and all-action Brier. Report both held populations; primary shifted future MAE versus constant and forest with paired bootstrap.",
+  "bootstrap_seed": 548210
+}

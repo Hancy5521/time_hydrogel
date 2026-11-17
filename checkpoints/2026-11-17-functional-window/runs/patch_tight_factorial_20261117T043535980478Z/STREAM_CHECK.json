@@ -1,0 +1,16 @@
+{
+  "protocol_sha256": "836050ba5cc276ca24f35f5465f5670cd934fe1e14d175a77d30833f3d85f420",
+  "independent_scalar_addresses": 3009,
+  "reference_files": [
+    "runs/patch_tight_thin_coupon_20261117T035923687266Z/REGISTERED.json",
+    "runs/patch_window_thickness_delivery_replicate_20261117T025235612415Z/REGISTERED.json",
+    "runs/patch_tight_window_20261117T034850305493Z/REGISTERED.json",
+    "runs/patch_tight_phase_20261117T035501438587Z/REGISTERED.json"
+  ],
+  "witness_addresses_by_role": {
+    "development": 160,
+    "calibration": 360,
+    "confirmation": 480
+  },
+  "witness_entropy": 6194527117
+}

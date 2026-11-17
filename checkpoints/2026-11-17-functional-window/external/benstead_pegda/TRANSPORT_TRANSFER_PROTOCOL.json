@@ -1,0 +1,12 @@
+{
+  "registered_at_utc": "2026-11-17T04:37:25.729305+00:00",
+  "source_sha256": "b50871afca499ae8d74873260a35cff5338388d1c4e6d52c4c3b53eace697c07",
+  "forecast_script_sha256": "8ff48d228d8765491c3f577f319654053a0814ff567a011c4f87c9bde48925ab",
+  "published_doi": "10.1039/D5DD00523J",
+  "data_doi": "10.5281/zenodo.17238337",
+  "scope": "Retrospective through-membrane transport only. These are separate H-cells, with acquisition date as the maximum confirmed grouping and supplier batch unknown. Observed thickness timing in individual public rows is ambiguous and the article reports using post-experiment thickness for diffusivity, so this is conditional on retrospectively available geometry. No electrical, mount, local field, or causal thickness conclusion.",
+  "inclusion": "Automated PEG25/RB, PEG25/MB and PEG40/AO, the only exact groups with matching paired clocks across multiple dates and no manual run. Require exact shared t=0, two nonzero source points through 18h, one held tail and a unique paired chamber record linked to the test table. Keep P25G00 filename when source trace and table agree; report a sensitivity excluding that filename.",
+  "fields": "Use C_original paired concentrations in uM, volume and radius. Thickness labels conflict with the article; use only ratios of equal-source numbers, never an inferred absolute diffusivity. Published P and D come from full traces and are excluded from all inputs and fits.",
+  "model": "Fit nonnegative log-rate by least squares on normalized donor-minus-receiver at t <= 18 h in each other-date source specimen. For target forecast use only t=0 concentrations, declared thickness, volume and aperture. Predict paired chamber concentrations using a conserved mean and exponential decay. Project each source rate by target-to-source A/V and by (L_source/L_target)^p for p=0,1,2; use median. Test absolute errors on donor and receiver time points t>18h, divide by target initial concentration gap.",
+  "comparisons": "Equal-weight acquisition dates, separately report both channels, held targets whose thickness was absent in remaining dates, and transfer only from thinner other-date cells. No test instance weights, post hoc model selection, or deployment claims. Observe target post-18h data only in scoring."
+}

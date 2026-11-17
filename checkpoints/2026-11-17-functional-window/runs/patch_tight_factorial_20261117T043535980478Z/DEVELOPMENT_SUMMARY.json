@@ -1,0 +1,234 @@
+{
+  "protocol_sha256": "836050ba5cc276ca24f35f5465f5670cd934fe1e14d175a77d30833f3d85f420",
+  "started_utc": "2026-11-17T04:36:29.046191+00:00",
+  "frozen_sha256": "8038299ce5d643689dac473d7e42e8abcdc3c4fcb0d40fd77cd36547133b7b53",
+  "results": {
+    "mothers": 160,
+    "exchange_mothers": 79,
+    "requests_with_at_least_one_feasible_action": 206,
+    "ungated_arms": {
+      "standard_depth": {
+        "requests": 320,
+        "successful_requests": 86,
+        "feasible_but_missed": 120,
+        "limiting_clause_on_feasible_misses": {
+          "off": 57,
+          "on": 63,
+          "soft": 0,
+          "support": 0,
+          "weak_off": 0
+        }
+      },
+      "standard_electric": {
+        "requests": 320,
+        "successful_requests": 84,
+        "feasible_but_missed": 122,
+        "limiting_clause_on_feasible_misses": {
+          "off": 66,
+          "on": 56,
+          "soft": 0,
+          "support": 0,
+          "weak_off": 0
+        }
+      },
+      "thin_depth": {
+        "requests": 320,
+        "successful_requests": 84,
+        "feasible_but_missed": 122,
+        "limiting_clause_on_feasible_misses": {
+          "off": 62,
+          "on": 58,
+          "soft": 0,
+          "support": 0,
+          "weak_off": 2
+        }
+      },
+      "thin_electric": {
+        "requests": 320,
+        "successful_requests": 104,
+        "feasible_but_missed": 102,
+        "limiting_clause_on_feasible_misses": {
+          "off": 53,
+          "on": 48,
+          "soft": 0,
+          "support": 0,
+          "weak_off": 1
+        }
+      }
+    },
+    "paired_contrasts": {
+      "electric_thickness_effect": {
+        "difference": 0.0625,
+        "marginal_ci95": [
+          0.0125,
+          0.1125
+        ],
+        "familywise_bonferroni_ci": [
+          -0.003125,
+          0.128125
+        ],
+        "mothers_improved_tied_worsened": [
+          36,
+          108,
+          16
+        ],
+        "nominal_exchange_effect_descriptive": [
+          0.06790123456790123,
+          0.056962025316455694
+        ]
+      },
+      "depth_thickness_effect": {
+        "difference": -0.00625,
+        "marginal_ci95": [
+          -0.046875,
+          0.034375
+        ],
+        "familywise_bonferroni_ci": [
+          -0.059375,
+          0.046875
+        ],
+        "mothers_improved_tied_worsened": [
+          19,
+          119,
+          22
+        ],
+        "nominal_exchange_effect_descriptive": [
+          0.0,
+          -0.012658227848101266
+        ]
+      },
+      "standard_electric_effect": {
+        "difference": -0.00625,
+        "marginal_ci95": [
+          -0.046875,
+          0.034375
+        ],
+        "familywise_bonferroni_ci": [
+          -0.0625,
+          0.05
+        ],
+        "mothers_improved_tied_worsened": [
+          21,
+          115,
+          24
+        ],
+        "nominal_exchange_effect_descriptive": [
+          -0.030864197530864196,
+          0.0189873417721519
+        ]
+      },
+      "thin_electric_effect": {
+        "difference": 0.0625,
+        "marginal_ci95": [
+          0.0125,
+          0.1125
+        ],
+        "familywise_bonferroni_ci": [
+          -0.003125,
+          0.128125
+        ],
+        "mothers_improved_tied_worsened": [
+          39,
+          102,
+          19
+        ],
+        "nominal_exchange_effect_descriptive": [
+          0.037037037037037035,
+          0.08860759493670886
+        ]
+      },
+      "interaction": {
+        "difference": 0.06875,
+        "marginal_ci95": [
+          0.003125,
+          0.134375
+        ],
+        "familywise_bonferroni_ci": [
+          -0.01875,
+          0.15625
+        ],
+        "mothers_improved_tied_worsened": [
+          44,
+          88,
+          28
+        ],
+        "nominal_exchange_effect_descriptive": [
+          0.06790123456790123,
+          0.06962025316455696
+        ]
+      }
+    },
+    "development_locks": {
+      "standard_depth": {
+        "variants": {
+          "upper_margin": {
+            "thresholds_with_required_groups": 306,
+            "thresholds_below_design_risk": 0,
+            "selected": null
+          },
+          "posterior_violation": {
+            "thresholds_with_required_groups": 306,
+            "thresholds_below_design_risk": 0,
+            "selected": null
+          }
+        },
+        "primary_method": null,
+        "primary_cutoff": null
+      },
+      "standard_electric": {
+        "variants": {
+          "upper_margin": {
+            "thresholds_with_required_groups": 306,
+            "thresholds_below_design_risk": 0,
+            "selected": null
+          },
+          "posterior_violation": {
+            "thresholds_with_required_groups": 306,
+            "thresholds_below_design_risk": 0,
+            "selected": null
+          }
+        },
+        "primary_method": null,
+        "primary_cutoff": null
+      },
+      "thin_depth": {
+        "variants": {
+          "upper_margin": {
+            "thresholds_with_required_groups": 306,
+            "thresholds_below_design_risk": 0,
+            "selected": null
+          },
+          "posterior_violation": {
+            "thresholds_with_required_groups": 306,
+            "thresholds_below_design_risk": 0,
+            "selected": null
+          }
+        },
+        "primary_method": null,
+        "primary_cutoff": null
+      },
+      "thin_electric": {
+        "variants": {
+          "upper_margin": {
+            "thresholds_with_required_groups": 306,
+            "thresholds_below_design_risk": 0,
+            "selected": null
+          },
+          "posterior_violation": {
+            "thresholds_with_required_groups": 306,
+            "thresholds_below_design_risk": 0,
+            "selected": null
+          }
+        },
+        "primary_method": null,
+        "primary_cutoff": null
+      }
+    }
+  },
+  "completed_utc": "2026-11-17T04:36:49.873248+00:00",
+  "source": {
+    "name": "DEVELOPMENT_SCORED.json",
+    "sha256": "62fd52791d9e929016a8166bb95fc7d5a8360ffb67887e86cd411647a76cb32d",
+    "rows_retained_locally": 160
+  }
+}

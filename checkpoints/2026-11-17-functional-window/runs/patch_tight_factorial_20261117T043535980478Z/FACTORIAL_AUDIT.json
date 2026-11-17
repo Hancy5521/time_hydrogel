@@ -1,0 +1,21 @@
+{
+  "ran_utc": "2026-11-17T04:38:57.735425+00:00",
+  "protocol_sha256": "836050ba5cc276ca24f35f5465f5670cd934fe1e14d175a77d30833f3d85f420",
+  "source_sha256": "48869ae7b40796f71579388c4c9101da5caae0472947d950723ca0f25c4d619e",
+  "audited_roles": [
+    "development",
+    "confirmation"
+  ],
+  "passed": true,
+  "independent_checks": [
+    "ancestry",
+    "phase timing",
+    "all action rankings",
+    "all arm counts",
+    "all paired contrast intervals",
+    "gates"
+  ],
+  "development_locked_panels": [],
+  "confirmation_sha256": "3abdd09b96f1915acd52edd0152859cd5436d6f5a40e7a8bb07d14762d803ac4",
+  "scope": "Recomputed scores and ranking from frozen arrays, without replaying model fitting or PDE generation."
+}

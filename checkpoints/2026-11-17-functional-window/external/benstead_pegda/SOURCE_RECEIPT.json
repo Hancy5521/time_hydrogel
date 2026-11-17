@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-11-17T04:39:22.294784+00:00",
+  "citation": "Benstead, Claire; Politi, Maria; Bergsman, David; Pozzo, Lilo. Automated Sampling Workflow for Long-Term Membrane Diffusion Testing Software, UV-Vis Spectra, Labware Designs, and SAXS, Zenodo.",
+  "measurement_article": "https://doi.org/10.1039/D5DD00523J",
+  "data_url": "https://doi.org/10.5281/zenodo.17238337",
+  "source_version": "v1, published February 20, 2026",
+  "rights": "CC BY 4.0",
+  "rights_sources": [
+    "https://zenodo.org/api/records/17238337",
+    "https://api.datacite.org/dois/10.5281/zenodo.17238337"
+  ],
+  "files": [
+    {
+      "path": "Membrane Diffusion Testing.zip",
+      "url": "https://zenodo.org/records/17238337/files/Membrane%20Diffusion%20Testing.zip?download=1",
+      "bytes": 52182,
+      "md5": "92c9c740602a1f274a2e4550ca98409d",
+      "sha256": "b50871afca499ae8d74873260a35cff5338388d1c4e6d52c4c3b53eace697c07",
+      "file_written_utc": "2026-11-17T04:34:00.284076+00:00"
+    },
+    {
+      "path": "ADT_OT2_Analysis.py",
+      "url": "https://zenodo.org/records/17238337/files/ADT_OT2_Analysis.py?download=1",
+      "bytes": 18037,
+      "md5": "f10d33468bd18384c320071a2b93e29f",
+      "sha256": "0803e48103075e8daf12ca79dfe546d7a095ee77c38a1b51404b840d1c63661b",
+      "file_written_utc": "2026-11-17T04:34:02.250967+00:00"
+    }
+  ],
+  "no_local_electrical_assay": true
+}

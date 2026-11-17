@@ -1,0 +1,21 @@
+{
+  "audit_utc": "2026-11-17T04:53:45.238965+00:00",
+  "audit_code_sha256": "0f657774b25b3ea55b17839a0f5b10e474f9f35b8a82da15ef5766915af74334",
+  "passed": true,
+  "protocol_sha256": "0a0d5fb8ceab8dfbaf805ee1a205828471026b7f7852593d01b73eb32d8d8d1f",
+  "freeze_sha256": "ceb2d209d4c24440868ad61b662ba4c27da9196ec595f8f5a0bf6b928d6c0e42",
+  "family_sha256": "963cab50908e8fba896a00068c108b4863992008eb6d3889c163cb959a72d41a",
+  "released_truth_sha256": "10d3b2c5b684c6667978f52f37f9f680d9aa511327d2032af87085732fb7b9bc",
+  "scored_sha256": "d9cdc8abeb6f15364c0d881e6491cf1b3bcda7a48c6f9f6ffa370013d8f00916",
+  "mothers": 128,
+  "frozen_mixture_different_action_requests": 88,
+  "independent_checks": [
+    "mixture ranking",
+    "per-arm Brier",
+    "ungated successes",
+    "paired mother intervals",
+    "mechanism AUC from ranks",
+    "hash and time ordering"
+  ],
+  "scope": "Both pooled policies were reconstructed from frozen inputs. This audit does not refit trees, rerun PDEs, or re-estimate weights from raw measurement files."
+}

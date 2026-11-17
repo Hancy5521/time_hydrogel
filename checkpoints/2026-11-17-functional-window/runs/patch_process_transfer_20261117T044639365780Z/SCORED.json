@@ -1,0 +1,140 @@
+{
+  "protocol_sha256": "031e218eb675535a4a82a2a10883c479064f62800d8d76f7d955f72ab6cc7333",
+  "freeze_sha256": "ff81855ee55eb5b80a2a07f059a673703797b704be9567b0f6ff67b98e335ba8",
+  "ion_closure_max": {
+    "constant_physics": 1.9984014443252818e-15,
+    "learned_physics": 1.9984014443252818e-15
+  },
+  "completed_utc": "2026-11-17T04:48:21.936053+00:00",
+  "results": {
+    "all": {
+      "mothers": 72,
+      "feasible_requests": 90,
+      "methods": {
+        "constant_physics": {
+          "brier": 0.03689095947870914,
+          "ungated_successes": 39,
+          "mean_positive_regret": 0.07653020118113375,
+          "wet_future_conductance_mae": 0.018725601944764834,
+          "weak_future_conductance_mae": 0.0023821133770472853,
+          "wet_future_modulus_mae": 0.01774244043433692
+        },
+        "learned_physics": {
+          "brier": 0.06003304899855783,
+          "ungated_successes": 27,
+          "mean_positive_regret": 0.15164889315475685,
+          "wet_future_conductance_mae": 0.02804120587812367,
+          "weak_future_conductance_mae": 0.003180830241036318,
+          "wet_future_modulus_mae": 0.02707419684046998
+        },
+        "direct_trees": {
+          "brier": 0.03163301905687043,
+          "ungated_successes": 39,
+          "mean_positive_regret": 0.07316922862843277
+        }
+      },
+      "learned_choice_gain": {
+        "constant_physics": {
+          "difference": -0.08333333333333333,
+          "ci95": [
+            -0.1736111111111111,
+            0.013888888888888888
+          ]
+        },
+        "direct_trees": {
+          "difference": -0.08333333333333333,
+          "ci95": [
+            -0.1736111111111111,
+            0.006944444444444444
+          ]
+        }
+      }
+    },
+    "nominal": {
+      "mothers": 33,
+      "feasible_requests": 50,
+      "methods": {
+        "constant_physics": {
+          "brier": 0.04617982999733747,
+          "ungated_successes": 27,
+          "mean_positive_regret": 0.05408159945342441,
+          "wet_future_conductance_mae": 0.021621779179458542,
+          "weak_future_conductance_mae": 0.002775534404075493,
+          "wet_future_modulus_mae": 0.013973378200795616
+        },
+        "learned_physics": {
+          "brier": 0.09350838636362266,
+          "ungated_successes": 5,
+          "mean_positive_regret": 0.260976339175505,
+          "wet_future_conductance_mae": 0.04508085435000188,
+          "weak_future_conductance_mae": 0.004671332924598143,
+          "wet_future_modulus_mae": 0.04736545444735751
+        },
+        "direct_trees": {
+          "brier": 0.043938428762182485,
+          "ungated_successes": 26,
+          "mean_positive_regret": 0.06099061700337382
+        }
+      },
+      "learned_choice_gain": {
+        "constant_physics": {
+          "difference": -0.3333333333333333,
+          "ci95": [
+            -0.4393939393939394,
+            -0.22727272727272727
+          ]
+        },
+        "direct_trees": {
+          "difference": -0.3181818181818182,
+          "ci95": [
+            -0.4393939393939394,
+            -0.19696969696969696
+          ]
+        }
+      }
+    },
+    "exchange": {
+      "mothers": 39,
+      "feasible_requests": 40,
+      "methods": {
+        "constant_physics": {
+          "brier": 0.029031145962946703,
+          "ungated_successes": 12,
+          "mean_positive_regret": 0.09552517187381089,
+          "wet_future_conductance_mae": 0.01627499043848553,
+          "weak_future_conductance_mae": 0.0020492186618695694,
+          "wet_future_modulus_mae": 0.02093164693964109
+        },
+        "learned_physics": {
+          "brier": 0.03170776353581067,
+          "ungated_successes": 22,
+          "mean_positive_regret": 0.0591410542141238,
+          "wet_future_conductance_mae": 0.013623041786534427,
+          "weak_future_conductance_mae": 0.001919635662637853,
+          "wet_future_modulus_mae": 0.0099046711731036
+        },
+        "direct_trees": {
+          "brier": 0.021220749306221778,
+          "ungated_successes": 13,
+          "mean_positive_regret": 0.08347420769579036
+        }
+      },
+      "learned_choice_gain": {
+        "constant_physics": {
+          "difference": 0.1282051282051282,
+          "ci95": [
+            0.02564102564102564,
+            0.24358974358974358
+          ]
+        },
+        "direct_trees": {
+          "difference": 0.11538461538461539,
+          "ci95": [
+            0.01282051282051282,
+            0.21794871794871795
+          ]
+        }
+      }
+    }
+  }
+}

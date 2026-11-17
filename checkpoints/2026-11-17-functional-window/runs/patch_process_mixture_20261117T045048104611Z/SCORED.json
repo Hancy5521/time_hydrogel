@@ -1,0 +1,180 @@
+{
+  "completed_utc": "2026-11-17T04:53:28.422594+00:00",
+  "results": {
+    "all": {
+      "mothers": 128,
+      "requests_with_feasible_action": 156,
+      "methods": {
+        "constant_physics": {
+          "successes": 79,
+          "brier": 0.033837863110525085
+        },
+        "learned_physics": {
+          "successes": 39,
+          "brier": 0.05281061953325539
+        },
+        "direct_trees": {
+          "successes": 71,
+          "brier": 0.0291584055259745
+        },
+        "equal_mixture": {
+          "successes": 53,
+          "brier": 0.034100049884153875
+        },
+        "evidence_mixture": {
+          "successes": 77,
+          "brier": 0.03148409587708596
+        }
+      },
+      "evidence_mixture_differences": {
+        "constant_physics": {
+          "difference": -0.0078125,
+          "ci95": [
+            -0.04296875,
+            0.02353515624999858
+          ]
+        },
+        "learned_physics": {
+          "difference": 0.1484375,
+          "ci95": [
+            0.09375,
+            0.203125
+          ]
+        },
+        "direct_trees": {
+          "difference": 0.0234375,
+          "ci95": [
+            -0.0390625,
+            0.0859375
+          ]
+        },
+        "equal_mixture": {
+          "difference": 0.09375,
+          "ci95": [
+            0.046875,
+            0.140625
+          ]
+        }
+      },
+      "mean_learned_law_weight": 0.26628922785220277
+    },
+    "nominal": {
+      "mothers": 59,
+      "requests_with_feasible_action": 83,
+      "methods": {
+        "constant_physics": {
+          "successes": 43,
+          "brier": 0.0389834632082508
+        },
+        "learned_physics": {
+          "successes": 10,
+          "brier": 0.07669474304780677
+        },
+        "direct_trees": {
+          "successes": 40,
+          "brier": 0.035363420946591916
+        },
+        "equal_mixture": {
+          "successes": 18,
+          "brier": 0.04416995840601628
+        },
+        "evidence_mixture": {
+          "successes": 40,
+          "brier": 0.038837840050603645
+        }
+      },
+      "evidence_mixture_differences": {
+        "constant_physics": {
+          "difference": -0.025423728813559324,
+          "ci95": [
+            -0.059322033898305086,
+            0.0
+          ]
+        },
+        "learned_physics": {
+          "difference": 0.2542372881355932,
+          "ci95": [
+            0.16101694915254236,
+            0.3474576271186441
+          ]
+        },
+        "direct_trees": {
+          "difference": 0.0,
+          "ci95": [
+            -0.09322033898305085,
+            0.09322033898305085
+          ]
+        },
+        "equal_mixture": {
+          "difference": 0.1864406779661017,
+          "ci95": [
+            0.1016949152542373,
+            0.27139830508474266
+          ]
+        }
+      },
+      "mean_learned_law_weight": 0.06504357181528765
+    },
+    "exchange": {
+      "mothers": 69,
+      "requests_with_feasible_action": 73,
+      "methods": {
+        "constant_physics": {
+          "successes": 36,
+          "brier": 0.0294380021573973
+        },
+        "learned_physics": {
+          "successes": 29,
+          "brier": 0.03238796319472593
+        },
+        "direct_trees": {
+          "successes": 31,
+          "brier": 0.02385266770254801
+        },
+        "equal_mixture": {
+          "successes": 35,
+          "brier": 0.025489548394445446
+        },
+        "evidence_mixture": {
+          "successes": 37,
+          "brier": 0.025196111728715758
+        }
+      },
+      "evidence_mixture_differences": {
+        "constant_physics": {
+          "difference": 0.007246376811594203,
+          "ci95": [
+            -0.050724637681159424,
+            0.06521739130434782
+          ]
+        },
+        "learned_physics": {
+          "difference": 0.057971014492753624,
+          "ci95": [
+            0.007246376811594203,
+            0.10869565217391304
+          ]
+        },
+        "direct_trees": {
+          "difference": 0.043478260869565216,
+          "ci95": [
+            -0.036231884057971016,
+            0.13043478260869565
+          ]
+        },
+        "equal_mixture": {
+          "difference": 0.014492753623188406,
+          "ci95": [
+            -0.021739130434782608,
+            0.050724637681159424
+          ]
+        }
+      },
+      "mean_learned_law_weight": 0.4383688467823186
+    }
+  },
+  "protocol_sha256": "0a0d5fb8ceab8dfbaf805ee1a205828471026b7f7852593d01b73eb32d8d8d1f",
+  "frozen_sha256": "ceb2d209d4c24440868ad61b662ba4c27da9196ec595f8f5a0bf6b928d6c0e42",
+  "family_sha256": "963cab50908e8fba896a00068c108b4863992008eb6d3889c163cb959a72d41a",
+  "mechanism_auc_audit_only": 0.9746990911323999
+}

@@ -1,0 +1,4 @@
+{
+  "status": "forecast_failed_before_freeze_or_scoring",
+  "reason": "The witness helper already subsets the full request list, so passing the pre-subset request list caused IndexError. The original source and registration are retained. No outcomes released or used."
+}

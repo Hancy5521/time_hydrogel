@@ -1,0 +1,170 @@
+{
+  "protocol_sha256": "836050ba5cc276ca24f35f5465f5670cd934fe1e14d175a77d30833f3d85f420",
+  "started_utc": "2026-11-17T04:37:33.558606+00:00",
+  "development_sha256": "62fd52791d9e929016a8166bb95fc7d5a8360ffb67887e86cd411647a76cb32d",
+  "frozen_sha256": "2d7e71623df16431a1f3af0fa7dc9d4c525a3724f687e0a0e600d693bad82e64",
+  "results": {
+    "mothers": 480,
+    "exchange_mothers": 240,
+    "requests_with_at_least_one_feasible_action": 590,
+    "ungated_arms": {
+      "standard_depth": {
+        "requests": 960,
+        "successful_requests": 270,
+        "feasible_but_missed": 320,
+        "limiting_clause_on_feasible_misses": {
+          "off": 193,
+          "on": 113,
+          "soft": 0,
+          "support": 0,
+          "weak_off": 14
+        }
+      },
+      "standard_electric": {
+        "requests": 960,
+        "successful_requests": 277,
+        "feasible_but_missed": 313,
+        "limiting_clause_on_feasible_misses": {
+          "off": 179,
+          "on": 124,
+          "soft": 0,
+          "support": 0,
+          "weak_off": 10
+        }
+      },
+      "thin_depth": {
+        "requests": 960,
+        "successful_requests": 271,
+        "feasible_but_missed": 319,
+        "limiting_clause_on_feasible_misses": {
+          "off": 204,
+          "on": 106,
+          "soft": 0,
+          "support": 0,
+          "weak_off": 9
+        }
+      },
+      "thin_electric": {
+        "requests": 960,
+        "successful_requests": 315,
+        "feasible_but_missed": 275,
+        "limiting_clause_on_feasible_misses": {
+          "off": 177,
+          "on": 91,
+          "soft": 0,
+          "support": 0,
+          "weak_off": 7
+        }
+      }
+    },
+    "paired_contrasts": {
+      "electric_thickness_effect": {
+        "difference": 0.03958333333333333,
+        "marginal_ci95": [
+          0.015625,
+          0.06354166666666666
+        ],
+        "familywise_bonferroni_ci": [
+          0.007291666666666667,
+          0.071875
+        ],
+        "mothers_improved_tied_worsened": [
+          83,
+          348,
+          49
+        ],
+        "nominal_exchange_effect_descriptive": [
+          0.03125,
+          0.04791666666666667
+        ]
+      },
+      "depth_thickness_effect": {
+        "difference": 0.0010416666666666667,
+        "marginal_ci95": [
+          -0.021875,
+          0.023958333333333335
+        ],
+        "familywise_bonferroni_ci": [
+          -0.029166666666666667,
+          0.030208333333333334
+        ],
+        "mothers_improved_tied_worsened": [
+          51,
+          380,
+          49
+        ],
+        "nominal_exchange_effect_descriptive": [
+          -0.008333333333333333,
+          0.010416666666666666
+        ]
+      },
+      "standard_electric_effect": {
+        "difference": 0.007291666666666667,
+        "marginal_ci95": [
+          -0.016666666666666666,
+          0.03125
+        ],
+        "familywise_bonferroni_ci": [
+          -0.023958333333333335,
+          0.03854166666666667
+        ],
+        "mothers_improved_tied_worsened": [
+          62,
+          363,
+          55
+        ],
+        "nominal_exchange_effect_descriptive": [
+          0.0,
+          0.014583333333333334
+        ]
+      },
+      "thin_electric_effect": {
+        "difference": 0.04583333333333333,
+        "marginal_ci95": [
+          0.019791666666666666,
+          0.07291666666666667
+        ],
+        "familywise_bonferroni_ci": [
+          0.010416666666666666,
+          0.08125
+        ],
+        "mothers_improved_tied_worsened": [
+          86,
+          344,
+          50
+        ],
+        "nominal_exchange_effect_descriptive": [
+          0.03958333333333333,
+          0.052083333333333336
+        ]
+      },
+      "interaction": {
+        "difference": 0.03854166666666667,
+        "marginal_ci95": [
+          0.005208333333333333,
+          0.071875
+        ],
+        "familywise_bonferroni_ci": [
+          -0.005208333333333333,
+          0.08229166666666667
+        ],
+        "mothers_improved_tied_worsened": [
+          108,
+          297,
+          75
+        ],
+        "nominal_exchange_effect_descriptive": [
+          0.03958333333333333,
+          0.0375
+        ]
+      }
+    },
+    "certified_decisions": {}
+  },
+  "completed_utc": "2026-11-17T04:38:23.964460+00:00",
+  "source": {
+    "name": "CONFIRMATION_SCORED.json",
+    "sha256": "3abdd09b96f1915acd52edd0152859cd5436d6f5a40e7a8bb07d14762d803ac4",
+    "rows_retained_locally": 480
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "audit_utc": "2026-11-17T04:50:19.133277+00:00",
+  "audit_code_sha256": "0f657774b25b3ea55b17839a0f5b10e474f9f35b8a82da15ef5766915af74334",
+  "passed": true,
+  "protocol_sha256": "031e218eb675535a4a82a2a10883c479064f62800d8d76f7d955f72ab6cc7333",
+  "forecast_sha256": "ff81855ee55eb5b80a2a07f059a673703797b704be9567b0f6ff67b98e335ba8",
+  "truth_sha256": "64d8cbb5e18268e06804615951fbb0e8302760d4678beea56025a097914e0c5a",
+  "score_sha256": "02a606940f59265c327b604a7bad1e6f7dc943ee1b808a548174826dbe984b0d",
+  "mothers": 72,
+  "clock_window_after_final_observation": [
+    0.84,
+    4.8
+  ],
+  "independent_metrics": [
+    "all signed output margins",
+    "physical rankings",
+    "Brier score",
+    "ungated successes",
+    "mean positive regret",
+    "future path losses",
+    "mother paired interval",
+    "upstream hashes"
+  ],
+  "scope": "Independent recomputation from saved prediction and truth arrays. The tree model is not refitted and solver integrations are not rerun."
+}

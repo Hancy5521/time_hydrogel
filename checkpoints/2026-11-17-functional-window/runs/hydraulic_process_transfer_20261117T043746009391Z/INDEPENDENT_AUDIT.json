@@ -1,0 +1,11 @@
+{
+  "completed_utc": "2026-11-17T04:41:17.690645+00:00",
+  "registered_sha256": "fcce1390d6cd5acbf82828f0bfa519fdb725edbc42ec842eb64f705a0f7816b5",
+  "frozen_sha256": "93357352466381389a38020c2401ae9cbd7d5a455310be89c82719270addefaf",
+  "score_sha256": "a12d6f5f6d87b5aa691311cc5650312df6062e13665b3c47068bdf78dbb7879b",
+  "score_replay_max_absolute_difference": 1.3877787807814457e-17,
+  "learned_law_stepper_against_independent_Radau": {
+    "max_absolute_stepper_difference": 0.0008502793650043694,
+    "max_radau_water_inventory_closure": 7.744915819785092e-13
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "audit_utc": "2026-11-17T04:53:07.136404+00:00",
+  "audit_code_sha256": "0f657774b25b3ea55b17839a0f5b10e474f9f35b8a82da15ef5766915af74334",
+  "passed": true,
+  "protocol_sha256": "0a0d5fb8ceab8dfbaf805ee1a205828471026b7f7852593d01b73eb32d8d8d1f",
+  "hypothetical_weight": [
+    5.55371350196498e-20,
+    8.635799476531406e-32
+  ],
+  "identical_law_weights": [
+    0.5,
+    0.5
+  ],
+  "after_perturbing_other_states_inputs": [
+    5.55371350196498e-20,
+    1.3299156302002863e-38
+  ],
+  "latest_assay_time": 0.9,
+  "installation_end": 1.8,
+  "scope": "Only an observation-interface fixture. In held simulations the true mechanism generates the noisy early readings, without exposing the label to the likelihood calculation."
+}

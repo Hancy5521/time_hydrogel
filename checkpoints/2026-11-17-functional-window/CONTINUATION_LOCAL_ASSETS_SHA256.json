@@ -1,0 +1,67 @@
+{
+  "scope": "Byte roots for additional replay inputs retained with the full local archive or data publisher.",
+  "local_archive_names": {
+    "hydrogel_process_transfer_20261117.zip": {
+      "bytes": 120879353,
+      "sha256": "e5b1884d995c4332b86e2c78eb579d289785edd7d25bb4ced60774f0edc3d059"
+    }
+  },
+  "raw_files": {
+    "runs/patch_tight_factorial_20261117T043535980478Z/CONFIRMATION_FROZEN.json": {
+      "bytes": 15742260,
+      "sha256": "2d7e71623df16431a1f3af0fa7dc9d4c525a3724f687e0a0e600d693bad82e64"
+    },
+    "runs/patch_tight_factorial_20261117T043535980478Z/CONFIRMATION_SCORED.json": {
+      "bytes": 5149954,
+      "sha256": "3abdd09b96f1915acd52edd0152859cd5436d6f5a40e7a8bb07d14762d803ac4"
+    },
+    "runs/patch_tight_factorial_20261117T043535980478Z/DEVELOPMENT_FROZEN.json": {
+      "bytes": 5248190,
+      "sha256": "8038299ce5d643689dac473d7e42e8abcdc3c4fcb0d40fd77cd36547133b7b53"
+    },
+    "runs/patch_tight_factorial_20261117T043535980478Z/DEVELOPMENT_SCORED.json": {
+      "bytes": 1720837,
+      "sha256": "62fd52791d9e929016a8166bb95fc7d5a8360ffb67887e86cd411647a76cb32d"
+    },
+    "runs/hydraulic_process_transfer_20261117T043746009391Z/FROZEN.npz": {
+      "bytes": 7462973,
+      "sha256": "93357352466381389a38020c2401ae9cbd7d5a455310be89c82719270addefaf"
+    },
+    "runs/hydraulic_process_transfer_20261117T043746009391Z/TRUTH_AND_PER_MOTHER.npz": {
+      "bytes": 1487931,
+      "sha256": "cfc790860554427249f903bdb7f421d13bbf980136a9c23f27bffb202ed78ae1"
+    },
+    "runs/patch_process_transfer_20261117T044639365780Z/FROZEN.npz": {
+      "bytes": 29336786,
+      "sha256": "ff81855ee55eb5b80a2a07f059a673703797b704be9567b0f6ff67b98e335ba8"
+    },
+    "runs/patch_process_transfer_20261117T044639365780Z/TRUTH.npz": {
+      "bytes": 14672965,
+      "sha256": "64d8cbb5e18268e06804615951fbb0e8302760d4678beea56025a097914e0c5a"
+    },
+    "runs/patch_process_mixture_20261117T045048104611Z/FAMILY_WEIGHTS.npz": {
+      "bytes": 2220,
+      "sha256": "963cab50908e8fba896a00068c108b4863992008eb6d3889c163cb959a72d41a"
+    },
+    "runs/patch_process_mixture_20261117T045048104611Z/FROZEN.npz": {
+      "bytes": 52127882,
+      "sha256": "ceb2d209d4c24440868ad61b662ba4c27da9196ec595f8f5a0bf6b928d6c0e42"
+    },
+    "runs/patch_process_mixture_20261117T045048104611Z/TRUTH.npz": {
+      "bytes": 53443,
+      "sha256": "10d3b2c5b684c6667978f52f37f9f680d9aa511327d2032af87085732fb7b9bc"
+    },
+    "external/benstead_pegda/FROZEN_TRANSPORT_FORECASTS.json": {
+      "bytes": 221693,
+      "sha256": "ee8f43ddb9931c77854b479d94e9a1c3892e9ef677fe7902f68428c8d25897fc"
+    },
+    "external/benstead_pegda/Membrane Diffusion Testing.zip": {
+      "bytes": 52182,
+      "sha256": "b50871afca499ae8d74873260a35cff5338388d1c4e6d52c4c3b53eace697c07"
+    },
+    "external/benstead_pegda/ADT_OT2_Analysis.py": {
+      "bytes": 18037,
+      "sha256": "0803e48103075e8daf12ca79dfe546d7a095ee77c38a1b51404b840d1c63661b"
+    }
+  }
+}

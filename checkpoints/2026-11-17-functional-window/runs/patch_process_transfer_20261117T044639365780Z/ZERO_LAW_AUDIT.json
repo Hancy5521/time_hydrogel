@@ -1,0 +1,233 @@
+{
+  "audit_utc": "2026-11-17T04:49:42.149705+00:00",
+  "audit_code_sha256": "aadd4fa85ec3d231b9d2e8b21fbf4738612b1df3ea42157f8a3706bdec1ced24",
+  "protocol_sha256": "031e218eb675535a4a82a2a10883c479064f62800d8d76f7d955f72ab6cc7333",
+  "passed": true,
+  "absolute_agreement_tolerance": 0.0003,
+  "max_error_by_channel": {
+    "hydration": 9.277943023633384e-06,
+    "near_modulus": 6.18850804645632e-06,
+    "far_modulus": 1.598091798893364e-06,
+    "conductance": 3.0542783613363156e-07
+  },
+  "max_ion_inventory_error": 1.5543122344752192e-15,
+  "fixtures": [
+    {
+      "mesh": "prediction_mesh",
+      "thickness": 0.65,
+      "boundary": "wet",
+      "path_max_absolute_error": {
+        "hydration": 2.091645634881567e-06,
+        "near_modulus": 4.435712836148298e-06,
+        "far_modulus": 1.598091798893364e-06,
+        "conductance": 3.0542783613363156e-07
+      },
+      "inventory_error": 7.771561172376096e-16
+    },
+    {
+      "mesh": "prediction_mesh",
+      "thickness": 0.65,
+      "boundary": "weak",
+      "path_max_absolute_error": {
+        "hydration": 6.693266031629341e-07,
+        "near_modulus": 1.7682697861509666e-06,
+        "far_modulus": 5.319316358498583e-07,
+        "conductance": 5.5993271685927937e-08
+      },
+      "inventory_error": 6.661338147750939e-16
+    },
+    {
+      "mesh": "prediction_mesh",
+      "thickness": 0.65,
+      "boundary": "dry_edge",
+      "path_max_absolute_error": {
+        "hydration": 0.0,
+        "near_modulus": 0.0,
+        "far_modulus": 0.0,
+        "conductance": 0.0
+      },
+      "inventory_error": 0.0
+    },
+    {
+      "mesh": "prediction_mesh",
+      "thickness": 1.0,
+      "boundary": "wet",
+      "path_max_absolute_error": {
+        "hydration": 3.043868516520304e-06,
+        "near_modulus": 3.059458502097101e-06,
+        "far_modulus": 8.574055359034105e-07,
+        "conductance": 1.3532235665358883e-07
+      },
+      "inventory_error": 7.771561172376096e-16
+    },
+    {
+      "mesh": "prediction_mesh",
+      "thickness": 1.0,
+      "boundary": "weak",
+      "path_max_absolute_error": {
+        "hydration": 9.740379252904524e-07,
+        "near_modulus": 1.0471632083675075e-06,
+        "far_modulus": 2.967425807298696e-07,
+        "conductance": 3.6175378338720865e-08
+      },
+      "inventory_error": 9.992007221626409e-16
+    },
+    {
+      "mesh": "prediction_mesh",
+      "thickness": 1.0,
+      "boundary": "dry_edge",
+      "path_max_absolute_error": {
+        "hydration": 0.0,
+        "near_modulus": 0.0,
+        "far_modulus": 0.0,
+        "conductance": 0.0
+      },
+      "inventory_error": 0.0
+    },
+    {
+      "mesh": "prediction_mesh",
+      "thickness": 1.35,
+      "boundary": "wet",
+      "path_max_absolute_error": {
+        "hydration": 9.277943023633384e-06,
+        "near_modulus": 6.18850804645632e-06,
+        "far_modulus": 7.032728763789464e-07,
+        "conductance": 2.037967827411835e-07
+      },
+      "inventory_error": 6.661338147750939e-16
+    },
+    {
+      "mesh": "prediction_mesh",
+      "thickness": 1.35,
+      "boundary": "weak",
+      "path_max_absolute_error": {
+        "hydration": 2.9689417675605317e-06,
+        "near_modulus": 2.0184930193956063e-06,
+        "far_modulus": 2.5527739477837486e-07,
+        "conductance": 9.022294445576451e-08
+      },
+      "inventory_error": 6.661338147750939e-16
+    },
+    {
+      "mesh": "prediction_mesh",
+      "thickness": 1.35,
+      "boundary": "dry_edge",
+      "path_max_absolute_error": {
+        "hydration": 0.0,
+        "near_modulus": 0.0,
+        "far_modulus": 0.0,
+        "conductance": 0.0
+      },
+      "inventory_error": 0.0
+    },
+    {
+      "mesh": "truth_mesh",
+      "thickness": 0.65,
+      "boundary": "wet",
+      "path_max_absolute_error": {
+        "hydration": 1.2733521918828483e-07,
+        "near_modulus": 2.949597488477451e-07,
+        "far_modulus": 9.991984217805339e-08,
+        "conductance": 2.1624471213677054e-08
+      },
+      "inventory_error": 1.1102230246251565e-15
+    },
+    {
+      "mesh": "truth_mesh",
+      "thickness": 0.65,
+      "boundary": "weak",
+      "path_max_absolute_error": {
+        "hydration": 4.074727013789192e-08,
+        "near_modulus": 1.181453828102974e-07,
+        "far_modulus": 3.325805231213508e-08,
+        "conductance": 3.944078452722266e-09
+      },
+      "inventory_error": 1.2212453270876722e-15
+    },
+    {
+      "mesh": "truth_mesh",
+      "thickness": 0.65,
+      "boundary": "dry_edge",
+      "path_max_absolute_error": {
+        "hydration": 0.0,
+        "near_modulus": 0.0,
+        "far_modulus": 0.0,
+        "conductance": 0.0
+      },
+      "inventory_error": 0.0
+    },
+    {
+      "mesh": "truth_mesh",
+      "thickness": 1.0,
+      "boundary": "wet",
+      "path_max_absolute_error": {
+        "hydration": 1.8613234307671145e-07,
+        "near_modulus": 2.0682807821970073e-07,
+        "far_modulus": 5.361304400430811e-08,
+        "conductance": 1.026105644896802e-08
+      },
+      "inventory_error": 8.881784197001252e-16
+    },
+    {
+      "mesh": "truth_mesh",
+      "thickness": 1.0,
+      "boundary": "weak",
+      "path_max_absolute_error": {
+        "hydration": 5.9562349783229274e-08,
+        "near_modulus": 7.195779772040112e-08,
+        "far_modulus": 1.855283904284022e-08,
+        "conductance": 2.359364276866005e-09
+      },
+      "inventory_error": 1.2212453270876722e-15
+    },
+    {
+      "mesh": "truth_mesh",
+      "thickness": 1.0,
+      "boundary": "dry_edge",
+      "path_max_absolute_error": {
+        "hydration": 0.0,
+        "near_modulus": 0.0,
+        "far_modulus": 0.0,
+        "conductance": 0.0
+      },
+      "inventory_error": 0.0
+    },
+    {
+      "mesh": "truth_mesh",
+      "thickness": 1.35,
+      "boundary": "wet",
+      "path_max_absolute_error": {
+        "hydration": 5.57115784276252e-07,
+        "near_modulus": 3.895465066072745e-07,
+        "far_modulus": 4.397215125351295e-08,
+        "conductance": 1.6667202746428744e-08
+      },
+      "inventory_error": 1.3322676295501878e-15
+    },
+    {
+      "mesh": "truth_mesh",
+      "thickness": 1.35,
+      "boundary": "weak",
+      "path_max_absolute_error": {
+        "hydration": 1.7827705096895574e-07,
+        "near_modulus": 1.2837661778064557e-07,
+        "far_modulus": 1.5957716259507038e-08,
+        "conductance": 5.799938057604592e-09
+      },
+      "inventory_error": 1.5543122344752192e-15
+    },
+    {
+      "mesh": "truth_mesh",
+      "thickness": 1.35,
+      "boundary": "dry_edge",
+      "path_max_absolute_error": {
+        "hydration": 0.0,
+        "near_modulus": 0.0,
+        "far_modulus": 0.0,
+        "conductance": 0.0
+      },
+      "inventory_error": 0.0
+    }
+  ],
+  "scope": "Zero hydration-law control uses a different hydraulic integrator from the older constant-D implementation. Checks both registered grids, with no outcomes from the held set."
+}

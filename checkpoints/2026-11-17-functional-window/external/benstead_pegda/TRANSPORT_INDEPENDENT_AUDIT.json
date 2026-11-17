@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-11-17T04:40:32.092880+00:00",
+  "status": "PASS",
+  "source_scores_replayed": 198,
+  "files": {
+    "Membrane Diffusion Testing.zip": "b50871afca499ae8d74873260a35cff5338388d1c4e6d52c4c3b53eace697c07",
+    "FROZEN_TRANSPORT_FORECASTS.json": "ee8f43ddb9931c77854b479d94e9a1c3892e9ef677fe7902f68428c8d25897fc",
+    "TRANSPORT_TRANSFER_RESULTS.json": "0ca1e5877f408b50f5164d0f42d7822cd229e17a4ad28e97107be9cd3341cc29",
+    "audit_transport_transfer.py": "20295f1ba1abb30b05dd4fc510f4ac9650fd724ca7706c58b996220185740d68"
+  },
+  "scope": "Raw paired concentration lookup, excluding nonadmitted runs. Held date separation, normalization and independent error arithmetic. No repeated fitting."
+}

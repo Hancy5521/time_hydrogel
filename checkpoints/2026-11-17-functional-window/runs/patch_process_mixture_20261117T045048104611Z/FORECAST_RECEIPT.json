@@ -1,0 +1,8 @@
+{
+  "completed_utc": "2026-11-17T04:53:11.423130+00:00",
+  "protocol_sha256": "0a0d5fb8ceab8dfbaf805ee1a205828471026b7f7852593d01b73eb32d8d8d1f",
+  "freeze_hashes": {
+    "FROZEN.npz": "ceb2d209d4c24440868ad61b662ba4c27da9196ec595f8f5a0bf6b928d6c0e42",
+    "FAMILY_WEIGHTS.npz": "963cab50908e8fba896a00068c108b4863992008eb6d3889c163cb959a72d41a"
+  }
+}
