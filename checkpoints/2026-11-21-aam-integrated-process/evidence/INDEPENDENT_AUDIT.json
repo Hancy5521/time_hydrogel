@@ -1,0 +1,62 @@
+{
+  "actual_utc": "2026-11-21T11:21:20.563396+00:00",
+  "asia_shanghai": "2026-11-21T19:21:20.563396+08:00",
+  "passed": true,
+  "registration_sha256": "76676aac5cea7c410900f316e42dee2513f73a96695cdad458fe67148283f3f8",
+  "scored_sha256": "f44beb9a70ba0855f535ab944eea83613c23d8397ba41b7739f421ea011c3786",
+  "freeze_sha256": "5f42296020d7ccd0a6605f2bb730975bf8cf88260578d1fde48a72a62d03a5ff",
+  "reference_sha256": "6b79fd216a4d79230d6e17f61ff2bad901d7821d5b98841f2176c8f1255a6297",
+  "mothers": 512,
+  "family_alpha": 0.025,
+  "path_gate": true,
+  "inverse_gate": true,
+  "primary_gate": true,
+  "independent_control_and_recovery_anchor_receipts": {
+    "2026163000": {
+      "ess_exponent": 0.14024756002063854,
+      "retained_joint_mass": 0.04644147749976611,
+      "restricted_mother_ess": 44.16035287557817
+    },
+    "2026163073": {
+      "ess_exponent": 0.08731418573332533,
+      "retained_joint_mass": 0.042580878355311796,
+      "restricted_mother_ess": 49.39250579849528
+    },
+    "2026163146": {
+      "ess_exponent": 0.17638612497029785,
+      "retained_joint_mass": 0.04650713738946757,
+      "restricted_mother_ess": 50.3901349656082
+    },
+    "2026163219": {
+      "ess_exponent": 0.09190794695746814,
+      "retained_joint_mass": 0.04223513421102934,
+      "restricted_mother_ess": 52.500357680915144
+    },
+    "2026163292": {
+      "ess_exponent": 0.09270401381615204,
+      "retained_joint_mass": 0.051230490580670654,
+      "restricted_mother_ess": 51.569155731138004
+    },
+    "2026163365": {
+      "ess_exponent": 0.07282134649826966,
+      "retained_joint_mass": 0.053515746853572646,
+      "restricted_mother_ess": 38.78402155224776
+    },
+    "2026163438": {
+      "ess_exponent": 0.12643968805649777,
+      "retained_joint_mass": 0.04057846485687397,
+      "restricted_mother_ess": 51.497530946810265
+    },
+    "2026163511": {
+      "ess_exponent": 0.183949447181367,
+      "retained_joint_mass": 0.045568540056284995,
+      "restricted_mother_ess": 49.107170250938566
+    }
+  },
+  "all_384_cache_readouts_bound": true,
+  "all_512_inverse_losses_recomputed": true,
+  "all_18_primary_and_sensitivity_bounds_recomputed": true,
+  "native_calls": 0,
+  "new_fits": 0,
+  "new_wet_measurements": 0
+}
