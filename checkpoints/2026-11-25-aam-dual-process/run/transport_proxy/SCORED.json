@@ -1,0 +1,224 @@
+{
+  "utc": "2026-11-25T05:42:58.540633+00:00",
+  "asia_shanghai": "2026-11-25T13:42:58.540633+08:00",
+  "frozen_sha256": "bf00c7582fb2cce259dc939c6a8d2a86611280db4cc3642312ae69bd0238c190",
+  "truth_sha256": "16d4ff9772eac2c4064b30bc14e3c3ceaaa993f0c4bf33996a6032e64be6225a",
+  "result": {
+    "early": {
+      "verified_card_success_feasibility": 23,
+      "finite_menu_oracle_ceiling": 0.125,
+      "confirmed_menu_hits": [
+        24,
+        10,
+        22,
+        20,
+        10,
+        21,
+        17,
+        24,
+        14
+      ],
+      "total_per_method": 384,
+      "method": {
+        "shared_response": {
+          "hits": 21,
+          "probability": 0.0546875,
+          "delta_vs_pooled": {
+            "mean": 0.0,
+            "interval_95": [
+              -0.013020833333333334,
+              0.010416666666666666
+            ]
+          },
+          "delta_vs_zero": {
+            "mean": -0.0078125,
+            "interval_95": [
+              -0.028645833333333332,
+              0.010416666666666666
+            ]
+          },
+          "unique_edits": [
+            1,
+            2,
+            5,
+            6
+          ]
+        },
+        "rbf": {
+          "hits": 20,
+          "probability": 0.052083333333333336,
+          "delta_vs_pooled": {
+            "mean": -0.0026041666666666665,
+            "interval_95": [
+              -0.015625,
+              0.0078125
+            ]
+          },
+          "delta_vs_zero": {
+            "mean": -0.010416666666666666,
+            "interval_95": [
+              -0.028645833333333332,
+              0.0078125
+            ]
+          },
+          "unique_edits": [
+            2,
+            5
+          ]
+        },
+        "pooled_fixed": {
+          "hits": 21,
+          "probability": 0.0546875,
+          "delta_vs_pooled": {
+            "mean": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "delta_vs_zero": {
+            "mean": -0.0078125,
+            "interval_95": [
+              -0.0234375,
+              0.0078125
+            ]
+          },
+          "unique_edits": [
+            5
+          ]
+        },
+        "zero_edit": {
+          "hits": 24,
+          "probability": 0.0625,
+          "delta_vs_pooled": {
+            "mean": 0.0078125,
+            "interval_95": [
+              -0.0078125,
+              0.0234375
+            ]
+          },
+          "delta_vs_zero": {
+            "mean": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "unique_edits": [
+            0
+          ]
+        }
+      }
+    },
+    "late": {
+      "verified_card_success_feasibility": 22,
+      "finite_menu_oracle_ceiling": 0.10677083333333333,
+      "confirmed_menu_hits": [
+        12,
+        14,
+        20,
+        18,
+        5,
+        12,
+        10,
+        13,
+        11
+      ],
+      "total_per_method": 384,
+      "method": {
+        "shared_response": {
+          "hits": 9,
+          "probability": 0.0234375,
+          "delta_vs_pooled": {
+            "mean": -0.028645833333333332,
+            "interval_95": [
+              -0.0546875,
+              -0.0026041666666666665
+            ]
+          },
+          "delta_vs_zero": {
+            "mean": -0.0078125,
+            "interval_95": [
+              -0.033854166666666664,
+              0.010416666666666666
+            ]
+          },
+          "unique_edits": [
+            0,
+            1,
+            5,
+            7,
+            8
+          ]
+        },
+        "rbf": {
+          "hits": 8,
+          "probability": 0.020833333333333332,
+          "delta_vs_pooled": {
+            "mean": -0.03125,
+            "interval_95": [
+              -0.057291666666666664,
+              -0.005208333333333333
+            ]
+          },
+          "delta_vs_zero": {
+            "mean": -0.010416666666666666,
+            "interval_95": [
+              -0.036458333333333336,
+              0.010416666666666666
+            ]
+          },
+          "unique_edits": [
+            0,
+            1,
+            5,
+            7,
+            8
+          ]
+        },
+        "pooled_fixed": {
+          "hits": 20,
+          "probability": 0.052083333333333336,
+          "delta_vs_pooled": {
+            "mean": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "delta_vs_zero": {
+            "mean": 0.020833333333333332,
+            "interval_95": [
+              -0.013020833333333334,
+              0.052083333333333336
+            ]
+          },
+          "unique_edits": [
+            2
+          ]
+        },
+        "zero_edit": {
+          "hits": 12,
+          "probability": 0.03125,
+          "delta_vs_pooled": {
+            "mean": -0.020833333333333332,
+            "interval_95": [
+              -0.052083333333333336,
+              0.013020833333333334
+            ]
+          },
+          "delta_vs_zero": {
+            "mean": 0.0,
+            "interval_95": [
+              0.0,
+              0.0
+            ]
+          },
+          "unique_edits": [
+            0
+          ]
+        }
+      }
+    }
+  }
+}

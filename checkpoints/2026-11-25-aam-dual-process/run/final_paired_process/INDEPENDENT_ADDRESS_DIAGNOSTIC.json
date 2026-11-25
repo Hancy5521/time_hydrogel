@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-25T05:52:01.906234+00:00",
+  "status": "post-score finite-sample correction to preregistered product-of-marginals; no new data or fitting",
+  "formula": "sum(a_i b_j for i != j)/(n(n-1)) per code. Removes the diagonal common-seed dependence term from the product estimate.",
+  "out": {
+    "frozen": {
+      "value": 0.2103298611111111,
+      "percentile95": [
+        0.1795138888888889,
+        0.2417556423611111
+      ]
+    },
+    "static": {
+      "value": 0.03871527777777778,
+      "percentile95": [
+        0.02951388888888889,
+        0.048611111111111105
+      ]
+    },
+    "zero": {
+      "value": 0.021354166666666664,
+      "percentile95": [
+        0.014496527777777777,
+        0.029253472222222226
+      ]
+    },
+    "frozen_minus_static": {
+      "value": 0.17161458333333335,
+      "percentile95": [
+        0.14175130208333334,
+        0.20165147569444444
+      ]
+    },
+    "frozen_minus_zero": {
+      "value": 0.18897569444444443,
+      "percentile95": [
+        0.15937500000000002,
+        0.21953124999999998
+      ]
+    }
+  }
+}

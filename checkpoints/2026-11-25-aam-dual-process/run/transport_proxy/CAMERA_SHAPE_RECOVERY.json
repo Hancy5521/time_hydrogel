@@ -1,0 +1,9 @@
+{
+  "preservation": "Retain acquisition outputs and original source/registration. Same-time feature flatten only. No fit parameters, roles, goal, model, or inputs changed.",
+  "previous_registration": "b77688a2fbd7ebff216a94853cb89a2a4bb722b13423e501ca99f19f12a7ce60",
+  "stage": "freeze failed before ranking, escrow untouched",
+  "drawings": "de5749da779bedc1458d4769dcc3e2321753c92d14757542765537aa7adfd794",
+  "asia_shanghai": "2026-11-25T13:41:59.9462114+08:00",
+  "error": "A/B adapter returned [card,environment,replicate,time,channel], encoder requires flattening time and channel",
+  "utc": "2026-11-25T05:41:59.9462114+00:00"
+}

@@ -1,0 +1,293 @@
+{
+  "utc": "2026-11-25T05:43:35.607527+00:00",
+  "asia_shanghai": "2026-11-25T13:43:35.607527+08:00",
+  "frozen_sha256": "52fa53bf9df006207969115dea820bfd06323ddead4d01644ac0532811af3bea",
+  "true_outcomes_sha256": "fd2b7fe75c54a29b82dde27154eed593dc6f15949192f2d7964e9ef050a4e2ad",
+  "source_sha256": "46d924cf47749977281581e6d002e0b71051c6c7525e79e871ea6998875c4aa4",
+  "audit": {
+    "n_journals": 192,
+    "n_events": 16780,
+    "max_errors": [
+      0.0,
+      0.0
+    ],
+    "new_native_paths_from_audit": 0
+  },
+  "results": {
+    "early_network_with_chain": {
+      "chosen": {
+        "static": {
+          "label": "both_plus_plus",
+          "context": "C",
+          "edit": [
+            0.48,
+            0.48,
+            0.0,
+            0.0
+          ]
+        },
+        "scheduled": {
+          "label": "early_feed__both_plus_plus",
+          "context": "early_feed",
+          "edit": [
+            0.48,
+            0.48,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "hits": {
+        "zero": {
+          "estimate": 0.19661458333333334,
+          "ci95": [
+            0.1484375,
+            0.24869791666666666
+          ],
+          "n_success": 151,
+          "n_paths": 768
+        },
+        "initiation_minus": {
+          "estimate": 0.12890625,
+          "ci95": [
+            0.09114583333333334,
+            0.17057291666666669
+          ],
+          "n_success": 99,
+          "n_paths": 768
+        },
+        "both_plus_plus": {
+          "estimate": 0.44791666666666663,
+          "ci95": [
+            0.3932291666666667,
+            0.5026041666666666
+          ],
+          "n_success": 344,
+          "n_paths": 768
+        },
+        "early_feed__zero": {
+          "estimate": 0.24479166666666669,
+          "ci95": [
+            0.19010416666666666,
+            0.3059895833333333
+          ],
+          "n_success": 188,
+          "n_paths": 768
+        },
+        "early_feed__both_plus_plus": {
+          "estimate": 0.5377604166666667,
+          "ci95": [
+            0.48697916666666663,
+            0.5911458333333333
+          ],
+          "n_success": 413,
+          "n_paths": 768
+        },
+        "late_feed__zero": {
+          "estimate": 0.11197916666666666,
+          "ci95": [
+            0.07942708333333333,
+            0.15234375
+          ],
+          "n_success": 86,
+          "n_paths": 768
+        }
+      },
+      "contrasts": {
+        "scheduled_minus_best_static": {
+          "labels": [
+            "early_feed__both_plus_plus",
+            "both_plus_plus"
+          ],
+          "estimate": 0.08984374999999999,
+          "ci95": [
+            0.04427083333333333,
+            0.13411458333333331
+          ]
+        },
+        "scheduled_minus_zero": {
+          "labels": [
+            "early_feed__both_plus_plus",
+            "zero"
+          ],
+          "estimate": 0.34114583333333337,
+          "ci95": [
+            0.30078125,
+            0.38151041666666663
+          ]
+        },
+        "static_minus_zero": {
+          "labels": [
+            "both_plus_plus",
+            "zero"
+          ],
+          "estimate": 0.2513020833333333,
+          "ci95": [
+            0.20703125,
+            0.296875
+          ]
+        },
+        "scheduled_minus_same_g_at_native_u": {
+          "labels": [
+            "early_feed__both_plus_plus",
+            "both_plus_plus"
+          ],
+          "estimate": 0.08984374999999999,
+          "ci95": [
+            0.04427083333333333,
+            0.13411458333333331
+          ]
+        },
+        "scheduled_minus_same_u_at_zero_g": {
+          "labels": [
+            "early_feed__both_plus_plus",
+            "early_feed__zero"
+          ],
+          "estimate": 0.29296875,
+          "ci95": [
+            0.25390625,
+            0.33203125
+          ]
+        }
+      }
+    },
+    "delayed_network_then_catch_up": {
+      "chosen": {
+        "static": {
+          "label": "initiation_minus",
+          "context": "C",
+          "edit": [
+            -0.48,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "scheduled": {
+          "label": "late_feed__zero",
+          "context": "late_feed",
+          "edit": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "hits": {
+        "zero": {
+          "estimate": 0.07421875,
+          "ci95": [
+            0.053385416666666664,
+            0.09765625
+          ],
+          "n_success": 57,
+          "n_paths": 768
+        },
+        "initiation_minus": {
+          "estimate": 0.11197916666666667,
+          "ci95": [
+            0.08854166666666666,
+            0.13541666666666666
+          ],
+          "n_success": 86,
+          "n_paths": 768
+        },
+        "both_plus_plus": {
+          "estimate": 0.08463541666666666,
+          "ci95": [
+            0.06770833333333333,
+            0.10286458333333334
+          ],
+          "n_success": 65,
+          "n_paths": 768
+        },
+        "early_feed__zero": {
+          "estimate": 0.07161458333333331,
+          "ci95": [
+            0.0546875,
+            0.08854166666666666
+          ],
+          "n_success": 55,
+          "n_paths": 768
+        },
+        "early_feed__both_plus_plus": {
+          "estimate": 0.05989583333333333,
+          "ci95": [
+            0.041666666666666664,
+            0.07942708333333333
+          ],
+          "n_success": 46,
+          "n_paths": 768
+        },
+        "late_feed__zero": {
+          "estimate": 0.09765625,
+          "ci95": [
+            0.07421875,
+            0.12239583333333331
+          ],
+          "n_success": 75,
+          "n_paths": 768
+        }
+      },
+      "contrasts": {
+        "scheduled_minus_best_static": {
+          "labels": [
+            "late_feed__zero",
+            "initiation_minus"
+          ],
+          "estimate": -0.014322916666666664,
+          "ci95": [
+            -0.044303385416666646,
+            0.01822916666666667
+          ]
+        },
+        "scheduled_minus_zero": {
+          "labels": [
+            "late_feed__zero",
+            "zero"
+          ],
+          "estimate": 0.0234375,
+          "ci95": [
+            -0.003906249999999999,
+            0.05078125
+          ]
+        },
+        "static_minus_zero": {
+          "labels": [
+            "initiation_minus",
+            "zero"
+          ],
+          "estimate": 0.037760416666666664,
+          "ci95": [
+            0.003906250000000002,
+            0.07161458333333334
+          ]
+        },
+        "scheduled_minus_same_g_at_native_u": {
+          "labels": [
+            "late_feed__zero",
+            "zero"
+          ],
+          "estimate": 0.0234375,
+          "ci95": [
+            -0.003906249999999999,
+            0.05078125
+          ]
+        },
+        "scheduled_minus_same_u_at_zero_g": {
+          "labels": [
+            "late_feed__zero",
+            "late_feed__zero"
+          ],
+          "estimate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  },
+  "scope": "Population process controllability. Candidate lookup did not use individual observed snapshots."
+}

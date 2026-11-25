@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-25T05:44:45.0801005+00:00",
+  "stage": "confirm",
+  "failure": "Windows Numba ReferenceError underlying object has vanished during write of shared dispatcher cache",
+  "frozen_sha256": "e98c70743785e754d7c6f15b3f9fa0bb765e6b140c6fae0589bb64b5f21c337a",
+  "changed": "Set NUMBA_CACHE_DIR to an isolated new directory and use one worker; all inputs, source and seeds unchanged",
+  "truth_output_created": false
+}

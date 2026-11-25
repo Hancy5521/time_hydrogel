@@ -1,0 +1,139 @@
+{
+  "utc": "2026-11-25T05:49:45.853290+00:00",
+  "asia_shanghai": "2026-11-25T13:49:45.853290+08:00",
+  "source_sha256": {
+    "native/experiments/aam_pregene/formation_step.py": "425c2a7f955b700a99044b7b1743e8cfa623f6b477e31376740d55da86e8b9f0",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_edge_fork.py": "207a4f07a8c3946127509876c923a1b244f53177cec22f5c9dda7c001519c9c4",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_core.py": "d156a184ff5e2f2050ee39fc940bf83cd89792af21a713e13b12f020907837cb",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_local_initial.py": "19ff62b72cce446af079ec8dd59436ae814f220f9f6e06fd7710f727eaac0b08",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_micro_history.py": "bce77124292aeb362058f47c59552915f7f6d60314bb0b0092be541370222ad8",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_data.py": "73db76138a051623c1870194b638ac89287a1ea3e5a055d6e14bb4248313c65c",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_network_events.py": "8865c16b040ef967faf05353894393f9889988e733b8a0de26b18eb5495d1498",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_network_path_metrics.py": "890ef8a20707744296a3d9bec9916576a0db0275807cb210c1311a9362044d58",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_spatial_motion.py": "ec7ed8640f108691e915b65793030e9318af8eeb051ded2077a04326c1a86452",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_mbaa_kinetics.py": "d71425400568e1a2fa4739f7c4b797b2e73fc21c4a0eb07e3b25f497b37b8068",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment_study.py": "32fa4ef70b39f83cf995187d23dcf98ac7064bd6eb8690f666ad531e0b152bb2",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment.py": "f9b890814ae114e63ef74ead076c9a6ff010c10148dd36f0dddc8421413fc527",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_network_competition_study.py": "e1762355ba7b0dab33f90ebef8999c387a424865ecc452bc0da889fcea6f98a6",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_snapshot_process.py": "f705ab5ae36bfe4de10dd8a698de0fa391ad7a827fc9d708a29683744d76be97",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_actual_rollout.py": "671c3a6e9a7968b0126d572d14b95c620e2600a78e203b12995b8fda4e7858a1",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_reaction_innovations.py": "8fc02003c066ada3952b4939311128a0e36b76ee9a4692e93268fc18c301091e",
+    "native/experiments/aam_pregene/force_benchmark.py": "bbd20f39aad9bf281aaa9bfa27861b7ab3147489b973515fc88391df54ab7152",
+    "native/experiments/aam_pregene/advance_fixed.py": "4794c000d6bb52c040049168a93dec3bad51d8d939e778d1a286b8f6209c4712",
+    "native/experiments/aam_pregene/force_cells.py": "11232e85ec18f2d08835b612bb633cb8124b275baa502f2fefa1c5dd60d5931a",
+    "run/reaction_adapter.py": "d033a6277493068bd2d41a175c4132bc2e75d3587b311e90fc6271d872d973f1",
+    "native/experiments/aam_pregene/gene_field.py": "50bc8d8691df4a2664275a7c653852fc3b159120993c13697c2fe63d992e0781",
+    "run/audit_reaction.py": "55ae0368a30e0a75578e4c080bd8fce7d97bca7856a90fce736c734f54c50263",
+    "native/experiments/aam_gene_field/audit.py": "38203200334cc28cecc267cf5cc15b475e7cf9d495b84fffa21a488396f1c344",
+    "run/scheduled_edit/scheduled.py": "46d924cf47749977281581e6d002e0b71051c6c7525e79e871ea6998875c4aa4",
+    "run/scheduled_edit/PROTOCOL_ZH.md": "071bbcf0d2fa7ea46edcdfc9fd3ce27b32692e226868db456380f9c597c93a7d",
+    "run/FROZEN.json": "07f8eee193484148dec344bcecf6aba3f8f0a1bb1479c4e4c320650134b7132d",
+    "run/REGISTERED.json": "d6daf5a0eb81cbd0bd51aa15ac97dd809744f3ca4fe315fa45f2f5b328d2426c",
+    "run/pendant_timing/pendant.py": "079b72ef51012fd3f04ceea7f57bfc1a28fe1f5bb91ed03a67724f0d59fd03a3",
+    "run/pendant_timing/PROTOCOL_ZH.md": "28bed02696dc47c1d15fec4a54519c0320d79fba8be172653398d76ef13acd7b",
+    "run/scheduled_edit/SCORED.json": "c18590fbcca33e3225d60eb8602ee445dc96f28990b064ebe2995eae1ddd3dc5",
+    "run/final_paired_process/pair.py": "343e72c18d92ea6db27e81b5f309906f1653522ddefa56b71c72c54305bc80b5",
+    "run/final_paired_process/PROTOCOL_ZH.md": "06ce46db6a5411177d349fd2452de287581e92fd82d067b7d3ab2a1cbd244186",
+    "run/scheduled_edit/FROZEN.json": "52fa53bf9df006207969115dea820bfd06323ddead4d01644ac0532811af3bea",
+    "run/pendant_timing/FROZEN.json": "9abd829fd5b03ce23991607bb9f57f0e38c63a3e4d7dafd0765d176a63f6367a",
+    "run/pendant_timing/SCORED.json": "c10ddc945c699c3bbff51a4e902d3b82fadfbd12f3bee8882987d07c4eb8a67b"
+  },
+  "size": [
+    48,
+    16
+  ],
+  "arms": [
+    "frozen_early",
+    "static_early",
+    "frozen_delayed",
+    "static_delayed",
+    "zero"
+  ],
+  "mode": [
+    "schedule",
+    "schedule",
+    "pendant",
+    "pendant",
+    "schedule"
+  ],
+  "selected": [
+    {
+      "label": "early_feed__both_plus_plus",
+      "context": "early_feed",
+      "edit": [
+        0.48,
+        0.48,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "both_plus_plus",
+      "context": "C",
+      "edit": [
+        0.48,
+        0.48,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "pendant_0_until_3.5",
+      "switch": 3.5,
+      "early": 0.0,
+      "late": 2.4,
+      "delta_init": 0.0
+    },
+    {
+      "label": "init_minus",
+      "switch": null,
+      "early": 1.0,
+      "late": 1.0,
+      "delta_init": -0.48
+    },
+    {
+      "label": "zero",
+      "context": "C",
+      "edit": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "targets": [
+    [
+      [
+        0.09848845108695652,
+        0.2692307692307692,
+        0.8913043478260869,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        0.09848845108695652,
+        0.0,
+        0.0,
+        0.3333333333333333
+      ],
+      [
+        1.0,
+        0.23076923076923078,
+        1.0,
+        1.0
+      ]
+    ]
+  ],
+  "step_ticks": 16,
+  "nominal_step": 0.0125,
+  "clock_nodes": 961,
+  "source_experiment": "new no-code-contact paired confirm only"
+}

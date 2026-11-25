@@ -1,0 +1,7 @@
+{
+  "scope": "archive-write compatibility only; frozen native driver unchanged",
+  "report_stage": "retry only if CONFIRMED output absent",
+  "freeze_sha256": "52fa53bf9df006207969115dea820bfd06323ddead4d01644ac0532811af3bea",
+  "utc": "2026-11-25T05:42:28.3425287Z",
+  "source_sha256": "55cc500a90ad0d3a6cc9407eea5ed81b28dd0b948e9f58d6419b72403cf9dab6"
+}

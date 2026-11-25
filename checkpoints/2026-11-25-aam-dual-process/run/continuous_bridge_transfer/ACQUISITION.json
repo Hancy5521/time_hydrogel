@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-25T05:42:41.885856+00:00",
+  "shanghai": "2026-11-25T13:42:41.885856+08:00",
+  "files": {
+    "DEV.npz": "054c4f4c7a230c9e00abf1d0f48d39ac6e6369214e140db170132cfd6ac6ba76",
+    "QUERY.npz": "25d426864ca41bfa97986a7eee248c821ff5b59943bfe2b54013e5f8507a6fbf",
+    "ESCROW.npz": "f859d72cabfe37ab917491999e4a9ff76d8f7b552cde907977506c3a2125dc44"
+  }
+}

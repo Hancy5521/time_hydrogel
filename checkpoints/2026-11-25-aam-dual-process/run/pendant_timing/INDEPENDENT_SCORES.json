@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-25T05:48:04.267098+00:00",
+  "asia_shanghai": "2026-11-25T13:48:04.267098+08:00",
+  "frozen_sha256": "9abd829fd5b03ce23991607bb9f57f0e38c63a3e4d7dafd0765d176a63f6367a",
+  "scored_sha256": "c10ddc945c699c3bbff51a4e902d3b82fadfbd12f3bee8882987d07c4eb8a67b",
+  "script_sha256": "31aa9e7ec9c44198068ee38ee38666670f945f60538c989786c5699abb3a89d5",
+  "result": "pass",
+  "by_arm": {
+    "zero": {
+      "joint_hits": 67,
+      "first_replicate_early_pendant_events": 235,
+      "first_replicate_late_pendant_events": 119,
+      "constraint_passes": [
+        594,
+        277,
+        768,
+        502
+      ]
+    },
+    "init_minus": {
+      "joint_hits": 78,
+      "first_replicate_early_pendant_events": 180,
+      "first_replicate_late_pendant_events": 143,
+      "constraint_passes": [
+        588,
+        299,
+        768,
+        514
+      ]
+    },
+    "pendant_0_until_3.5": {
+      "joint_hits": 277,
+      "first_replicate_early_pendant_events": 0,
+      "first_replicate_late_pendant_events": 334,
+      "constraint_passes": [
+        602,
+        543,
+        768,
+        575
+      ]
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "utc": "2026-11-25T05:42:01.812741+00:00",
+  "asia_shanghai": "2026-11-25T13:42:01.812741+08:00",
+  "namespace": "20261125T052605964017Z/prospective-graph-unit-transport/v1",
+  "sources": {
+    "native/experiments/aam_pregene/formation_step.py": "425c2a7f955b700a99044b7b1743e8cfa623f6b477e31376740d55da86e8b9f0",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_edge_fork.py": "207a4f07a8c3946127509876c923a1b244f53177cec22f5c9dda7c001519c9c4",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_core.py": "d156a184ff5e2f2050ee39fc940bf83cd89792af21a713e13b12f020907837cb",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_local_initial.py": "19ff62b72cce446af079ec8dd59436ae814f220f9f6e06fd7710f727eaac0b08",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_micro_history.py": "bce77124292aeb362058f47c59552915f7f6d60314bb0b0092be541370222ad8",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_data.py": "73db76138a051623c1870194b638ac89287a1ea3e5a055d6e14bb4248313c65c",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_network_events.py": "8865c16b040ef967faf05353894393f9889988e733b8a0de26b18eb5495d1498",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_network_path_metrics.py": "890ef8a20707744296a3d9bec9916576a0db0275807cb210c1311a9362044d58",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_spatial_motion.py": "ec7ed8640f108691e915b65793030e9318af8eeb051ded2077a04326c1a86452",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_mbaa_kinetics.py": "d71425400568e1a2fa4739f7c4b797b2e73fc21c4a0eb07e3b25f497b37b8068",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment_study.py": "32fa4ef70b39f83cf995187d23dcf98ac7064bd6eb8690f666ad531e0b152bb2",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment.py": "f9b890814ae114e63ef74ead076c9a6ff010c10148dd36f0dddc8421413fc527",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_network_competition_study.py": "e1762355ba7b0dab33f90ebef8999c387a424865ecc452bc0da889fcea6f98a6",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_snapshot_process.py": "f705ab5ae36bfe4de10dd8a698de0fa391ad7a827fc9d708a29683744d76be97",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_actual_rollout.py": "671c3a6e9a7968b0126d572d14b95c620e2600a78e203b12995b8fda4e7858a1",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_reaction_innovations.py": "8fc02003c066ada3952b4939311128a0e36b76ee9a4692e93268fc18c301091e",
+    "native/experiments/aam_pregene/force_benchmark.py": "bbd20f39aad9bf281aaa9bfa27861b7ab3147489b973515fc88391df54ab7152",
+    "native/experiments/aam_pregene/advance_fixed.py": "4794c000d6bb52c040049168a93dec3bad51d8d939e778d1a286b8f6209c4712",
+    "native/experiments/aam_pregene/force_cells.py": "11232e85ec18f2d08835b612bb633cb8124b275baa502f2fefa1c5dd60d5931a",
+    "run/reaction_adapter.py": "d033a6277493068bd2d41a175c4132bc2e75d3587b311e90fc6271d872d973f1",
+    "native/experiments/aam_pregene/gene_field.py": "50bc8d8691df4a2664275a7c653852fc3b159120993c13697c2fe63d992e0781",
+    "run/transport_proxy/study_v2.py": "39bf042230e736bc80451e00dd524cca889043614ea8a0d69528826550b8dbb9",
+    "run/transport_proxy/PROTOCOL_ZH.md": "b5a39a704ff50e1e3374e60694e6c2f47a6cadbc83ff36eef7aabac8151d939d",
+    "run/network_transport.py": "c3158baceadb2e398ac8f2ed0067513ce5a7c757c98ef8899dd0532bc48ca03a",
+    "run/NETWORK_TRANSPORT_FIXTURES.json": "b5b412809c48f19d9ee7db5e89de20447b9b3f8183b34922d309b08828215223",
+    "run/code_encoder.py": "6ea347e5941a4af44f6a86eb07418d79b030d72c5b7aca85e935d3070fd951d0",
+    "run/DEVELOPMENT.npz": "35ae47370ea042c7a803a73a76c0be4bf186109ee73ba29580f75360e3609242",
+    "run/transport_proxy/CAMERA_SHAPE_RECOVERY.json": "dd0c2fd4585974512192c23aa29a8d76d7251f17e45d5386138c5165c69a3775",
+    "run/transport_proxy/REGISTERED_INITIAL.json": "b77688a2fbd7ebff216a94853cb89a2a4bb722b13423e501ca99f19f12a7ce60",
+    "run/transport_proxy/audit.py": "a229cb54dd5240728590d445daad66768a4bad4bfb21c86786c7a465c91ed8a9"
+  },
+  "actions": [
+    [
+      "C_zero",
+      "C",
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      "initiate_up",
+      "C",
+      [
+        0.44,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      "initiate_down",
+      "C",
+      [
+        -0.44,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      "grow_up",
+      "C",
+      [
+        0.0,
+        0.44,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      "grow_down",
+      "C",
+      [
+        0.0,
+        -0.44,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      "bridge_up",
+      "C",
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.55
+      ]
+    ],
+    [
+      "bridge_down",
+      "C",
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.55
+      ]
+    ],
+    [
+      "start_and_feed_early",
+      "C_proxy_early",
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      "start_and_feed_late",
+      "C_proxy_late",
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "contexts": {
+    "C_proxy_early": {
+      "feed": 0.95,
+      "diffusion": 0.19,
+      "pulses": [
+        [
+          0.0,
+          1.45,
+          1.0
+        ],
+        [
+          1.775,
+          0.55,
+          1.7894736842105263
+        ],
+        [
+          3.55,
+          1.0,
+          1.7894736842105263
+        ]
+      ]
+    },
+    "C_proxy_late": {
+      "feed": 2.95,
+      "diffusion": 0.19,
+      "pulses": [
+        [
+          0.0,
+          0.55,
+          1.0
+        ],
+        [
+          1.775,
+          1.45,
+          1.7894736842105263
+        ],
+        [
+          3.55,
+          1.0,
+          1.7894736842105263
+        ]
+      ]
+    }
+  },
+  "threshold": 0.02,
+  "target_times": [
+    3.5,
+    4.85,
+    6.0
+  ],
+  "parent_code_fit_roles": "development only",
+  "card_address_roles": [
+    "planning codes",
+    "query code escrow",
+    "planning initial seeds",
+    "query A/B snapshots",
+    "verification initial seeds",
+    "encoder"
+  ],
+  "counts": [
+    12,
+    10,
+    24,
+    16,
+    4,
+    48
+  ]
+}

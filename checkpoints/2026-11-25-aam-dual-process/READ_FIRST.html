@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AAm/MBAA 成网逆设计审阅包</title>
+<style>
+:root { color-scheme: light; --bg:#f3f6f7; --paper:#fff; --ink:#172f40; --mute:#526772; --teal:#17676b; --soft:#e7f1f0; --line:#d5e1e4; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:"Microsoft YaHei","PingFang SC","Noto Sans SC",system-ui,sans-serif; font-size:16px; line-height:1.7; }
+main { max-width:1050px; padding:40px 24px 56px; margin:auto; }
+header { margin-bottom:24px; border-top:4px solid var(--teal); padding-top:22px; }
+h1 { font-size:clamp(1.75rem,3.4vw,2.6rem); letter-spacing:-.025em; line-height:1.3; margin:0 0 12px; }
+h2 { margin:0 0 13px; font-size:1.25rem; line-height:1.4; }
+p { margin:.65em 0; }
+.meta, .detail, footer { color:var(--mute); }
+.meta { margin:0 0 8px; font-size:.93rem; }
+section { background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:20px 22px; margin-bottom:16px; }
+a { color:#115e67; text-underline-offset:3px; overflow-wrap:anywhere; }
+a:focus-visible { outline:2px solid var(--teal); outline-offset:3px; }
+nav { display:flex; flex-wrap:wrap; gap:8px 19px; margin-top:15px; font-size:.95rem; }
+.table-wrap { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; text-align:left; font-size:.95rem; }
+th,td { padding:10px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+thead { background:var(--soft); }
+td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+tbody tr:last-child td { border-bottom:0; }
+ul,ol { margin:.65em 0; padding-left:1.5em; }
+li { margin:.4em 0; }
+pre { margin:10px 0; padding:12px 14px; background:#edf3f6; border-radius:6px; overflow-x:auto; }
+code { font-family:Consolas,monospace; font-size:.92em; overflow-wrap:anywhere; }
+.panes { display:grid; grid-template-columns:1fr 1fr; gap:16px; align-items:start; }
+.panes section { margin:0; }
+@media(max-width:700px) { main { padding:24px 14px 40px; } section { padding:16px; } .panes { grid-template-columns:1fr; } }
+@media print { body { background:white; } main { max-width:none; padding:0; } section,table { break-inside:avoid; } }
+</style>
+</head>
+<body>
+<aside><p><strong>公开复核镜像</strong>。合成模拟数组与图件保留原始字节，机器路径已替换。请先查阅<a href="README_ZH.md">运行说明</a>与<a href="PUBLIC_TRANSFORMS.json">逐文件变更与校验记录</a>。原始封存 ZIP 的 SHA-256 为 <code>e496f8c6e7c0b297d4b20e957bad0047258cfafc780fb1b2e6e60b32041a4c7a</code>。</p></aside>
+<main>
+<header>
+  <p class="meta">2026 年 11 月 25 日 · 计算研究审阅包</p>
+  <h1>AAm/MBAA 单体成网与过程逆设计</h1>
+  <p>从未接键单体出发，重建成链、桥连及团簇演化。用模拟确认两套分时策略能让相同的前体产生两条不同的目标成网过程。</p>
+  <p class="detail">请先完整解压 ZIP，再打开本页。页面、图和证据都可以通过下面的相对路径打开。</p>
+  <nav aria-label="审阅路径">
+    <a href="#result">核心结果</a>
+    <a href="#method">方法与对照</a>
+    <a href="#scope">证据边界</a>
+    <a href="#files">文件索引</a>
+    <a href="#reproduce">离线复核</a>
+  </nav>
+</header>
+
+<section id="result">
+  <h2>同起点的双目标确认</h2>
+  <p>48 张新规则卡各使用 16 组随机地址，五个分支各从未接键单体重新运行，共 3,840 条轨迹。最终数值时间步为 0.0125，策略和目标阈值均在读取确认结果前冻结。</p>
+  <div class="table-wrap">
+  <table>
+    <thead>
+    <tr><th scope="col">判据</th><th scope="col">静态编辑</th><th scope="col">分时策略</th><th scope="col">配对增益及 95% 区间（百分点）</th></tr>
+    </thead>
+    <tbody>
+    <tr><td>快速形成较大网络，并达到终转化下限</td><td class="num">365/768</td><td class="num"><strong>445/768</strong></td><td class="num">+10.42 [5.60, 15.10]</td></tr>
+    <tr><td>中段大团簇受限，后段达到团簇下限</td><td class="num">61/768</td><td class="num"><strong>267/768</strong></td><td class="num">+26.82 [23.70, 29.95]</td></tr>
+    <tr><td>同一随机起点的两条分支各自达标</td><td class="num">34/768</td><td class="num"><strong>176/768</strong></td><td class="num">+18.49 [14.97, 21.88]</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>双达标以同一个配对地址为单位，检查两个单独运行的实验分支。统计区间按规则卡配对计算。独立图程序重放了 240 份留存的日志、21,243 个事件，重放的状态与等转化里程碑逐值一致。</p>
+  <p><a href="run/final_paired_process/RESULT_ZH.md">最终配对报告</a> · <a href="run/final_paired_process/FROZEN.json">冻结方案</a> · <a href="run/final_paired_process/SCORED.json">指标与区间</a> · <a href="run/final_paired_process/INDEPENDENT_AUDIT.json">独立审计</a></p>
+</section>
+
+<section id="method">
+  <h2>怎样从微观规则走到过程目标</h2>
+  <ol>
+    <li><strong>生成反应历史。</strong> 原生随机场推进粒子移动、引发、链增长和交联。合法成键改变占用位点和连接图。程序分别统计转化、谱系、桥连、大团簇和周期绕行。</li>
+    <li><strong>从部分观测反推规则。</strong> 用 A/B 两个已知工艺的局部视野训练编码，从同一模拟材料在不同工艺中的响应反推四个固定坐标，分别对应引发、增长、悬挂位点活性和桥连偏置。岭回归、RBF 和共享响应编码使用同样的观测预算。</li>
+    <li><strong>先选方案，再独立重启。</strong> 快速策略提前投料并提高引发和增长。延迟策略先压住第二位点反应，随后恢复。按约定的时点与判据评分，两个策略的群体效果使用冻结的静态编辑作对照。</li>
+  </ol>
+  <p><a href="run/RESULT_ZH.md">完整研究报告</a> · <a href="run/PROTOCOL_ZH.md">主协议</a> · <a href="run/ENCODER_METHOD_ZH.md">编码数学</a> · <a href="run/CLOSED_LOOP_FIGURE.png">模拟轨迹与早期分时试验图</a></p>
+</section>
+
+<section id="scope">
+  <h2>证据边界和保留的负结果</h2>
+  <ul>
+    <li>规则码可以改变网络接法。在给定同样三帧时把观测后移，连续桥连码的识别误差较原时点降低 21.6%。固定零偏置基线仍较强，个体编码未显示选案成功率收益。 <a href="run/continuous_bridge_transfer/RESULT_ZH.md">连续规则迁移</a></li>
+    <li>三维全盒计数误差较只用真码的对照有所降低。隐藏格精度未超过按体积分配的基线。评估对象是格内计数。 <a href="run/spatial_completion_retry/INDEPENDENT_AUDIT_ZH.md">空间复算</a></li>
+    <li>结构传输读出用单位边与周期网络计算。真实导电、力学或溶剂响应仍需对应的标定测量。 <a href="run/transport_proxy/RESULT_ZH.md">结构传输审阅</a></li>
+    <li>分时控制结果来自同一模拟场的独立重启。由实际配方到四维码的映射，以及真实第二位点门控的可制造性，还缺同母批的结构、局部观测与工艺记录。 <a href="run/EXTERNAL_EVIDENCE_ZH.md">公开实测来源核查</a></li>
+  </ul>
+</section>
+
+<div class="panes">
+<section id="files">
+  <h2>文件索引</h2>
+  <ul>
+    <li><a href="README_ZH.md">中文说明与审阅顺序</a></li>
+    <li><a href="run/REGISTERED.json">登记、源码哈希和预算</a></li>
+    <li><a href="run/INDEPENDENT_SCORE_AUDIT.json">主实验统计复核</a></li>
+    <li><a href="run/AUDIT_RAW.json">主实验事件审计</a></li>
+    <li><a href="run/scheduled_edit/RESULTS_ZH.md">早期分时投料</a> · <a href="run/pendant_timing/RESULTS_ZH.md">延迟分时控制</a></li>
+    <li><a href="run/REPRO_ZH.md">从原始函数重跑的历史说明</a></li>
+  </ul>
+</section>
+
+<section id="reproduce">
+  <h2>离线复核</h2>
+  <p>在解压后的根目录打开终端。Python 3.11 及以上可检查清单。评分复算使用 NumPy；事件重放和新实验的环境见依赖文件。</p>
+  <pre><code>python -B verify_manifest.py
+python -B verify_review.py
+python -B replay_events.py</code></pre>
+  <p>清单验证可先运行。其余两项读取冻结数组与事件日志。<a href="requirements.txt">Python 依赖</a> · <a href="MANIFEST.sha256">文件清单</a></p>
+</section>
+</div>
+</main>
+</body>
+</html>

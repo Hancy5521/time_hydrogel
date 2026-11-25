@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-25T05:38:52.486582+00:00",
+  "shanghai": "2026-11-25T13:38:52.486582+08:00",
+  "files": {
+    "DEV.npz": "ee08e4014d9027f1be16c8bd115e4e2bccc1f3198a1dbf9dfbb836c4db70060c",
+    "HELD.npz": "87c9532704b1b3416ce2643b278c8386d79a12f41fd7c289c598869b5f5f8959",
+    "HELD_LABELS.npz": "8139160f23dafca11e75d820a06c690fa4429bbdabdc00a2f4cd8c0bb6010d84"
+  }
+}

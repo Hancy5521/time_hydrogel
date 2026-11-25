@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-25T05:51:06.765329+00:00",
+  "asia_shanghai": "2026-11-25T13:51:06.765329+08:00",
+  "freeze": "c7cfa710c81482c9ed046ec4395d71816946c3edd0c45433b32c7da3471568a6",
+  "raw_sha256": "26e40eb85b4ed0f86636eb7a165657c48c0fddd8fcc5d10275173f5490682f7f",
+  "native_paths": 3840,
+  "new_seed_addresses": 768,
+  "all_seed_addresses": 10632
+}

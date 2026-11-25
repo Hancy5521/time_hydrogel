@@ -1,0 +1,9 @@
+{
+  "cache": "[local-numba-cache]",
+  "stage": "confirm",
+  "utc": "2026-11-25T05:45:33.8709721+00:00",
+  "changed": "Use separate short configured cache on H and one worker; all inputs, source and seeds unchanged",
+  "failure": "Fresh nested cache raised FileNotFoundError opening a native cache temporary filename longer than Windows MAX_PATH",
+  "frozen_sha256": "e98c70743785e754d7c6f15b3f9fa0bb765e6b140c6fae0589bb64b5f21c337a",
+  "truth_output_created": false
+}

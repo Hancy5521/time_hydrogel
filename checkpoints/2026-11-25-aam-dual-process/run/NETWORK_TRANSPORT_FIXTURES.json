@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-25T05:36:31.184737+00:00",
+  "asia_shanghai": "2026-11-25T13:36:31.184737+08:00",
+  "source_sha256": "c3158baceadb2e398ac8f2ed0067513ce5a7c757c98ef8899dd0532bc48ca03a",
+  "arbitrary_synthetic_graphs": 180,
+  "held_journals": 0,
+  "independent_method": "dense rectangular incidence least-squares via NumPy SVD; no call to its Laplacian solver",
+  "max_absolute_difference": 2.1316282072803006e-14,
+  "minimum_add_edge_delta": -3.552713678800501e-15,
+  "max_integer_gauge_difference": 0.0,
+  "rng_root": 521033
+}

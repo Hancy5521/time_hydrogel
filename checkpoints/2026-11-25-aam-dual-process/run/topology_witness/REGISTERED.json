@@ -1,0 +1,118 @@
+{
+  "utc": "2026-11-25T05:38:33.116342+00:00",
+  "shanghai": "2026-11-25T13:38:33.116342+08:00",
+  "sources": {
+    "native/experiments/aam_pregene/formation_step.py": "425c2a7f955b700a99044b7b1743e8cfa623f6b477e31376740d55da86e8b9f0",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_edge_fork.py": "207a4f07a8c3946127509876c923a1b244f53177cec22f5c9dda7c001519c9c4",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_core.py": "d156a184ff5e2f2050ee39fc940bf83cd89792af21a713e13b12f020907837cb",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_local_initial.py": "19ff62b72cce446af079ec8dd59436ae814f220f9f6e06fd7710f727eaac0b08",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_micro_history.py": "bce77124292aeb362058f47c59552915f7f6d60314bb0b0092be541370222ad8",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_data.py": "73db76138a051623c1870194b638ac89287a1ea3e5a055d6e14bb4248313c65c",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_network_events.py": "8865c16b040ef967faf05353894393f9889988e733b8a0de26b18eb5495d1498",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_network_path_metrics.py": "890ef8a20707744296a3d9bec9916576a0db0275807cb210c1311a9362044d58",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_spatial_motion.py": "ec7ed8640f108691e915b65793030e9318af8eeb051ded2077a04326c1a86452",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_mbaa_kinetics.py": "d71425400568e1a2fa4739f7c4b797b2e73fc21c4a0eb07e3b25f497b37b8068",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment_study.py": "32fa4ef70b39f83cf995187d23dcf98ac7064bd6eb8690f666ad531e0b152bb2",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment.py": "f9b890814ae114e63ef74ead076c9a6ff010c10148dd36f0dddc8421413fc527",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_network_competition_study.py": "e1762355ba7b0dab33f90ebef8999c387a424865ecc452bc0da889fcea6f98a6",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_snapshot_process.py": "f705ab5ae36bfe4de10dd8a698de0fa391ad7a827fc9d708a29683744d76be97",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_actual_rollout.py": "671c3a6e9a7968b0126d572d14b95c620e2600a78e203b12995b8fda4e7858a1",
+    "native/checkpoints/2026-11-21-aam-integrated-process/source/aam_reaction_innovations.py": "8fc02003c066ada3952b4939311128a0e36b76ee9a4692e93268fc18c301091e",
+    "native/experiments/aam_pregene/force_benchmark.py": "bbd20f39aad9bf281aaa9bfa27861b7ab3147489b973515fc88391df54ab7152",
+    "native/experiments/aam_pregene/advance_fixed.py": "4794c000d6bb52c040049168a93dec3bad51d8d939e778d1a286b8f6209c4712",
+    "native/experiments/aam_pregene/force_cells.py": "11232e85ec18f2d08835b612bb633cb8124b275baa502f2fefa1c5dd60d5931a",
+    "run/topology_witness/witness_adapter.py": "b890a4bf2d1a9532ae0d132743318c4961b1471125efecab393f8c57dcd85ec8",
+    "native/experiments/aam_pregene/gene_field.py": "50bc8d8691df4a2664275a7c653852fc3b159120993c13697c2fe63d992e0781",
+    "run/topology_witness/witness.py": "31d7874af58f1ff56d49f2a516e190a07a866d759ac0122b37c6ad027995df49",
+    "run/topology_witness/PROTOCOL_ZH.md": "0731b7c6f0b678f6f2b8ec871425d253f4053958c11687e25ed88ed7ee545c6b"
+  },
+  "seed_namespace": "aam_integrated_gene_loop_20261125T052605964017Z|witness-v1",
+  "development_pairs": 80,
+  "held_pairs": 48,
+  "observations_per_environment": 4,
+  "binary_bridge_codes": [
+    -0.7,
+    0.7
+  ],
+  "frames": [
+    0.65,
+    1.35,
+    2.05,
+    3.5,
+    4.85
+  ],
+  "schedules": {
+    "early": [
+      0,
+      1,
+      2
+    ],
+    "later": [
+      2,
+      3,
+      4
+    ]
+  },
+  "environment": {
+    "A": {
+      "feed": 2.85,
+      "diffusion": 0.245,
+      "pulses": [
+        [
+          0.0,
+          1.45,
+          1.0
+        ],
+        [
+          0.65,
+          1.0,
+          1.0
+        ],
+        [
+          1.35,
+          0.65,
+          1.0
+        ]
+      ]
+    },
+    "B": {
+      "feed": 0.55,
+      "diffusion": 0.31,
+      "pulses": [
+        [
+          0.0,
+          0.65,
+          1.0
+        ],
+        [
+          0.65,
+          1.0,
+          1.0
+        ],
+        [
+          1.35,
+          1.45,
+          1.0
+        ]
+      ]
+    },
+    "C": {
+      "feed": 1.95,
+      "diffusion": 0.19,
+      "pulses": [
+        [
+          0.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.775,
+          1.0,
+          1.7894736842105263
+        ]
+      ]
+    }
+  },
+  "window_fraction_by_side": 0.7,
+  "private_target": "HELD_LABELS.npz may be read only after freeze verification"
+}

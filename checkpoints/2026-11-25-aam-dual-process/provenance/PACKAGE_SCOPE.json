@@ -1,0 +1,18 @@
+{
+  "packaged_at_utc": "2026-11-25T06:01:39.645856+00:00",
+  "scope": "Latest integrated AAm/MBAA simulation review evidence",
+  "all_current_run_source_artifacts": 137,
+  "runtime_artifacts_excluded": 352,
+  "original_runs_byte_identical": false,
+  "portable_readback": [
+    "verify_manifest.py",
+    "verify_review.py",
+    "replay_events.py"
+  ],
+  "frozen_native_dependency_root": "native",
+  "external_data": "Public literature references retained; no unrelated datasets or archives included.",
+  "public_mirror": true,
+  "synthetic_arrays_and_figures_byte_identical": true,
+  "original_sealed_zip_sha256": "e496f8c6e7c0b297d4b20e957bad0047258cfafc780fb1b2e6e60b32041a4c7a",
+  "path_and_packaging_changes": "PUBLIC_TRANSFORMS.json"
+}

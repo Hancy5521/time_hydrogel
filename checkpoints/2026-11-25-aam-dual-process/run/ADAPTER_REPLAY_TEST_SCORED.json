@@ -1,0 +1,61 @@
+{
+  "utc": "2026-11-25T05:32:37.613105+00:00",
+  "asia_shanghai": "2026-11-25T13:32:37.613105+08:00",
+  "role": "engineering fixtures only",
+  "checks": {
+    "A": {
+      "replayed_events": 88,
+      "tags": {
+        "1": 8,
+        "3": 52,
+        "4": 10,
+        "5": 3,
+        "6": 8,
+        "0": 6,
+        "2": 1
+      },
+      "milestones_reached": [
+        1.0,
+        1.0
+      ]
+    },
+    "B": {
+      "replayed_events": 91,
+      "tags": {
+        "1": 4,
+        "3": 55,
+        "4": 12,
+        "0": 6,
+        "2": 2,
+        "6": 10,
+        "5": 2
+      },
+      "milestones_reached": [
+        1.0,
+        1.0
+      ]
+    },
+    "C": {
+      "replayed_events": 89,
+      "tags": {
+        "1": 4,
+        "3": 56,
+        "4": 9,
+        "2": 3,
+        "6": 9,
+        "0": 6,
+        "5": 1,
+        "9": 1
+      },
+      "milestones_reached": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "malformed_event_rejected": true,
+  "source_and_dependencies": {
+    "run/audit_reaction.py": "55ae0368a30e0a75578e4c080bd8fce7d97bca7856a90fce736c734f54c50263",
+    "native/experiments/aam_gene_field/audit.py": "38203200334cc28cecc267cf5cc15b475e7cf9d495b84fffa21a488396f1c344"
+  }
+}

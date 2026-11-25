@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-25T05:51:28.993731+00:00",
+  "freeze": "c7cfa710c81482c9ed046ec4395d71816946c3edd0c45433b32c7da3471568a6",
+  "source_sha256": "4a095c7957c36d983a73260fe50be40234c210630587709a7f5138343a602556",
+  "score_sha256": "75df4cbe2260c26a6e10cfe000c27d873bfd3268ad1c90e44544485877560053",
+  "recomputed_card_groups": 48,
+  "checked_intervals": 21,
+  "common_radical_budget": true,
+  "quantitative_discrepancy_at_most": 1e-14
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-25T05:46:46.002270+00:00",
+  "frozen_sha256": "e98c70743785e754d7c6f15b3f9fa0bb765e6b140c6fae0589bb64b5f21c337a",
+  "scored_sha256": "bc408c1dbc0576b393ef89a4579db9c33fbc00799ad4bd303191a6aa7421f571",
+  "source_sha256": "55e72184c5e0689f19aa8c1147cc56e72a3b61939139ef3ba89e8075d3773f56",
+  "distinct_address_count": 8072,
+  "scores_recomputed_exact_to": 1e-13,
+  "test_cards": 56,
+  "paired_intervals_recomputed": 16
+}

@@ -1,0 +1,8 @@
+{
+  "sha": "55ae0368a30e0a75578e4c080bd8fce7d97bca7856a90fce736c734f54c50263",
+  "role": "engineering exact event replay only",
+  "seeds": "8914115..8914117 plus atom cases, not train/confirm",
+  "protocol_sha": "6a25b1011942d1658677ce492b26fd62c1691616a7575b11bb38f859b26f61f4",
+  "utc": "2026-11-25T05:32:10.1052030+00:00",
+  "asia_shanghai": "2026-11-25T13:32:10.1052030+08:00"
+}

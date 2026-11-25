@@ -1,0 +1,9 @@
+{
+  "script": "audit_raw.py",
+  "scope": "Read every saved raw confirmation journal after supplied frozen prediction hash and exact source links; no simulator used",
+  "sha256": "5d3d41ba8117472c8d0700cda890481e8602ad8b677926f98fb86f2b34023ff5",
+  "replay_sha256": "55ae0368a30e0a75578e4c080bd8fce7d97bca7856a90fce736c734f54c50263",
+  "utc": "2026-11-25T05:33:51.2082700+00:00",
+  "asia_shanghai": "2026-11-25T13:33:51.2082700+08:00",
+  "must_wait": "CONFIRMED.json and parent lock signal"
+}

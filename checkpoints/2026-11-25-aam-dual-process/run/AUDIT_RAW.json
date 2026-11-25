@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-25T05:35:05.566063+00:00",
+  "asia_shanghai": "2026-11-25T13:35:05.566063+08:00",
+  "frozen_sha256": "07f8eee193484148dec344bcecf6aba3f8f0a1bb1479c4e4c320650134b7132d",
+  "confirmed_sha256": "34f7d692a2c3a699d91ec55032bebb6729bcb2c8a31225f8fa30b16d46327763",
+  "based_on_saved_events_no_new_simulations": true,
+  "native_paths_total": 7488,
+  "saved_journals_checked": 229,
+  "checked_target_snapshots": 1374,
+  "checked_milestones": 458,
+  "event_count": 19866,
+  "event_tags": {
+    "0": 1374,
+    "1": 1229,
+    "2": 340,
+    "3": 11872,
+    "4": 2611,
+    "5": 432,
+    "6": 1737,
+    "7": 73,
+    "8": 39,
+    "9": 159
+  },
+  "saved_journal_reaches_60_within_horizon": 227,
+  "saved_journal_winds_by_end": 34,
+  "max_abs_snapshot_difference": 0.0,
+  "max_abs_milestone_difference": 0.0,
+  "independent_seed_role_totals": {
+    "DEVELOPMENT.npz:seeds": 1024,
+    "QUERY_LOCAL.npz:seeds": 288,
+    "ZERO_C_ANCHOR.npz:seeds": 72,
+    "PREDICTED.npz:forward_seeds": 864,
+    "PREDICTED.npz:planning_seeds": 288,
+    "CONFIRMED.npz:seeds": 576
+  },
+  "audit_sources": {
+    "run/audit_raw.py": "5d3d41ba8117472c8d0700cda890481e8602ad8b677926f98fb86f2b34023ff5",
+    "run/audit_reaction.py": "55ae0368a30e0a75578e4c080bd8fce7d97bca7856a90fce736c734f54c50263",
+    "native/experiments/aam_gene_field/audit.py": "38203200334cc28cecc267cf5cc15b475e7cf9d495b84fffa21a488396f1c344"
+  },
+  "scope": "All saved journals of first-repeat selected conditions and unedited controls. Replays event topology and inventories, not the underlying real-world chemistry."
+}
