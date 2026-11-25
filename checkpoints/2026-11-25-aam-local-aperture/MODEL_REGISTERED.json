@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-25T07:36:11.5965086+00:00",
+  "asia_shanghai": "2026-11-25T15:36:11.5965086+08:00",
+  "source_sha256": "5788eab45aa68c1f61f59e1969f4233d74a382445d734ac6542d3630f4bd60ff",
+  "model_grid": "registered in fit.py",
+  "aim": "Same-frame matched exposures and newly visible second-site bond counts."
+}

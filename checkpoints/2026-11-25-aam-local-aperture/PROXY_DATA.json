@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-25T08:09:16.215771+00:00",
+  "hashes": {
+    "PROXY_FIT.npz": "4dc29d4c01baa3798426b64718649bbead533de5b05fc530af04b8d0ba159186",
+    "PROXY_DEVELOPMENT.npz": "2b021f88bf2ae8d2efcf67806794f08df5fd440699534ebafbf8f6458184ec40"
+  },
+  "freeze_sha256": null
+}

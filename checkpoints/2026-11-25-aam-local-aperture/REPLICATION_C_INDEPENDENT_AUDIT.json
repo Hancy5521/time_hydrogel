@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "registration_address_count": 8960,
+  "verified_C_forecast_paths": 21504,
+  "verified_C_independent_truth_paths": 14336,
+  "physical_process_estimands_checked": 1568,
+  "max_energy_card_error": 3.3306690738754696e-16,
+  "declared_chronology_utc": [
+    "2026-11-25T07:58:10.204072+00:00",
+    "2026-11-25T07:58:54.324289+00:00",
+    "2026-11-25T07:58:55.184686+00:00",
+    "2026-11-25T08:00:35.932683+00:00",
+    "2026-11-25T08:01:53.556332+00:00",
+    "2026-11-25T08:01:55.318177+00:00"
+  ],
+  "archived_result_sha256": "424b7b0ee125205ee973bb5431a30138ceebb5f4b65e63e0f7593f923117715a",
+  "primary_vs_four": {
+    "mean": -0.000943567877411006,
+    "ci95": [
+      -0.0021026795190887113,
+      0.0002163039460303463
+    ]
+  },
+  "primary_vs_direct": {
+    "mean": -0.00021635399293038087,
+    "ci95": [
+      -0.0006790270048489256,
+      0.0002367287728727452
+    ]
+  },
+  "superiority_established": false,
+  "predeclared_noninferiority_established": true,
+  "qualification": "Strong binary occupancy perturbations and known four coordinates. No continuous or real-material extrapolation, no new design choice.",
+  "source_sha256": "1d7fb42758ac68938a49db492c68157119bf777269535b3a80201779b452f0a9",
+  "utc": "2026-11-25T08:02:44.343425+00:00",
+  "asia_shanghai": "2026-11-25T16:02:44.343425+08:00"
+}

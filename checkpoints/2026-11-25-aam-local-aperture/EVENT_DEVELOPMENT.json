@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-25T07:41:24.577409+00:00",
+  "data_sha256": {
+    "EVENT_FIT.npz": "ad529556fd16cb1a3f4ae28df1469e5b83a0e864650ea2115a500024f8422781",
+    "EVENT_DEV.npz": "aab3d19908e6824457842d714fb5a7276baaf38327053a174f0ce1cfe1c71048"
+  },
+  "freeze_sha256": null,
+  "native_exact_noninterference_paths": 256
+}

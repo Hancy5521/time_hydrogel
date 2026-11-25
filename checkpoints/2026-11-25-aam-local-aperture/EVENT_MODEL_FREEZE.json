@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-25T07:41:57.671564+00:00",
+  "registration_sha256": "318d92d3981e906717dfee97b220f4490f60bf7fa3569723ec207968ff73c696",
+  "models_sha256": "d66ae6a303e9fa7066e35af5f92ad077be9b52b14a6a73445cc1101dcdefbae4",
+  "source_sha256": "78ac8d695cb1238bc446e44abf64806125bd16c85f6a814c94ffc360dc4ea6a3",
+  "models": {
+    "snapshot_rbf": {
+      "validation_brier": 0.24978848547529417,
+      "mode": "snapshot",
+      "kernel": "rbf",
+      "gamma": 0.65,
+      "penalty": 30.0
+    },
+    "event_ridge": {
+      "validation_brier": 0.2617077642949883,
+      "mode": "events",
+      "kernel": "ridge",
+      "penalty": 200.0
+    },
+    "event_rbf": {
+      "validation_brier": 0.24714763731536235,
+      "mode": "events",
+      "kernel": "rbf",
+      "gamma": 0.2,
+      "penalty": 3.0
+    },
+    "conditional_single": {
+      "alpha": 1.0,
+      "marginal": false,
+      "validation_brier": 0.24615571227612829
+    },
+    "conditional_marginal": {
+      "alpha": 1.0,
+      "marginal": true,
+      "validation_brier": 0.24610909638763032
+    }
+  },
+  "dev_sha256": {
+    "EVENT_FIT.npz": "ad529556fd16cb1a3f4ae28df1469e5b83a0e864650ea2115a500024f8422781",
+    "EVENT_DEV.npz": "aab3d19908e6824457842d714fb5a7276baaf38327053a174f0ce1cfe1c71048"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "paired_held_addresses": 1024,
+  "trajectories": 4096,
+  "nominal_dose_check": 4.85,
+  "source_sha256": "5283e2403bc64e58a10a4927e0f944305c3c8322370edbb7f727cb26179ee70d",
+  "result_sha256": "f0fc1229515a6ef22a62252514d3de2eeefd238426a9750465197a5f800ba615",
+  "chronological_utc": [
+    "2026-11-25T07:55:18.137287+00:00",
+    "2026-11-25T07:56:05.734142+00:00",
+    "2026-11-25T07:56:06.636630+00:00"
+  ],
+  "frozen_law_integrated_cdf_scores_reproduced": 512,
+  "candidate_gate": false,
+  "candidate_C_paths": 0,
+  "interpretation": "The paired pulse increases visible capture but the CRPS gain interval crosses zero. Equal integrated input multiplier does not imply equal realized reaction count.",
+  "utc": "2026-11-25T07:59:46.758178+00:00",
+  "asia_shanghai": "2026-11-25T15:59:46.758178+08:00"
+}

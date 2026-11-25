@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-25T07:45:36.060798+00:00",
+  "data_sha256": {
+    "MOBILE_FIT.npz": "bf30fd2c1ea6764b457b9d7d977aae8d96b771929496e3ef7cd9fa6544b81ec7",
+    "MOBILE_DEV.npz": "0b6f10a969298eba9247bc42fde8a8566fe4605e22e5c81ee86e18fd4a9118f6"
+  },
+  "freeze_sha256": null,
+  "native_exact_noninterference_paths": 256
+}

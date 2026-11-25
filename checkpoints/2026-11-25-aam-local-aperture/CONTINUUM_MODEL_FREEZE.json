@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-25T07:51:52.647062+00:00",
+  "models": {
+    "static_conditional": {
+      "alpha": 0.65,
+      "index": 2,
+      "dev_crps": 0.36068648451422813
+    },
+    "mobile_conditional": {
+      "alpha": 0.65,
+      "index": 0,
+      "dev_crps": 0.3486122855262401
+    },
+    "mobile_knn": {
+      "dev_crps": 0.3622474679411891,
+      "gamma": 0.65,
+      "variant": "knn",
+      "mode": "events",
+      "ridge": 0.0
+    },
+    "mobile_rbf": {
+      "dev_crps": 0.3607668797264836,
+      "gamma": 0.2,
+      "variant": "rbf",
+      "mode": "events",
+      "ridge": 3.0
+    },
+    "snapshot_rbf": {
+      "dev_crps": 0.36281304760381,
+      "gamma": 0.2,
+      "variant": "rbf",
+      "mode": "snapshot",
+      "ridge": 30.0
+    }
+  },
+  "development": {
+    "CONTINUUM_FIT.npz": "6a4ac439970d0c844ed293eb740d8a8075021291e6a554cc0ac2925d965ac1ec",
+    "CONTINUUM_DEV.npz": "5823ceaaba2d133135f257c48e31f1d3daa53623254d1dbd7ca4500411e6c705"
+  },
+  "models_sha256": "78ff0f9e58fcb6a8c7a67ffc47ed592963650f0ee595fe868a97a9d0a3af7d8a",
+  "held_future_existed": false,
+  "source_sha256": "10ebe9bc86b36bd8118e04e343d0e1b887e31e7a2c2680a9b392cb4e1e3be100"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "input_addresses": 1792,
+  "all_planned_nonoverlap_addresses": 8960,
+  "forecaster_probabilities_verified": 1792,
+  "maximum_recalculation_error": 5.684341886080802e-14,
+  "mobile_marks": 1982,
+  "fixed_marks": 139,
+  "declared_chronology_utc": [
+    "2026-11-25T07:58:10.204072+00:00",
+    "2026-11-25T07:58:54.324289+00:00",
+    "2026-11-25T07:58:55.184686+00:00"
+  ],
+  "last_model": "200d5e331d222531ac96ebdfea311e8e1c4957b0fb38709e85ed03b9200f690d",
+  "witness_probabilities": "75aa597104f898b6e06284cdeb3388afabc57531ed0e94abde2be1f6fa71ee05",
+  "witness_auxiliary_summary": {
+    "mobile_conditional": {
+      "accuracy": 0.7109375,
+      "paired_rank": 0.8214285714285714,
+      "brier": 0.17955492421552258
+    },
+    "fixed_sensor": {
+      "accuracy": 0.5412946428571429,
+      "paired_rank": 0.5714285714285714,
+      "brier": 0.24249616655891928
+    },
+    "snapshot_rbf": {
+      "accuracy": 0.5803571428571429,
+      "paired_rank": 0.6160714285714286,
+      "brier": 0.24976053037480378
+    },
+    "mobile_rbf": {
+      "accuracy": 0.6986607142857143,
+      "paired_rank": 0.8035714285714286,
+      "brier": 0.18883838217728893
+    }
+  },
+  "scope": "Use only existing frozen parameters. Witness classification is ancillary to the pre-registered C endpoint.",
+  "source_sha256": "1d7fb42758ac68938a49db492c68157119bf777269535b3a80201779b452f0a9",
+  "utc": "2026-11-25T08:01:10.159112+00:00",
+  "asia_shanghai": "2026-11-25T16:01:10.159112+08:00"
+}

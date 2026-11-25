@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "score_sha256": "fe048c6ecbb97d06e362cf9468f87565ec9ff0c6ab951e8b926f2982076cb027",
+  "resume_wrapper_sha256": "3a9fc60423ea69f59dbe55d12fe4051d2bccbd04157be3c622b80ca798538bcf",
+  "independent_source_sha256": "111176abd3e93974572dcc955bcc63c182dc88e622d2709f3bac9c8d22fb9536",
+  "helper_sha256": "9dc7a9fb9a3add3c561f4bd872575481f28e4f9e9fccc894efad4134f4c33a93",
+  "matched_acquisition": {
+    "fit": {
+      "fixed_captures": 90,
+      "mobile_captures": 994,
+      "mobile_witnesses_with_capture": 219,
+      "co_observed_events_agree": 47
+    },
+    "dev": {
+      "fixed_captures": 31,
+      "mobile_captures": 362,
+      "mobile_witnesses_with_capture": 92,
+      "co_observed_events_agree": 16
+    },
+    "check": {
+      "fixed_captures": 90,
+      "mobile_captures": 986,
+      "mobile_witnesses_with_capture": 221,
+      "co_observed_events_agree": 53
+    }
+  },
+  "same_decoder_mobile_minus_fixed": {
+    "accuracy": {
+      "mean": 0.20535714285714285,
+      "interval": [
+        0.14732142857142858,
+        0.26339285714285715
+      ]
+    },
+    "paired_rank": {
+      "mean": 0.28125,
+      "interval": [
+        0.19196428571428573,
+        0.36607142857142855
+      ]
+    },
+    "brier": {
+      "mean": -0.06696067647140644,
+      "interval": [
+        -0.09789502618568677,
+        -0.03516326392644139
+      ]
+    }
+  },
+  "validated_probability_count": 1568,
+  "max_probability_error": 5.684341886080802e-14,
+  "geometry": {
+    "periodic_fixture_eligibility": [
+      true,
+      true,
+      false
+    ],
+    "density_per_admitted_origin": 0.05960464477539065
+  },
+  "bound_times_utc": [
+    "2026-11-25T07:44:42.966697+00:00",
+    "2026-11-25T07:44:43.424894+00:00",
+    "2026-11-25T07:45:36.060798+00:00",
+    "2026-11-25T07:46:36.264317+00:00",
+    "2026-11-25T07:47:18.610904+00:00",
+    "2026-11-25T07:47:57.257878+00:00",
+    "2026-11-25T07:47:58.829357+00:00"
+  ],
+  "scope": "Acquisition uses coarse full-box trigger, registered conditional dither and eligibility, and nominal underlying reaction lineage/availability weights. No exact data likelihood for skipped/unobserved marks is claimed.",
+  "utc": "2026-11-25T07:51:02.332609+00:00",
+  "asia_shanghai": "2026-11-25T15:51:02.332609+08:00"
+}

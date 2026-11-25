@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "score_sha256": "459ee7839468f687e814f9f7b7814057facb2ba0867b6a1ecdf761f7aa8f6ea4",
+  "audit_source_sha256": "9dc7a9fb9a3add3c561f4bd872575481f28e4f9e9fccc894efad4134f4c33a93",
+  "chronological_utc": [
+    "2026-11-25T07:40:31.861023+00:00",
+    "2026-11-25T07:41:24.577409+00:00",
+    "2026-11-25T07:41:44.6896989+00:00",
+    "2026-11-25T07:41:57.671564+00:00",
+    "2026-11-25T07:42:37.941528+00:00",
+    "2026-11-25T07:42:38.803198+00:00",
+    "2026-11-25T07:42:40.201930+00:00"
+  ],
+  "counts": {
+    "fit": {
+      "captures": 71,
+      "cards_and_sign_with_captures": 53,
+      "labels_with_captures": [
+        43,
+        28
+      ]
+    },
+    "dev": {
+      "captures": 36,
+      "cards_and_sign_with_captures": 27,
+      "labels_with_captures": [
+        19,
+        17
+      ]
+    },
+    "check": {
+      "captures": 62,
+      "cards_and_sign_with_captures": 46,
+      "labels_with_captures": [
+        34,
+        28
+      ]
+    }
+  },
+  "probabilities_checked": 1344,
+  "max_independent_probability_difference": 5.329070518200751e-15,
+  "source_limit": "Certified closure/bridge uses crossing bond stubs; opportunity/weight construction additionally assumes available reactive pair and nominal native lineage subtype calibration; raw marks are aggregated risk/bin records, not hidden topology recovery.",
+  "estimand": "The mark likelihood given the current certified risk set is conditional; the product omits capture and risk-history likelihood.",
+  "utc": "2026-11-25T07:46:04.139745+00:00",
+  "asia_shanghai": "2026-11-25T15:46:04.139745+08:00"
+}

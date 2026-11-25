@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "phase": "oracle",
+  "paired_forecast_addresses_intentionally_reused": 1536,
+  "blind_truth_addresses_disjoint": 1536,
+  "card_metrics_checked": 96,
+  "off_grid_minimum_distance": 0.0021358746447215915,
+  "timeline_utc": [
+    "2026-11-25T07:55:44.840947+00:00",
+    "2026-11-25T07:59:14.682216+00:00",
+    "2026-11-25T08:00:19.248109+00:00",
+    "2026-11-25T08:00:20.225328+00:00"
+  ],
+  "definitive_gain_over_four": false,
+  "source_limitation": "Known eta, same prior 96 cards and already-read truth. The post-score native oracle does not constitute a new confirmation.",
+  "source_sha256": "e66d5c3f1554e250799cbf21c665e4a009ae107c494b967f4bb6cbbf19eba27e",
+  "utc": "2026-11-25T08:09:40.697280+00:00",
+  "asia_shanghai": "2026-11-25T16:09:40.697280+08:00",
+  "result_sha256": "6fd8741eac277f004a9dc741b253c7a4d2d63a86a2cc29e7ad6413f281416bf2"
+}

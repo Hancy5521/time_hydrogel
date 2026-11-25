@@ -1,0 +1,52 @@
+{
+  "utc": "2026-11-25T06:00:43.941342+00:00",
+  "operation": "Located package-only native imports; fresh zero-code C trajectory on a smoke-test seed; independent raw event replay.",
+  "loaded_native_modules": {
+    "aam_mbaa_kinetics": "checkpoints/2026-11-21-aam-integrated-process/source/aam_mbaa_kinetics.py",
+    "aam_spatial_motion": "checkpoints/2026-11-21-aam-integrated-process/source/aam_spatial_motion.py",
+    "aam_contact_environment": "checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment.py",
+    "aam_network_events": "checkpoints/2026-11-21-aam-integrated-process/source/aam_network_events.py",
+    "aam_network_path_metrics": "checkpoints/2026-11-21-aam-integrated-process/source/aam_network_path_metrics.py",
+    "aam_edge_fork": "checkpoints/2026-11-21-aam-integrated-process/source/aam_edge_fork.py",
+    "aam_contact_environment_study": "checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment_study.py",
+    "aam_snapshot_process": "checkpoints/2026-11-21-aam-integrated-process/source/aam_snapshot_process.py",
+    "aam_formation_actual_rollout": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_actual_rollout.py",
+    "aam_network_competition_study": "checkpoints/2026-11-21-aam-integrated-process/source/aam_network_competition_study.py",
+    "aam_reaction_innovations": "checkpoints/2026-11-21-aam-integrated-process/source/aam_reaction_innovations.py",
+    "aam_formation_cycle_core": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_core.py",
+    "aam_formation_local_initial": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_local_initial.py",
+    "aam_formation_micro_history": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_micro_history.py",
+    "formation_step": "experiments/aam_pregene/formation_step.py",
+    "advance_fixed": "experiments/aam_pregene/advance_fixed.py",
+    "force_cells": "experiments/aam_pregene/force_cells.py",
+    "force_benchmark": "experiments/aam_pregene/force_benchmark.py",
+    "gene_field": "experiments/aam_pregene/gene_field.py",
+    "aam_formation_cycle_data": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_data.py"
+  },
+  "hash_verified_source_files": 23,
+  "result": "pass",
+  "replayed_events": 88,
+  "local_shape": [
+    3,
+    14
+  ],
+  "path_shape": [
+    6,
+    10
+  ],
+  "milestone_shape": [
+    2,
+    5
+  ],
+  "counts": {
+    "1": 5,
+    "3": 52,
+    "4": 13,
+    "2": 1,
+    "6": 8,
+    "0": 6,
+    "5": 2,
+    "9": 1
+  },
+  "scientific_status": "engineering smoke only; not an additional held confirmation"
+}

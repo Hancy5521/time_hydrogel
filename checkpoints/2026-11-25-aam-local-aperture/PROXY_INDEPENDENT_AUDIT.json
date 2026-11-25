@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "phase": "proxy",
+  "timestamps_utc": [
+    "2026-11-25T08:08:31.755006+00:00",
+    "2026-11-25T08:09:16.215771+00:00",
+    "2026-11-25T08:09:17.020064+00:00",
+    "2026-11-25T08:09:57.934716+00:00",
+    "2026-11-25T08:09:58.706205+00:00",
+    "2026-11-25T08:09:59.498456+00:00"
+  ],
+  "fresh_addresses_verified": 1792,
+  "captured_marks_and_matched_overlap": {
+    "fit": [
+      [
+        776,
+        3282
+      ],
+      655
+    ],
+    "development": [
+      [
+        362,
+        1653
+      ],
+      304
+    ],
+    "held": [
+      [
+        679,
+        2762
+      ],
+      569
+    ]
+  },
+  "probabilities_verified": 800,
+  "gate": {
+    "proxy_rbf": false,
+    "proxy_conditional": false
+  },
+  "scope": "Geometry candidates use visible occupied-site counts, positions, certified closure/separation and nominal rates; selected pendant trigger and exact boundary stubs are idealized. Calibration has privileged teacher exposure only on fit trajectories.",
+  "source_sha256": "097675f15cbfdafe462af2e6a8c41edf0cb36734196fe80862735680d80b79d8",
+  "result_sha256": "0c122ffbdfb26ba1b88a3b9db067bd9d04457bd4558611eea037dbc4a26f666a",
+  "utc": "2026-11-25T08:13:49.365738+00:00",
+  "asia_shanghai": "2026-11-25T16:13:49.365738+08:00"
+}

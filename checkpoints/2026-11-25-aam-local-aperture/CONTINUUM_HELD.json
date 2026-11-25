@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-25T07:52:29.864493+00:00",
+  "files_sha256": {
+    "CONTINUUM_HELD.npz": "dfeff08735f50e897fade9ce4d0b0f0b90ccab253c959d9358eac8a0123023a1"
+  },
+  "model_freeze_sha256": "edc3b5f05b69e40ecb695f3edc86299b3f19b92326a880e439506ddd3f9550f8"
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-25T08:05:52.836609+00:00",
+  "hashes": {
+    "MINIMAL_FIT.npz": "58f1784dd14f081ab2c3f2a5be1ae783e641c993fd604f1794330b5cd87d73b9",
+    "MINIMAL_DEVELOPMENT.npz": "b13221e43d7d0dd36522c2e80f4029cb172653bc54b1947e157d4b6870c2f329"
+  },
+  "freeze_sha256": null
+}

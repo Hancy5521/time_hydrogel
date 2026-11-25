@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "prefix": "EVENT",
+  "study_cards": 112,
+  "unique_C_addresses": 3584,
+  "disjoint_against_saved_datasets": [
+    "CONTINUUM_DEV.npz",
+    "CONTINUUM_FIT.npz",
+    "EVENT_CHECK.npz",
+    "EVENT_DEV.npz",
+    "EVENT_FIT.npz",
+    "MOBILE_CHECK.npz",
+    "MOBILE_C_FORECAST.npz",
+    "MOBILE_C_TRUTH.npz",
+    "MOBILE_DEV.npz",
+    "MOBILE_FIT.npz",
+    "TEST.npz",
+    "TRAIN.npz",
+    "VALIDATE.npz"
+  ],
+  "source_sha256": "31e444f8547e8403ac24ca39221265f2ffe7b4eff5113ce3d870469d53af58b6",
+  "result_sha256": "87f82533a0ee8ce00ef1f09708c5a3c4ba229cdda03c786d507071eaa0d65ee1",
+  "chronological_utc": [
+    "2026-11-25T07:42:38.803198+00:00",
+    "2026-11-25T07:46:08.572886+00:00",
+    "2026-11-25T07:47:30.363363+00:00",
+    "2026-11-25T07:48:37.208324+00:00",
+    "2026-11-25T07:48:38.415108+00:00"
+  ],
+  "max_energy_difference": 3.0531133177191805e-16,
+  "derived_card_energy_count": 896,
+  "methods_vs_co_located_fixed": {},
+  "scope": "Known four truth coordinates, held recipe profiles with new independent simulated C tape. Energy omits all same-address pairs consistently. No extra fit, wet samples, or process selection.",
+  "utc": "2026-11-25T07:52:03.154685+00:00",
+  "asia_shanghai": "2026-11-25T15:52:03.154685+08:00"
+}

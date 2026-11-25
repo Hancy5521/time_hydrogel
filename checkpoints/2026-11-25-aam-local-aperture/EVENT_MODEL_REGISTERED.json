@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-25T07:41:44.6896989+00:00",
+  "asia_shanghai": "2026-11-25T15:41:44.6896989+08:00",
+  "source_sha256": "78ac8d695cb1238bc446e44abf64806125bd16c85f6a814c94ffc360dc4ea6a3",
+  "protocol": "EVENT_PROTOCOL_ZH.md",
+  "decision": "Use dev for temperature and same-input kernel tuning."
+}

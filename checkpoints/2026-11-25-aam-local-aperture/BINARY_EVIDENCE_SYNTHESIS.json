@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-25T08:02:36.160256+00:00",
+  "mode": "post-score fixed-method stratified two-study summary",
+  "input_hashes": {
+    "MOBILE_C_RESULT.json": "cd3aa01be18d861884b1194e52e56b9bfe39f43230f122fc07f91c7b5dac8527",
+    "REPLICATION_RESULT.json": "424b7b0ee125205ee973bb5431a30138ceebb5f4b65e63e0f7593f923117715a"
+  },
+  "fixed_cameras": "coobserved per cohort; same decoder as mobile",
+  "cohort_card_counts": [
+    112,
+    224
+  ],
+  "effects": {
+    "against_fixed_four": {
+      "cohort_A": -0.001500012855137234,
+      "cohort_B": -0.000943567877411006,
+      "pooled_delta": -0.001129049536653082,
+      "ci95_stratified_bootstrap": [
+        -0.002111266719723121,
+        -0.00016138452254845032
+      ]
+    },
+    "against_same_input_RBF": {
+      "cohort_A": 9.377985450303944e-05,
+      "cohort_B": -0.00021635399293038087,
+      "pooled_delta": -0.00011297604378590743,
+      "ci95_stratified_bootstrap": [
+        -0.0005125259341033074,
+        0.00029575610695052807
+      ]
+    },
+    "against_coobserved_fixed_camera": {
+      "cohort_A": -0.0012414607221989484,
+      "cohort_B": -0.0014224594855004016,
+      "pooled_delta": -0.0013621265643999172,
+      "ci95_stratified_bootstrap": [
+        -0.0019388307934611376,
+        -0.0007785533279144931
+      ]
+    }
+  },
+  "restrictions": "not a substitute for primary confirmation; no new fit, data or action choices"
+}

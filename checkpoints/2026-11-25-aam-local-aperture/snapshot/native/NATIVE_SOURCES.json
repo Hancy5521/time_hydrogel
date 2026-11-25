@@ -1,0 +1,439 @@
+{
+  "format_version": 1,
+  "source_receipt_rule": "A legacy worktree path ending in the listed path maps to native/<path>; validate against the original SHA-256 without modifying receipts.",
+  "registered_sources": 21,
+  "additional_dependencies": 2,
+  "scope": "Current 20261125 AAm reaction and local replay chain",
+  "older_experiment_boundary": "Optional standalone qualify() in archived experiments/aam_gene_field/audit.py uses a distinct historical study, not called by this run.",
+  "files": [
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_actual_network_properties.py",
+      "bytes": 15773,
+      "sha256": "f70a82040d633a6c2262a5ea71a56a1a9d2c73db0c991b75d10e816d685654e4",
+      "registered": false,
+      "receipts": [],
+      "reason": "Deferred import in aam_formation_cycle_data.py for percolation and property calculation."
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment.py",
+      "bytes": 10739,
+      "sha256": "f9b890814ae114e63ef74ead076c9a6ff010c10148dd36f0dddc8421413fc527",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_contact_environment_study.py",
+      "bytes": 16706,
+      "sha256": "32fa4ef70b39f83cf995187d23dcf98ac7064bd6eb8690f666ad531e0b152bb2",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_edge_fork.py",
+      "bytes": 12510,
+      "sha256": "207a4f07a8c3946127509876c923a1b244f53177cec22f5c9dda7c001519c9c4",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_actual_rollout.py",
+      "bytes": 20197,
+      "sha256": "671c3a6e9a7968b0126d572d14b95c620e2600a78e203b12995b8fda4e7858a1",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_core.py",
+      "bytes": 34133,
+      "sha256": "d156a184ff5e2f2050ee39fc940bf83cd89792af21a713e13b12f020907837cb",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_cycle_data.py",
+      "bytes": 48569,
+      "sha256": "73db76138a051623c1870194b638ac89287a1ea3e5a055d6e14bb4248313c65c",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_local_initial.py",
+      "bytes": 14330,
+      "sha256": "19ff62b72cce446af079ec8dd59436ae814f220f9f6e06fd7710f727eaac0b08",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_formation_micro_history.py",
+      "bytes": 17202,
+      "sha256": "bce77124292aeb362058f47c59552915f7f6d60314bb0b0092be541370222ad8",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_graph_linear_response.py",
+      "bytes": 5042,
+      "sha256": "118e05279d5046c0809a3d22a3d5aed35e350fb84259c70131d1783ec22f6621",
+      "registered": false,
+      "receipts": [],
+      "reason": "Deferred model import used by aam_actual_network_properties.py."
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_mbaa_kinetics.py",
+      "bytes": 13221,
+      "sha256": "d71425400568e1a2fa4739f7c4b797b2e73fc21c4a0eb07e3b25f497b37b8068",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_network_competition_study.py",
+      "bytes": 22981,
+      "sha256": "e1762355ba7b0dab33f90ebef8999c387a424865ecc452bc0da889fcea6f98a6",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_network_events.py",
+      "bytes": 10427,
+      "sha256": "8865c16b040ef967faf05353894393f9889988e733b8a0de26b18eb5495d1498",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_network_path_metrics.py",
+      "bytes": 8542,
+      "sha256": "890ef8a20707744296a3d9bec9916576a0db0275807cb210c1311a9362044d58",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_reaction_innovations.py",
+      "bytes": 19347,
+      "sha256": "8fc02003c066ada3952b4939311128a0e36b76ee9a4692e93268fc18c301091e",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_snapshot_process.py",
+      "bytes": 6907,
+      "sha256": "f705ab5ae36bfe4de10dd8a698de0fa391ad7a827fc9d708a29683744d76be97",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "checkpoints/2026-11-21-aam-integrated-process/source/aam_spatial_motion.py",
+      "bytes": 12057,
+      "sha256": "ec7ed8640f108691e915b65793030e9318af8eeb051ded2077a04326c1a86452",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "experiments/aam_gene_field/audit.py",
+      "bytes": 25587,
+      "sha256": "38203200334cc28cecc267cf5cc15b475e7cf9d495b84fffa21a488396f1c344",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_REPLAY_TEST_SCORED.json",
+        "AUDIT_RAW.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json"
+      ]
+    },
+    {
+      "path": "experiments/aam_pregene/advance_fixed.py",
+      "bytes": 4564,
+      "sha256": "4794c000d6bb52c040049168a93dec3bad51d8d939e778d1a286b8f6209c4712",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "experiments/aam_pregene/force_benchmark.py",
+      "bytes": 6457,
+      "sha256": "bbd20f39aad9bf281aaa9bfa27861b7ab3147489b973515fc88391df54ab7152",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "experiments/aam_pregene/force_cells.py",
+      "bytes": 2749,
+      "sha256": "11232e85ec18f2d08835b612bb633cb8124b275baa502f2fefa1c5dd60d5931a",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "experiments/aam_pregene/formation_step.py",
+      "bytes": 15402,
+      "sha256": "425c2a7f955b700a99044b7b1743e8cfa623f6b477e31376740d55da86e8b9f0",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    },
+    {
+      "path": "experiments/aam_pregene/gene_field.py",
+      "bytes": 3347,
+      "sha256": "50bc8d8691df4a2664275a7c653852fc3b159120993c13697c2fe63d992e0781",
+      "registered": true,
+      "receipts": [
+        "ADAPTER_TEST_SCORED.json",
+        "REGISTERED.json",
+        "continuous_bridge_transfer/REGISTERED.json",
+        "final_paired_process/FROZEN.json",
+        "pendant_timing/REGISTERED.json",
+        "resolution/REGISTERED.json",
+        "scheduled_edit/REGISTERED.json",
+        "spatial_completion/REGISTERED.json",
+        "spatial_completion_retry/REGISTERED.json",
+        "topology_witness/REGISTERED.json",
+        "transport_proxy/REGISTERED.json",
+        "transport_proxy/REGISTERED_INITIAL.json"
+      ]
+    }
+  ]
+}

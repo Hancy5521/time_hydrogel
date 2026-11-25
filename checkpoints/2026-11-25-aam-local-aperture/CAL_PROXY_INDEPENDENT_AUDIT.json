@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "phase": "calibrated proxy",
+  "timestamps_utc": [
+    "2026-11-25T08:11:36.007464+00:00",
+    "2026-11-25T08:11:36.845330+00:00",
+    "2026-11-25T08:12:19.707625+00:00",
+    "2026-11-25T08:12:20.630336+00:00"
+  ],
+  "fresh_addresses_verified": 896,
+  "fit_overlap_with_matching_supported_risks": 655,
+  "gradient_residual_max_at_frozen_fit": 3.5173076333204836e-06,
+  "verified_held_probabilities": 1120,
+  "gate": false,
+  "scope": "Geometry candidates use visible occupied-site counts, positions, certified closure/separation and nominal rates; selected pendant trigger and exact boundary stubs are idealized. Calibration has privileged teacher exposure only on fit trajectories.",
+  "source_sha256": "097675f15cbfdafe462af2e6a8c41edf0cb36734196fe80862735680d80b79d8",
+  "result_sha256": "71eebebb91898e80f3a282b3a97e5d5bcb21ee4318dc0b84e86131b2478f598b",
+  "utc": "2026-11-25T08:13:52.242313+00:00",
+  "asia_shanghai": "2026-11-25T16:13:52.242313+08:00"
+}

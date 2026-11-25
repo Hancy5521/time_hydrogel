@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-25T07:46:36.264317+00:00",
+  "registration_sha256": "dc4715eaa0d3fa94663efdc2b0733c4a374ac3c1c7f38b2f6a251092b21f00cc",
+  "models_sha256": "abb019808f2600c70011777e70e764bde1f3d12c9e45fe795a82faf4719f6d11",
+  "source_sha256": "a7e4522fbc85c49f0bd7dbc9046b722cbc8b83bc1abea404837bfe2d6772b6c8",
+  "models": {
+    "snapshot_rbf": {
+      "validation_brier": 0.2410907245752625,
+      "mode": "snapshot",
+      "kernel": "rbf",
+      "gamma": 0.2,
+      "penalty": 0.3
+    },
+    "event_ridge": {
+      "validation_brier": 0.18541329137217863,
+      "mode": "events",
+      "kernel": "ridge",
+      "penalty": 200.0
+    },
+    "event_rbf": {
+      "validation_brier": 0.1843102869186227,
+      "mode": "events",
+      "kernel": "rbf",
+      "gamma": 0.2,
+      "penalty": 0.3
+    },
+    "conditional_single": {
+      "alpha": 1.5,
+      "marginal": false,
+      "validation_brier": 0.16472871266777625
+    },
+    "conditional_marginal": {
+      "alpha": 1.5,
+      "marginal": true,
+      "validation_brier": 0.1640997643210745
+    }
+  },
+  "dev_sha256": {
+    "MOBILE_FIT.npz": "bf30fd2c1ea6764b457b9d7d977aae8d96b771929496e3ef7cd9fa6544b81ec7",
+    "MOBILE_DEV.npz": "0b6f10a969298eba9247bc42fde8a8566fe4605e22e5c81ee86e18fd4a9118f6"
+  }
+}

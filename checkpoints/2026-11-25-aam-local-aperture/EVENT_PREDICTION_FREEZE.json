@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-25T07:42:38.803198+00:00",
+  "model_freeze_sha256": "f52adbeddd2e3c2bcab672e56837b9bace966d0c62f64e58ff17c60380ce4130",
+  "data_sha256": {
+    "EVENT_CHECK.npz": "367b74be3ea5ae18af555cf2c1e183f233f89894076d60cc157d46d02c9e6a59"
+  },
+  "probabilities_sha256": "947b1b7b292239c9d877c91e67101c013cad1c9e4f147aae6bda66090e6223f8"
+}

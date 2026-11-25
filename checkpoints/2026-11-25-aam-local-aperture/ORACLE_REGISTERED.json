@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-25T07:59:14.682216+00:00",
+  "sources_sha256": {
+    "CONTINUUM_C_BANK.npz": "508dd1502a024e6cdac6f17822949f98bbbcf9d10df9a48c1015b14d600030dd",
+    "CONTINUUM_C_TRUTH.npz": "43397850303bb714f7dcf8658e74e18590a4ac660c43eea6a7fcf9beeaa2b637",
+    "CONTINUUM_RESULT.json": "dba9a72a8ccea55f579ea640cf72fa5dcf0bffcf2033628056d4a3feac15d371",
+    "CONTINUUM_C_FREEZE.json": "56f89324e3dda671769ac89af43cd9736e54ce3014b1297f7047c2360847c87c",
+    "CONTINUUM_C_CONFIRM.json": "926806959d5ee6517ab3af365b0d4c7317e0debc845d891a05593de811106958",
+    "exact_oracle.py": "5a9f78e9d82610f9dc419c14ae40a0a90c04b34bedf3895d3d45f0b19d36fabc",
+    "continuum.py": "10ebe9bc86b36bd8118e04e343d0e1b887e31e7a2c2680a9b392cb4e1e3be100",
+    "forecast.py": "7350bd9ea49b261240a0b8a24d90b78a839bc56f9c6bc70576c40e36cbcff26a"
+  },
+  "scope": "known continuous labels and consumed truth for mechanistic headroom check only",
+  "preserve_time_and_parameters": "same true card and native C actions, no estimated-model fit",
+  "seeds": "intentional common-address control with original forecast; truth different"
+}

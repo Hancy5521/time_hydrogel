@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "score_sha256": "bafe6cc6bba3dd168e9fbc36f0541ec1f447bb9e6d9274730d4cba96588e2804",
+  "audit_source_sha256": "fa81252115f53afc45e0c5bb61de944b0acca6eb721c92cf030052a3c117e791",
+  "chronological_utc": [
+    "2026-11-25T07:34:44.836501+00:00",
+    "2026-11-25T07:35:25.505409+00:00",
+    "2026-11-25T07:36:11.596508+00:00",
+    "2026-11-25T07:36:25.980719+00:00",
+    "2026-11-25T07:37:00.211493+00:00",
+    "2026-11-25T07:37:01.085297+00:00",
+    "2026-11-25T07:37:02.409463+00:00"
+  ],
+  "witness_addresses": 2432,
+  "independently_reconstructed_held_probability_count": 1344,
+  "max_probability_error": 8.526512829121202e-14,
+  "scored_card_metrics_crosschecked": 2016,
+  "model_scope": "Three chosen frames of ten generated frames; fields read from simulated masked apertures",
+  "observation_accounting": {
+    "train": {
+      "full_role_geometric_opportunities": 21758,
+      "full_role_detected_link_transitions": 430,
+      "raw_illustrative_sequences": 4,
+      "raw_frame_summaries_derived": 40,
+      "raw_transition_tables_derived": 40
+    },
+    "validate": {
+      "full_role_geometric_opportunities": 10589,
+      "full_role_detected_link_transitions": 184,
+      "raw_illustrative_sequences": 4,
+      "raw_frame_summaries_derived": 40,
+      "raw_transition_tables_derived": 40
+    },
+    "test": {
+      "full_role_geometric_opportunities": 12946,
+      "full_role_detected_link_transitions": 300,
+      "raw_illustrative_sequences": 4,
+      "raw_frame_summaries_derived": 40,
+      "raw_transition_tables_derived": 40
+    }
+  },
+  "audit_scope": [
+    "Retained illustrative raw windows are the first four trajectories per role, not all raw frames.",
+    "Visible endpoint site occupation, species, and stable identifiers are instrument assumptions.",
+    "Local closure comes from the induced snapshot graph; nonconnected in aperture does not imply global bridge.",
+    "Held class is set by simulation branch order; row predictions do not use branch order or mate observation."
+  ],
+  "utc": "2026-11-25T07:40:59.031308+00:00",
+  "asia_shanghai": "2026-11-25T15:40:59.031308+08:00"
+}

@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "independent_source_sha256": "19f86c17996277f37766eadd222eae01124fccc66c03e9ac70062af378e18010",
+  "result_sha256": "dba9a72a8ccea55f579ea640cf72fa5dcf0bffcf2033628056d4a3feac15d371",
+  "witness_audit_sha256": "580eef9d3a40e383a0756fec8301035176bb1c221cef42f4544a2c1ffe309d22",
+  "bound_utc": [
+    "2026-11-25T07:51:07.703017+00:00",
+    "2026-11-25T07:52:30.749473+00:00",
+    "2026-11-25T07:54:40.213078+00:00",
+    "2026-11-25T07:55:43.469755+00:00",
+    "2026-11-25T07:55:44.840947+00:00"
+  ],
+  "new_seed_addresses": 3072,
+  "disjoint_existing_seed_files": [
+    "CONTINUUM_DEV.npz",
+    "CONTINUUM_FIT.npz",
+    "CONTINUUM_HELD.npz",
+    "EVENT_CHECK.npz",
+    "EVENT_C_FORECAST.npz",
+    "EVENT_C_TRUTH.npz",
+    "EVENT_DEV.npz",
+    "EVENT_FIT.npz",
+    "MOBILE_CHECK.npz",
+    "MOBILE_C_FORECAST.npz",
+    "MOBILE_C_TRUTH.npz",
+    "MOBILE_DEV.npz",
+    "MOBILE_FIT.npz",
+    "PULSE_RAW.npz",
+    "TEST.npz",
+    "TRAIN.npz",
+    "VALIDATE.npz"
+  ],
+  "ordered_distinct_address_pairs_per_component": 240,
+  "card_level_energy_estimates": 768,
+  "max_independent_estimate_difference": 2.7755575615628914e-16,
+  "mobile_conditional_minus_fixed_camera": {
+    "mean": -0.0001534371681306638,
+    "ci95": [
+      -0.0003660039325786929,
+      6.622594473819357e-05
+    ]
+  },
+  "mobile_conditional_minus_fixed_four": {
+    "mean": 0.00025479349730021865,
+    "ci95": [
+      -0.0007143513415776077,
+      0.0012140687420015511
+    ]
+  },
+  "mobile_conditional_minus_same_data_rbf": {
+    "mean": -4.2621360820967354e-05,
+    "ci95": [
+      -0.00022775479207200877,
+      0.0001499382981550499
+    ]
+  },
+  "qualification": [
+    "The known-rule control uses true continuous eta to interpolate two grid bank laws, not a direct native run at its exact value.",
+    "Forecast peers receive the true four baseline coordinates, and data are simulated.",
+    "The ordered address correction compares independent draws from physical laws per process; it does not judge cross-process coupling or policy value."
+  ],
+  "utc": "2026-11-25T07:56:12.565550+00:00",
+  "asia_shanghai": "2026-11-25T15:56:12.565550+08:00"
+}

@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-25T08:13:54.162854+00:00",
+  "stage": {
+    "time": 0.65,
+    "termination_site_pair": [
+      88,
+      132
+    ],
+    "count_active_before": 4,
+    "count_active_after": 2,
+    "visible_state": "Every position, site occupancy, current edge and species identical across whole box",
+    "second_site_candidates_before": 1,
+    "second_site_candidates_after": 0,
+    "second_site_primitive_rate_before": 0.7,
+    "second_site_primitive_rate_after": 0.0,
+    "removed_relevant_candidates": 1
+  },
+  "seed": 8344876826332168264,
+  "scope": "single native counterexample, supports dependence on hidden radical state, no population estimate"
+}

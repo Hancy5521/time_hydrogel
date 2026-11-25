@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-25T07:35:25.505409+00:00",
+  "raw_sha256": {
+    "TRAIN.npz": "99164df90f424820893e845301dcfe17ef28118c940e9fae898ae60cc93d1ccb",
+    "VALIDATE.npz": "aab5b72bff43fed2b57f60accf4e29f16d6dcd156e74caf6c96f8c292975dadc"
+  },
+  "model_freeze": null
+}
